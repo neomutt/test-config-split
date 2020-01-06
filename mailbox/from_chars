@@ -1,7 +1,4 @@
 C_FromChars DT_MBTABLE
-
-Name: from_chars
-Type: character string
 Default: ""
 
 Controls the character used to prefix the %F and %L fields in the

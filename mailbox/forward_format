@@ -1,7 +1,4 @@
 C_ForwardFormat DT_STRING|DT_NOT_EMPTY
-
-Name: forward_format
-Type: string
 Default: "[%a: %s]"
 
 This variable controls the default subject when forwarding a message.

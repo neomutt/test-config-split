@@ -1,7 +1,4 @@
 C_CertificateFile DT_STRING|DT_PATH
-
-Name: certificate_file
-Type: path
 Default: "~/.mutt_certificates"
 
 This variable specifies the file where the certificates you trust

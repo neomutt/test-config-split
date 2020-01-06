@@ -1,7 +1,4 @@
 C_Hdrs DT_BOOL
-
-Name: hdrs
-Type: boolean
 Default: yes
 
 When unset, the header fields normally added by the "my_hdr"

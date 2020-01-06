@@ -1,7 +1,4 @@
 C_ForwardAttributionIntro DT_STRING
-
-Name: forward_attribution_intro
-Type: string
 Default: "----- Forwarded message from %f -----"
 
 This is the string that will precede a message which has been forwarded

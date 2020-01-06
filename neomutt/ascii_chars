@@ -1,7 +1,4 @@
 C_AsciiChars DT_BOOL
-
-Name: ascii_chars
-Type: boolean
 Default: no
 
 If set, NeoMutt will use plain ASCII characters when displaying thread

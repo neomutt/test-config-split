@@ -1,7 +1,4 @@
 C_Inews DT_STRING|DT_COMMAND
-
-Name: inews
-Type: command
 Default: ""
 
 If set, specifies the program and arguments used to deliver news posted

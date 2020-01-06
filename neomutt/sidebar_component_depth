@@ -1,7 +1,4 @@
 C_SidebarComponentDepth DT_NUMBER
-
-Name: sidebar_component_depth
-Type: number
 Default: 0
 
 By default the sidebar will show the mailbox's path, relative to the

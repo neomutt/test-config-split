@@ -1,7 +1,4 @@
 C_PreferredLanguages DT_SLIST|SLIST_SEP_COMMA
-
-Name: preferred_languages
-Type: string list
 Default: ""
 
 RFC8255 : user preferred languages to be search in parts and display

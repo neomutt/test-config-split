@@ -1,7 +1,4 @@
 C_ToChars DT_MBTABLE
-
-Name: to_chars
-Type: character string
 Default: " +TCFLR"
 
 Controls the character used to indicate mail addressed to you.

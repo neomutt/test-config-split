@@ -1,7 +1,4 @@
 C_MessageFormat DT_STRING|DT_NOT_EMPTY
-
-Name: message_format
-Type: string
 Default: "%s"
 
 This is the string displayed in the "attachment" menu for

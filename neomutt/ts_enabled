@@ -1,7 +1,4 @@
 C_TsEnabled DT_BOOL
-
-Name: ts_enabled
-Type: boolean
 Default: no
 
 Controls whether NeoMutt tries to set the terminal status line and icon name.

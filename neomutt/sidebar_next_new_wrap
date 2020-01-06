@@ -1,7 +1,4 @@
 C_SidebarNextNewWrap DT_BOOL
-
-Name: sidebar_next_new_wrap
-Type: boolean
 Default: no
 
 When set, the <sidebar-next-new> command will not stop and the end of

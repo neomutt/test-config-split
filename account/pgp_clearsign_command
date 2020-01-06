@@ -1,7 +1,4 @@
 C_PgpClearsignCommand DT_STRING|DT_COMMAND
-
-Name: pgp_clearsign_command
-Type: command
 Default: ""
 
 This format is used to create an old-style "clearsigned" PGP

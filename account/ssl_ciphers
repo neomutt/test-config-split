@@ -1,7 +1,4 @@
 C_SslCiphers DT_STRING
-
-Name: ssl_ciphers
-Type: string
 Default: ""
 
 Contains a colon-separated list of ciphers to use when using SSL.

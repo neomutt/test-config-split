@@ -1,7 +1,4 @@
 C_PgpSortKeys DT_SORT|DT_SORT_KEYS
-
-Name: pgp_sort_keys
-Type: sort order
 Default: address
 
 Specifies how the entries in the pgp menu are sorted. The

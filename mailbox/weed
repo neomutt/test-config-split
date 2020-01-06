@@ -1,7 +1,4 @@
 C_Weed DT_BOOL
-
-Name: weed
-Type: boolean
 Default: yes
 
 When set, NeoMutt will weed headers when displaying, forwarding,

@@ -1,7 +1,4 @@
 C_ImapPipelineDepth DT_NUMBER|DT_NOT_NEGATIVE
-
-Name: imap_pipeline_depth
-Type: number
 Default: 15
 
 Controls the number of IMAP commands that may be queued up before they

@@ -1,7 +1,4 @@
 C_DebugLevel DT_NUMBER
-
-Name: debug_level
-Type: number
 Default: 0
 
 Debug logging is controlled by the variables $debug_file and $debug_level.

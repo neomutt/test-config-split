@@ -1,7 +1,4 @@
 C_GroupIndexFormat DT_STRING|DT_NOT_EMPTY
-
-Name: group_index_format
-Type: string
 Default: "%4C %M%N %5s  %-45.45f %d"
 
 This variable allows you to customize the newsgroup browser display to

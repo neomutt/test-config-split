@@ -1,7 +1,4 @@
 C_Include DT_QUAD
-
-Name: include
-Type: quadoption
 Default: ask-yes
 
 Controls whether or not a copy of the message(s) you are replying to

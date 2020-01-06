@@ -1,7 +1,4 @@
 C_Recall DT_QUAD
-
-Name: recall
-Type: quadoption
 Default: ask-yes
 
 Controls whether or not NeoMutt recalls postponed messages

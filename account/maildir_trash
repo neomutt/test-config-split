@@ -1,7 +1,4 @@
 C_MaildirTrash DT_BOOL
-
-Name: maildir_trash
-Type: boolean
 Default: no
 
 If set, messages marked as deleted will be saved with the maildir

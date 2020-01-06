@@ -1,7 +1,4 @@
 C_PopOauthRefreshCommand DT_STRING|DT_COMMAND|DT_SENSITIVE
-
-Name: pop_oauth_refresh_command
-Type: command
 Default: ""
 
 The command to run to generate an OAUTH refresh token for

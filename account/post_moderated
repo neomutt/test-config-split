@@ -1,7 +1,4 @@
 C_PostModerated DT_QUAD
-
-Name: post_moderated
-Type: quadoption
 Default: ask-yes
 
 If set to yes, NeoMutt will post article to newsgroup that have

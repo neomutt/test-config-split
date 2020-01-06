@@ -1,7 +1,4 @@
 C_SortAlias DT_SORT|DT_SORT_ALIAS
-
-Name: sort_alias
-Type: sort order
 Default: alias
 
 Specifies how the entries in the "alias" menu are sorted.  The

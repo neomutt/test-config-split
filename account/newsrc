@@ -1,7 +1,4 @@
 C_Newsrc DT_STRING|DT_PATH
-
-Name: newsrc
-Type: path
 Default: "~/.newsrc"
 
 The file, containing info about subscribed newsgroups - names and

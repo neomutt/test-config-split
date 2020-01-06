@@ -1,7 +1,4 @@
 C_FccClear DT_BOOL
-
-Name: fcc_clear
-Type: boolean
 Default: no
 
 When this variable is set, FCCs will be stored unencrypted and

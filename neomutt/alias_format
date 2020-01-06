@@ -1,7 +1,4 @@
 C_AliasFormat DT_STRING|DT_NOT_EMPTY
-
-Name: alias_format
-Type: string
 Default: "%4n %2f %t %-10a   %r"
 
 Specifies the format of the data displayed for the "alias" menu.  The

@@ -1,7 +1,4 @@
 C_Tmpdir DT_STRING|DT_PATH
-
-Name: tmpdir
-Type: path
 Default: "/tmp"
 
 This variable allows you to specify where NeoMutt will place its

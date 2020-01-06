@@ -1,7 +1,4 @@
 C_ImplicitAutoview DT_BOOL
-
-Name: implicit_autoview
-Type: boolean
 Default: no
 
 If set to "yes", NeoMutt will look for a mailcap entry with the

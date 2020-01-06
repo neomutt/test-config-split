@@ -1,7 +1,4 @@
 C_NntpLoadDescription DT_BOOL
-
-Name: nntp_load_description
-Type: boolean
 Default: yes
 
 This variable controls whether or not descriptions for each newsgroup

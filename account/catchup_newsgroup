@@ -1,7 +1,4 @@
 C_CatchupNewsgroup DT_QUAD
-
-Name: catchup_newsgroup
-Type: quadoption
 Default: ask-yes
 
 If this variable is set, NeoMutt will mark all articles in newsgroup

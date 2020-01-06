@@ -1,7 +1,4 @@
 C_HistoryRemoveDups DT_BOOL
-
-Name: history_remove_dups
-Type: boolean
 Default: no
 
 When set, all of the string history will be scanned for duplicates

@@ -1,7 +1,4 @@
 C_MailcapSanitize DT_BOOL
-
-Name: mailcap_sanitize
-Type: boolean
 Default: yes
 
 If set, NeoMutt will restrict possible characters in mailcap % expandos

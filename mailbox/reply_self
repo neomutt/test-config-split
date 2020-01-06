@@ -1,7 +1,4 @@
 C_ReplySelf DT_BOOL
-
-Name: reply_self
-Type: boolean
 Default: no
 
 If unset and you are replying to a message sent by you, NeoMutt will

@@ -1,7 +1,4 @@
 C_EmptySubject DT_STRING
-
-Name: empty_subject
-Type: string
 Default: "Re: your mail"
 
 This variable specifies the subject to be used when replying to an email

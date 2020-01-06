@@ -1,7 +1,4 @@
 C_SidebarVisible DT_BOOL
-
-Name: sidebar_visible
-Type: boolean
 Default: no
 
 This specifies whether or not to show sidebar. The sidebar shows a list of

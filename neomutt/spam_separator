@@ -1,7 +1,4 @@
 C_SpamSeparator DT_STRING
-
-Name: spam_separator
-Type: string
 Default: ","
 
 This variable controls what happens when multiple spam headers

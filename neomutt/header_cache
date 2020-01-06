@@ -1,7 +1,4 @@
 C_HeaderCache DT_STRING|DT_PATH
-
-Name: header_cache
-Type: path
 Default: ""
 
 This variable points to the header cache database. If the path points to

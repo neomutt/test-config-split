@@ -1,7 +1,4 @@
 C_Trash DT_STRING|DT_PATH|DT_MAILBOX
-
-Name: trash
-Type: path
 Default: ""
 
 If set, this variable specifies the path of the trash folder where the

@@ -1,7 +1,4 @@
 C_ResumeEditedDraftFiles DT_BOOL
-
-Name: resume_edited_draft_files
-Type: boolean
 Default: yes
 
 If set, draft files previously edited (via -E -H on

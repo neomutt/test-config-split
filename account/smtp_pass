@@ -1,7 +1,4 @@
 C_SmtpPass DT_STRING|DT_SENSITIVE
-
-Name: smtp_pass
-Type: string
 Default: ""
 
 Specifies the password for your SMTP account.  If unset, NeoMutt will

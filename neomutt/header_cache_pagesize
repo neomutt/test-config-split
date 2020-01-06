@@ -1,7 +1,4 @@
 C_HeaderCachePagesize DT_LONG|DT_NOT_NEGATIVE
-
-Name: header_cache_pagesize
-Type: number (long)
 Default: 16384
 
 When NeoMutt is compiled with either gdbm or bdb4 as the header cache backend,

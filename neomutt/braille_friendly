@@ -1,7 +1,4 @@
 C_BrailleFriendly DT_BOOL
-
-Name: braille_friendly
-Type: boolean
 Default: no
 
 When this variable is set, NeoMutt will place the cursor at the beginning

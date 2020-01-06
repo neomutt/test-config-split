@@ -1,7 +1,4 @@
 C_SizeShowMb DT_BOOL
-
-Name: size_show_mb
-Type: boolean
 Default: yes
 
 If set, message sizes will display megabytes for values greater than

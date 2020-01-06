@@ -1,7 +1,4 @@
 C_ForwardDecrypt DT_BOOL
-
-Name: forward_decrypt
-Type: boolean
 Default: yes
 
 Controls the handling of encrypted messages when forwarding a message.

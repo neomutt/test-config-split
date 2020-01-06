@@ -1,7 +1,4 @@
 C_VirtualSpoolfile DT_BOOL
-
-Name: virtual_spoolfile
-Type: boolean
 Default: no
 
 When set, NeoMutt will use the first defined virtual mailbox (see

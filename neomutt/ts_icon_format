@@ -1,7 +1,4 @@
 C_TsIconFormat DT_STRING
-
-Name: ts_icon_format
-Type: string
 Default: "M%?n?AIL&ail?"
 
 Controls the format of the icon title, as long as "$ts_enabled" is set.

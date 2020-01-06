@@ -1,7 +1,4 @@
 C_SslVerifyPartialChains DT_BOOL
-
-Name: ssl_verify_partial_chains
-Type: boolean
 Default: no
 
 This option should not be changed from the default unless you understand

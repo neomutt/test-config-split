@@ -1,7 +1,4 @@
 C_HeaderCacheCompress DT_BOOL
-
-Name: header_cache_compress
-Type: boolean
 Default: yes
 
 When NeoMutt is compiled with qdbm, tokyocabinet or kyotocabinet

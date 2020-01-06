@@ -1,7 +1,4 @@
 C_AutoTag DT_BOOL
-
-Name: auto_tag
-Type: boolean
 Default: no
 
 When set, functions in the index menu which affect a message

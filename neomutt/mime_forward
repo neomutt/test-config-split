@@ -1,7 +1,4 @@
 C_MimeForward DT_QUAD
-
-Name: mime_forward
-Type: quadoption
 Default: no
 
 When set, the message you are forwarding will be attached as a

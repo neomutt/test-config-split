@@ -1,7 +1,4 @@
 C_PgpDecodeCommand DT_STRING|DT_COMMAND
-
-Name: pgp_decode_command
-Type: command
 Default: ""
 
 This format strings specifies a command which is used to decode

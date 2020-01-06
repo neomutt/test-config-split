@@ -1,7 +1,4 @@
 C_CryptProtectedHeadersWrite DT_BOOL
-
-Name: crypt_protected_headers_write
-Type: boolean
 Default: no
 
 When set, NeoMutt will generate protected headers ("Memory Hole") for

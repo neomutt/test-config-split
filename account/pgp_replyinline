@@ -1,7 +1,4 @@
 C_PgpReplyinline DT_BOOL
-
-Name: pgp_replyinline
-Type: boolean
 Default: no
 
 Setting this variable will cause NeoMutt to always attempt to

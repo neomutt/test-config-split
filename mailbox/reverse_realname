@@ -1,7 +1,4 @@
 C_ReverseRealname DT_BOOL
-
-Name: reverse_realname
-Type: boolean
 Default: yes
 
 This variable fine-tunes the behavior of the $reverse_name feature.

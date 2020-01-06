@@ -1,7 +1,4 @@
 C_ShowMultipartAlternative DT_STRING
-
-Name: show_multipart_alternative
-Type: string
 Default: ""
 
 When set to info, the multipart/alternative information is shown.

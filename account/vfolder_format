@@ -1,7 +1,4 @@
 C_VfolderFormat DT_STRING|DT_NOT_EMPTY
-
-Name: vfolder_format
-Type: string
 Default: "%2C %?n?%4n/&     ?%4m %f"
 
 This variable allows you to customize the file browser display for virtual

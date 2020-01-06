@@ -1,7 +1,4 @@
 C_CryptVerifySig DT_QUAD
-
-Name: crypt_verify_sig
-Type: quadoption
 Default: yes
 
 If "yes", always attempt to verify PGP or S/MIME signatures.

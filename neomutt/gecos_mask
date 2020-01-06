@@ -1,7 +1,4 @@
 C_GecosMask DT_REGEX
-
-Name: gecos_mask
-Type: regular expression
 Default: "^[^,]*"
 
 A regular expression used by NeoMutt to parse the GECOS field of a password

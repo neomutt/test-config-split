@@ -1,7 +1,4 @@
 C_ReadOnly DT_BOOL
-
-Name: read_only
-Type: boolean
 Default: no
 
 If set, all folders are opened in read-only mode.

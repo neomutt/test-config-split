@@ -1,7 +1,4 @@
 C_Pager DT_STRING|DT_COMMAND
-
-Name: pager
-Type: command
 Default: "builtin"
 
 This variable specifies which pager you would like to use to view

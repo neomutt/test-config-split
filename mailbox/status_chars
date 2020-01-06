@@ -1,7 +1,4 @@
 C_StatusChars DT_MBTABLE
-
-Name: status_chars
-Type: character string
 Default: "-*%A"
 
 Controls the characters used by the "%r" indicator in $status_format.

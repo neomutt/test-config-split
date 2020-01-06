@@ -1,7 +1,4 @@
 C_SmimeDecryptUseDefaultKey DT_BOOL
-
-Name: smime_decrypt_use_default_key
-Type: boolean
 Default: yes
 
 If set (default) this tells NeoMutt to use the default key for decryption. Otherwise,

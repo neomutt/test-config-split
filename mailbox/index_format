@@ -1,7 +1,4 @@
 C_IndexFormat DT_STRING|DT_NOT_EMPTY
-
-Name: index_format
-Type: string
 Default: "%4C %Z %{%b %d} %-15.15L (%?l?%4l&%4c?) %s"
 
 This variable allows you to customize the message index display to

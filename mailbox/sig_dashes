@@ -1,7 +1,4 @@
 C_SigDashes DT_BOOL
-
-Name: sig_dashes
-Type: boolean
 Default: yes
 
 If set, a line containing "-- " (note the trailing space) will be inserted before your

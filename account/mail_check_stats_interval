@@ -1,7 +1,4 @@
 C_MailCheckStatsInterval DT_NUMBER|DT_NOT_NEGATIVE
-
-Name: mail_check_stats_interval
-Type: number
 Default: 60
 
 When $mail_check_stats is set, this variable configures

@@ -1,7 +1,4 @@
 C_PgpGetkeysCommand DT_STRING|DT_COMMAND
-
-Name: pgp_getkeys_command
-Type: command
 Default: ""
 
 This command is invoked whenever NeoMutt needs to fetch the public key associated with

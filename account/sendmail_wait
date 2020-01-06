@@ -1,7 +1,4 @@
 C_SendmailWait DT_NUMBER
-
-Name: sendmail_wait
-Type: number
 Default: 0
 
 Specifies the number of seconds to wait for the $sendmail process

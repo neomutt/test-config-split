@@ -1,7 +1,4 @@
 C_AllowAnsi DT_BOOL
-
-Name: allow_ansi
-Type: boolean
 Default: no
 
 Controls whether ANSI color codes in messages (and color tags in

@@ -1,7 +1,4 @@
 C_ImapFetchChunkSize DT_LONG|DT_NOT_NEGATIVE
-
-Name: imap_fetch_chunk_size
-Type: number (long)
 Default: 0
 
 When set to a value greater than 0, new headers will be downloaded

@@ -1,7 +1,4 @@
 C_SearchContext DT_NUMBER|DT_NOT_NEGATIVE
-
-Name: search_context
-Type: number
 Default: 0
 
 For the pager, this variable specifies the number of lines shown

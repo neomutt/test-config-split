@@ -1,7 +1,4 @@
 C_QueryCommand DT_STRING|DT_COMMAND
-
-Name: query_command
-Type: command
 Default: ""
 
 This specifies the command NeoMutt will use to make external address

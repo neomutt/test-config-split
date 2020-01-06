@@ -1,7 +1,4 @@
 C_AttributionLocale DT_STRING
-
-Name: attribution_locale
-Type: string
 Default: ""
 
 The locale used by strftime(3) to format dates in the

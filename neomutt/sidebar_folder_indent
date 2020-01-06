@@ -1,7 +1,4 @@
 C_SidebarFolderIndent DT_BOOL
-
-Name: sidebar_folder_indent
-Type: boolean
 Default: no
 
 Set this to indent mailboxes in the sidebar.

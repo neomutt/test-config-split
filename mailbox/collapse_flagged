@@ -1,7 +1,4 @@
 C_CollapseFlagged DT_BOOL
-
-Name: collapse_flagged
-Type: boolean
 Default: yes
 
 When unset, NeoMutt will not collapse a thread if it contains any

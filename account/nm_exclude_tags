@@ -1,7 +1,4 @@
 C_NmExcludeTags DT_STRING
-
-Name: nm_exclude_tags
-Type: string
 Default: ""
 
 The messages tagged with these tags are excluded and not loaded

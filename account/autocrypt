@@ -1,7 +1,4 @@
 C_Autocrypt DT_BOOL
-
-Name: autocrypt
-Type: boolean
 Default: no
 
 When set, enables autocrypt, which provides

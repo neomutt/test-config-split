@@ -1,7 +1,4 @@
 C_PipeSplit DT_BOOL
-
-Name: pipe_split
-Type: boolean
 Default: no
 
 Used in connection with the <pipe-message> function following

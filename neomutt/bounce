@@ -1,7 +1,4 @@
 C_Bounce DT_QUAD
-
-Name: bounce
-Type: quadoption
 Default: ask-yes
 
 Controls whether you will be asked to confirm bouncing messages.

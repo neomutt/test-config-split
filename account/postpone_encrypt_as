@@ -1,7 +1,4 @@
 C_PostponeEncryptAs DT_STRING
-
-Name: postpone_encrypt_as
-Type: string
 Default: ""
 
 This is a deprecated fall-back variable for $postpone_encrypt.

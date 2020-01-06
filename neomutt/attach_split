@@ -1,7 +1,4 @@
 C_AttachSplit DT_BOOL
-
-Name: attach_split
-Type: boolean
 Default: yes
 
 If this variable is unset, when operating (saving, printing, piping,

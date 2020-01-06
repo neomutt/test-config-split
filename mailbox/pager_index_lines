@@ -1,7 +1,4 @@
 C_PagerIndexLines DT_NUMBER|DT_NOT_NEGATIVE
-
-Name: pager_index_lines
-Type: number
 Default: 0
 
 Determines the number of lines of a mini-index which is shown when in

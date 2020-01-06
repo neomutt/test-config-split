@@ -1,7 +1,4 @@
 C_TextFlowed DT_BOOL
-
-Name: text_flowed
-Type: boolean
 Default: no
 
 When set, NeoMutt will generate "format=flowed" bodies with a content type

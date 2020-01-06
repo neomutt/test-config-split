@@ -1,7 +1,4 @@
 C_SaveEmpty DT_BOOL
-
-Name: save_empty
-Type: boolean
 Default: yes
 
 When unset, mailboxes which contain no saved messages will be removed

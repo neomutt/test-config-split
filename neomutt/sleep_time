@@ -1,7 +1,4 @@
 C_SleepTime DT_NUMBER|DT_NOT_NEGATIVE
-
-Name: sleep_time
-Type: number
 Default: 1
 
 Specifies time, in seconds, to pause while displaying certain informational

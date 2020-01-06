@@ -1,7 +1,4 @@
 C_Timeout DT_NUMBER|DT_NOT_NEGATIVE
-
-Name: timeout
-Type: number
 Default: 600
 
 When NeoMutt is waiting for user input either idling in menus or

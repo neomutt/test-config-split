@@ -1,7 +1,4 @@
 C_ScoreThresholdDelete DT_NUMBER
-
-Name: score_threshold_delete
-Type: number
 Default: -1
 
 Messages which have been assigned a score equal to or lower than the value

@@ -1,7 +1,4 @@
 C_Mixmaster DT_STRING|DT_COMMAND
-
-Name: mixmaster
-Type: command
 Default: "mixmaster"
 
 This variable contains the path to the Mixmaster binary on your

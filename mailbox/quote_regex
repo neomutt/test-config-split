@@ -1,7 +1,4 @@
 C_QuoteRegex DT_REGEX
-
-Name: quote_regex
-Type: regular expression
 Default: "^([ \t]*[|>:}#])+"
 
 A regular expression used in the internal pager to determine quoted

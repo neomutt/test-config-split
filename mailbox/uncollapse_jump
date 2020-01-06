@@ -1,7 +1,4 @@
 C_UncollapseJump DT_BOOL
-
-Name: uncollapse_jump
-Type: boolean
 Default: no
 
 When set, NeoMutt will jump to the next unread message, if any,

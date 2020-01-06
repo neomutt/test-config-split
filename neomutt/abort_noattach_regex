@@ -1,7 +1,4 @@
 C_AbortNoattachRegex DT_REGEX
-
-Name: abort_noattach_regex
-Type: regular expression
 Default: "\\<(attach|attached|attachments?)\\>"
 
 Specifies a regular expression to match against the body of the message, to

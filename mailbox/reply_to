@@ -1,7 +1,4 @@
 C_ReplyTo DT_QUAD
-
-Name: reply_to
-Type: quadoption
 Default: ask-yes
 
 If set, when replying to a message, NeoMutt will use the address listed

@@ -1,7 +1,4 @@
 C_ImapAuthenticators DT_SLIST|SLIST_SEP_COLON
-
-Name: imap_authenticators
-Type: string list
 Default: ""
 
 This is a colon-delimited list of authentication methods NeoMutt may

@@ -1,7 +1,4 @@
 C_SslForceTls DT_BOOL
-
-Name: ssl_force_tls
-Type: boolean
 Default: yes
 
 If this variable is set, NeoMutt will require that all connections

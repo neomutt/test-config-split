@@ -1,7 +1,4 @@
 C_ShowNewNews DT_BOOL
-
-Name: show_new_news
-Type: boolean
 Default: yes
 
 If set, news server will be asked for new newsgroups on entering

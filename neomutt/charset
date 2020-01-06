@@ -1,7 +1,4 @@
 C_Charset DT_STRING|DT_NOT_EMPTY
-
-Name: charset
-Type: string
 Default: ""
 
 Character set your terminal uses to display and enter textual data.

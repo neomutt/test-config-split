@@ -1,7 +1,4 @@
 C_ReadInc DT_NUMBER|DT_NOT_NEGATIVE
-
-Name: read_inc
-Type: number
 Default: 10
 
 If set to a value greater than 0, NeoMutt will display which message it

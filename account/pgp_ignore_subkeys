@@ -1,7 +1,4 @@
 C_PgpIgnoreSubkeys DT_BOOL
-
-Name: pgp_ignore_subkeys
-Type: boolean
 Default: yes
 
 Setting this variable will cause NeoMutt to ignore OpenPGP subkeys. Instead,

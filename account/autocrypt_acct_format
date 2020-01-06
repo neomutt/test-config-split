@@ -1,7 +1,4 @@
 C_AutocryptAcctFormat DT_STRING
-
-Name: autocrypt_acct_format
-Type: string
 Default: "%4n %-30a %20p %10s"
 
 This variable describes the format of the ``autocrypt account'' menu.

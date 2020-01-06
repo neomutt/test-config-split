@@ -1,7 +1,4 @@
 C_Visual DT_STRING|DT_COMMAND
-
-Name: visual
-Type: command
 Default: "vi"
 
 Specifies the visual editor to invoke when the "~v" command is

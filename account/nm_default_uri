@@ -1,7 +1,4 @@
 C_NmDefaultUri DT_STRING
-
-Name: nm_default_uri
-Type: string
 Default: ""
 
 This variable specifies the default Notmuch database in format

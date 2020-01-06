@@ -1,7 +1,4 @@
 C_PopPass DT_STRING|DT_SENSITIVE
-
-Name: pop_pass
-Type: string
 Default: ""
 
 Specifies the password for your POP account.  If unset, NeoMutt will

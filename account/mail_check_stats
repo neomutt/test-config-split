@@ -1,7 +1,4 @@
 C_MailCheckStats DT_BOOL
-
-Name: mail_check_stats
-Type: boolean
 Default: no
 
 When set, NeoMutt will periodically calculate message

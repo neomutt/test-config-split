@@ -1,7 +1,4 @@
 C_ImapIdle DT_BOOL
-
-Name: imap_idle
-Type: boolean
 Default: no
 
 When set, NeoMutt will attempt to use the IMAP IDLE extension

@@ -1,7 +1,4 @@
 C_UseDomain DT_BOOL
-
-Name: use_domain
-Type: boolean
 Default: yes
 
 When set, NeoMutt will qualify all local addresses (ones without the

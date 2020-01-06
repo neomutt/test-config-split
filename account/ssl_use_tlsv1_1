@@ -1,7 +1,4 @@
 C_SslUseTlsv11 DT_BOOL
-
-Name: ssl_use_tlsv1_1
-Type: boolean
 Default: no
 
 If set , NeoMutt will use TLSv1.1 when communicating with servers that

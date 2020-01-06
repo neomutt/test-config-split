@@ -1,7 +1,4 @@
 C_IdnDecode DT_BOOL
-
-Name: idn_decode
-Type: boolean
 Default: yes
 
 When set, NeoMutt will show you international domain names decoded.

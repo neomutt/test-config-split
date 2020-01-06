@@ -1,7 +1,4 @@
 C_Realname DT_STRING
-
-Name: realname
-Type: string
 Default: ""
 
 This variable specifies what "real" or "personal" name should be used

@@ -1,7 +1,4 @@
 C_NmFlaggedTag DT_STRING
-
-Name: nm_flagged_tag
-Type: string
 Default: "flagged"
 
 This variable specifies notmuch tag which is used for flagged messages. The

@@ -1,7 +1,4 @@
 C_SslStarttls DT_QUAD
-
-Name: ssl_starttls
-Type: quadoption
 Default: yes
 
 If set (the default), NeoMutt will attempt to use STARTTLS on servers

@@ -1,7 +1,4 @@
 C_Help DT_BOOL
-
-Name: help
-Type: boolean
 Default: yes
 
 When set, help lines describing the bindings for the major functions

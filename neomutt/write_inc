@@ -1,7 +1,4 @@
 C_WriteInc DT_NUMBER|DT_NOT_NEGATIVE
-
-Name: write_inc
-Type: number
 Default: 10
 
 When writing a mailbox, a message will be printed every

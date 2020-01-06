@@ -1,7 +1,4 @@
 C_UserAgent DT_BOOL
-
-Name: user_agent
-Type: boolean
 Default: no
 
 When set, NeoMutt will add a "User-Agent:" header to outgoing

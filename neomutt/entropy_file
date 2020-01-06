@@ -1,7 +1,4 @@
 C_EntropyFile DT_STRING|DT_PATH
-
-Name: entropy_file
-Type: path
 Default: ""
 
 The file which includes random data that is used to initialize SSL

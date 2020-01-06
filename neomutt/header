@@ -1,7 +1,4 @@
 C_Header DT_BOOL
-
-Name: header
-Type: boolean
 Default: no
 
 When set, this variable causes NeoMutt to include the header

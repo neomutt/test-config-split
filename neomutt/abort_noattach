@@ -1,7 +1,4 @@
 C_AbortNoattach DT_QUAD
-
-Name: abort_noattach
-Type: quadoption
 Default: no
 
 If set to yes, when composing messages containing the regular

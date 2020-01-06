@@ -1,7 +1,4 @@
 C_PopDelete DT_QUAD
-
-Name: pop_delete
-Type: quadoption
 Default: ask-no
 
 If set, NeoMutt will delete successfully downloaded messages from the POP

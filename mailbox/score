@@ -1,7 +1,4 @@
 C_Score DT_BOOL
-
-Name: score
-Type: boolean
 Default: yes
 
 When this variable is unset, scoring is turned off.  This can

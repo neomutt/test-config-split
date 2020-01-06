@@ -1,7 +1,4 @@
 C_PostIndentString DT_STRING
-
-Name: post_indent_string
-Type: string
 Default: ""
 
 Similar to the $attribution variable, NeoMutt will append this

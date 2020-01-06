@@ -1,7 +1,4 @@
 C_Autoedit DT_BOOL
-
-Name: autoedit
-Type: boolean
 Default: no
 
 When set along with $edit_headers, NeoMutt will skip the initial

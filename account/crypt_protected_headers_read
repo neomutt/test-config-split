@@ -1,7 +1,4 @@
 C_CryptProtectedHeadersRead DT_BOOL
-
-Name: crypt_protected_headers_read
-Type: boolean
 Default: yes
 
 When set, NeoMutt will display protected headers ("Memory Hole") in the pager,

@@ -1,7 +1,4 @@
 C_MessageCacheClean DT_BOOL
-
-Name: message_cache_clean
-Type: boolean
 Default: no
 
 If set, NeoMutt will clean out obsolete entries from the message cache when

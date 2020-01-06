@@ -1,7 +1,4 @@
 C_FollowupTo DT_BOOL
-
-Name: followup_to
-Type: boolean
 Default: yes
 
 Controls whether or not the "Mail-Followup-To:" header field is

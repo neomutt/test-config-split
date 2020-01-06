@@ -1,7 +1,4 @@
 C_CryptAutoencrypt DT_BOOL
-
-Name: crypt_autoencrypt
-Type: boolean
 Default: no
 
 Setting this variable will cause NeoMutt to always attempt to PGP

@@ -1,7 +1,4 @@
 C_Hostname DT_STRING
-
-Name: hostname
-Type: string
 Default: ""
 
 Specifies the fully-qualified hostname of the system NeoMutt is running on

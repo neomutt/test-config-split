@@ -1,7 +1,4 @@
 C_FccBeforeSend DT_BOOL
-
-Name: fcc_before_send
-Type: boolean
 Default: no
 
 When this variable is set, FCCs will occur before sending

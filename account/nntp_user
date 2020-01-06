@@ -1,7 +1,4 @@
 C_NntpUser DT_STRING|DT_SENSITIVE
-
-Name: nntp_user
-Type: string
 Default: ""
 
 Your login name on the NNTP server.  If unset and NNTP server requires

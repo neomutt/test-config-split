@@ -1,7 +1,4 @@
 C_Signature DT_STRING|DT_PATH
-
-Name: signature
-Type: path
 Default: "~/.signature"
 
 Specifies the filename of your signature, which is appended to all

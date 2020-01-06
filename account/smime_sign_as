@@ -1,7 +1,4 @@
 C_SmimeSignAs DT_STRING
-
-Name: smime_sign_as
-Type: string
 Default: ""
 
 If you have a separate key to use for signing, you should set this

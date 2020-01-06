@@ -1,7 +1,4 @@
 C_CryptProtectedHeadersSave DT_BOOL
-
-Name: crypt_protected_headers_save
-Type: boolean
 Default: no
 
 When $crypt_protected_headers_read is set, and a message with a

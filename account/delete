@@ -1,7 +1,4 @@
 C_Delete DT_QUAD
-
-Name: delete
-Type: quadoption
 Default: ask-yes
 
 Controls whether or not messages are really deleted when closing or

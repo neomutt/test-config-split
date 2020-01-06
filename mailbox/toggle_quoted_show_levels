@@ -1,7 +1,4 @@
 C_ToggleQuotedShowLevels DT_NUMBER|DT_NOT_NEGATIVE
-
-Name: toggle_quoted_show_levels
-Type: number
 Default: 0
 
 Quoted text may be filtered out using the <toggle-quoted> command.

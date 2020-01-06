@@ -1,7 +1,4 @@
 C_ForwardReferences DT_BOOL
-
-Name: forward_references
-Type: boolean
 Default: no
 
 When set, forwarded messages set the "In-Reply-To:" and

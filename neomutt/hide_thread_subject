@@ -1,7 +1,4 @@
 C_HideThreadSubject DT_BOOL
-
-Name: hide_thread_subject
-Type: boolean
 Default: yes
 
 When set, NeoMutt will not show the subject of messages in the thread

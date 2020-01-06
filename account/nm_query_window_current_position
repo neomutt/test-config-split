@@ -1,7 +1,4 @@
 C_NmQueryWindowCurrentPosition DT_NUMBER
-
-Name: nm_query_window_current_position
-Type: number
 Default: 0
 
 This variable contains the position of the current search for window based vfolder.

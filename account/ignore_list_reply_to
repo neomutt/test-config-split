@@ -1,7 +1,4 @@
 C_IgnoreListReplyTo DT_BOOL
-
-Name: ignore_list_reply_to
-Type: boolean
 Default: no
 
 Affects the behavior of the <reply> function when replying to

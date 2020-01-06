@@ -1,7 +1,4 @@
 C_SigOnTop DT_BOOL
-
-Name: sig_on_top
-Type: boolean
 Default: no
 
 If set, the signature will be included before any quoted or forwarded

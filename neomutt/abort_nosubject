@@ -1,7 +1,4 @@
 C_AbortNosubject DT_QUAD
-
-Name: abort_nosubject
-Type: quadoption
 Default: ask-yes
 
 If set to yes, when composing messages and no subject is given

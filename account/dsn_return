@@ -1,7 +1,4 @@
 C_DsnReturn DT_STRING
-
-Name: dsn_return
-Type: string
 Default: ""
 
 This variable controls how much of your message is returned in DSN

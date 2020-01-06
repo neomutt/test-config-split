@@ -1,7 +1,4 @@
 C_DebugFile DT_STRING|DT_PATH
-
-Name: debug_file
-Type: path
 Default: "~/.neomuttdebug"
 
 Debug logging is controlled by the variables $debug_file and $debug_level.

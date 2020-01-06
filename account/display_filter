@@ -1,7 +1,4 @@
 C_DisplayFilter DT_STRING|DT_COMMAND
-
-Name: display_filter
-Type: command
 Default: ""
 
 When set, specifies a command used to filter messages.  When a message

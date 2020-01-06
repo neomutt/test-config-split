@@ -1,7 +1,4 @@
 C_HeaderCacheBackend DT_STRING
-
-Name: header_cache_backend
-Type: string
 Default: ""
 
 This variable specifies the header cache backend.

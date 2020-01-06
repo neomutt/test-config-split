@@ -1,7 +1,4 @@
 C_CryptProtectedHeadersSubject DT_STRING
-
-Name: crypt_protected_headers_subject
-Type: string
 Default: "Encrypted subject"
 
 When $crypt_protected_headers_write is set, and the message is marked

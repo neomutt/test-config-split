@@ -1,7 +1,4 @@
 C_ReverseAlias DT_BOOL
-
-Name: reverse_alias
-Type: boolean
 Default: no
 
 This variable controls whether or not NeoMutt will display the "personal"

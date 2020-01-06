@@ -1,7 +1,4 @@
 C_SmimeGetSignerCertCommand DT_STRING|DT_COMMAND
-
-Name: smime_get_signer_cert_command
-Type: command
 Default: ""
 
 This command is used to extract only the signers X509 certificate from a S/MIME

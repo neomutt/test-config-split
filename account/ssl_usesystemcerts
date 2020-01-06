@@ -1,7 +1,4 @@
 C_SslUsesystemcerts DT_BOOL
-
-Name: ssl_usesystemcerts
-Type: boolean
 Default: yes
 
 If set to yes, NeoMutt will use CA certificates in the

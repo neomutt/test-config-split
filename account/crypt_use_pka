@@ -1,7 +1,4 @@
 C_CryptUsePka DT_BOOL
-
-Name: crypt_use_pka
-Type: boolean
 Default: no
 
 Controls whether NeoMutt uses PKA

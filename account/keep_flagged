@@ -1,7 +1,4 @@
 C_KeepFlagged DT_BOOL
-
-Name: keep_flagged
-Type: boolean
 Default: no
 
 If set, read messages marked as flagged will not be moved

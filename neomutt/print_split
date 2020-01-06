@@ -1,7 +1,4 @@
 C_PrintSplit DT_BOOL
-
-Name: print_split
-Type: boolean
 Default: no
 
 Used in connection with the <print-message> command.  If this option

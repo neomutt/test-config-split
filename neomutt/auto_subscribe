@@ -1,7 +1,4 @@
 C_AutoSubscribe DT_BOOL
-
-Name: auto_subscribe
-Type: boolean
 Default: no
 
 When set, NeoMutt assumes the presence of a List-Post header

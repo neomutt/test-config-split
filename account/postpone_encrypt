@@ -1,7 +1,4 @@
 C_PostponeEncrypt DT_BOOL
-
-Name: postpone_encrypt
-Type: boolean
 Default: no
 
 When set, postponed messages that are marked for encryption will be

@@ -1,7 +1,4 @@
 C_ImapLogin DT_STRING|DT_SENSITIVE
-
-Name: imap_login
-Type: string
 Default: ""
 
 Your login name on the IMAP server.

@@ -1,7 +1,4 @@
 C_PgpSelfEncrypt DT_BOOL
-
-Name: pgp_self_encrypt
-Type: boolean
 Default: yes
 
 When set, PGP encrypted messages will also be encrypted

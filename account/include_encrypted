@@ -1,7 +1,4 @@
 C_IncludeEncrypted DT_BOOL
-
-Name: include_encrypted
-Type: boolean
 Default: no
 
 Controls whether or not NeoMutt includes separately encrypted attachment

@@ -1,7 +1,4 @@
 C_ReflowText DT_BOOL
-
-Name: reflow_text
-Type: boolean
 Default: yes
 
 When set, NeoMutt will reformat paragraphs in text/plain

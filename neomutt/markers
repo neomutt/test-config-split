@@ -1,7 +1,4 @@
 C_Markers DT_BOOL
-
-Name: markers
-Type: boolean
 Default: yes
 
 Controls the display of wrapped lines in the internal pager. If set, a

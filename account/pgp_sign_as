@@ -1,7 +1,4 @@
 C_PgpSignAs DT_STRING
-
-Name: pgp_sign_as
-Type: string
 Default: ""
 
 If you have a different key pair to use for signing, you should

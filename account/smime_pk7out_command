@@ -1,7 +1,4 @@
 C_SmimePk7outCommand DT_STRING|DT_COMMAND
-
-Name: smime_pk7out_command
-Type: command
 Default: ""
 
 This command is used to extract PKCS7 structures of S/MIME signatures,

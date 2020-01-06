@@ -1,7 +1,4 @@
 C_ConnectTimeout DT_NUMBER
-
-Name: connect_timeout
-Type: number
 Default: 30
 
 Causes NeoMutt to timeout a network connection (for IMAP, POP or SMTP) after this

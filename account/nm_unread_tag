@@ -1,7 +1,4 @@
 C_NmUnreadTag DT_STRING
-
-Name: nm_unread_tag
-Type: string
 Default: "unread"
 
 This variable specifies notmuch tag which is used for unread messages. The

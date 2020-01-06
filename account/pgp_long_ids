@@ -1,7 +1,4 @@
 C_PgpLongIds DT_BOOL
-
-Name: pgp_long_ids
-Type: boolean
 Default: yes
 
 If set, use 64 bit PGP key IDs, if unset use the normal 32 bit key IDs.

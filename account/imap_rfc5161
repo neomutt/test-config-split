@@ -1,7 +1,4 @@
 C_ImapRfc5161 DT_BOOL
-
-Name: imap_rfc5161
-Type: boolean
 Default: yes
 
 When set, NeoMutt will use the IMAP ENABLE extension (RFC 5161) to

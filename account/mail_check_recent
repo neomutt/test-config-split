@@ -1,7 +1,4 @@
 C_MailCheckRecent DT_BOOL
-
-Name: mail_check_recent
-Type: boolean
 Default: yes
 
 When set, NeoMutt will only notify you about new mail that has been received

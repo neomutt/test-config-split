@@ -1,7 +1,4 @@
 C_SmimeSelfEncrypt DT_BOOL
-
-Name: smime_self_encrypt
-Type: boolean
 Default: yes
 
 When set, S/MIME encrypted messages will also be encrypted

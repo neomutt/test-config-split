@@ -1,7 +1,4 @@
 C_PopAuthTryAll DT_BOOL
-
-Name: pop_auth_try_all
-Type: boolean
 Default: yes
 
 If set, NeoMutt will try all available authentication methods.

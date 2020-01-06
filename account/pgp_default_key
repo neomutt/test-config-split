@@ -1,7 +1,4 @@
 C_PgpDefaultKey DT_STRING
-
-Name: pgp_default_key
-Type: string
 Default: ""
 
 This is the default key-pair to use for PGP operations.  It will be

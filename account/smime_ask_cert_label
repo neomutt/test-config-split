@@ -1,7 +1,4 @@
 C_SmimeAskCertLabel DT_BOOL
-
-Name: smime_ask_cert_label
-Type: boolean
 Default: yes
 
 This flag controls whether you want to be asked to enter a label

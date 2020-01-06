@@ -1,7 +1,4 @@
 C_PgpCheckExit DT_BOOL
-
-Name: pgp_check_exit
-Type: boolean
 Default: yes
 
 If set, NeoMutt will check the exit code of the PGP subprocess when

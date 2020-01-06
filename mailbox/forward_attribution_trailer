@@ -1,7 +1,4 @@
 C_ForwardAttributionTrailer DT_STRING
-
-Name: forward_attribution_trailer
-Type: string
 Default: "----- End forwarded message -----"
 
 This is the string that will follow a message which has been forwarded

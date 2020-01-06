@@ -1,7 +1,4 @@
 C_NmOpenTimeout DT_NUMBER|DT_NOT_NEGATIVE
-
-Name: nm_open_timeout
-Type: number
 Default: 5
 
 This variable specifies the timeout for database open in seconds.

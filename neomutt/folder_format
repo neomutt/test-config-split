@@ -1,7 +1,4 @@
 C_FolderFormat DT_STRING|DT_NOT_EMPTY
-
-Name: folder_format
-Type: string
 Default: "%2C %t %N %F %2l %-8.8u %-8.8g %8s %d %i"
 
 This variable allows you to customize the file browser display to your

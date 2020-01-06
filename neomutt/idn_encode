@@ -1,7 +1,4 @@
 C_IdnEncode DT_BOOL
-
-Name: idn_encode
-Type: boolean
 Default: yes
 
 When set, NeoMutt will encode international domain names using

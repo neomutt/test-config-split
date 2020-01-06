@@ -1,7 +1,4 @@
 C_ForceName DT_BOOL
-
-Name: force_name
-Type: boolean
 Default: no
 
 This variable is similar to $save_name, except that NeoMutt will

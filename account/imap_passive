@@ -1,7 +1,4 @@
 C_ImapPassive DT_BOOL
-
-Name: imap_passive
-Type: boolean
 Default: yes
 
 When set, NeoMutt will not open new IMAP connections to check for new

@@ -1,7 +1,4 @@
 C_SslUseSslv2 DT_BOOL
-
-Name: ssl_use_sslv2
-Type: boolean
 Default: no
 
 If set , NeoMutt will use SSLv2 when communicating with servers that

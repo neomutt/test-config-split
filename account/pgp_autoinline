@@ -1,7 +1,4 @@
 C_PgpAutoinline DT_BOOL
-
-Name: pgp_autoinline
-Type: boolean
 Default: no
 
 This option controls whether NeoMutt generates old-style inline

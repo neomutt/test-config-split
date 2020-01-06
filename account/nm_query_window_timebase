@@ -1,7 +1,4 @@
 C_NmQueryWindowTimebase DT_STRING
-
-Name: nm_query_window_timebase
-Type: string
 Default: "week"
 
 This variable sets the time base of a windowed notmuch query.

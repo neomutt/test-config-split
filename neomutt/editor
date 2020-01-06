@@ -1,7 +1,4 @@
 C_Editor DT_STRING|DT_COMMAND
-
-Name: editor
-Type: command
 Default: "vi"
 
 This variable specifies which editor is used by NeoMutt.

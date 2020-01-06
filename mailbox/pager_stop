@@ -1,7 +1,4 @@
 C_PagerStop DT_BOOL
-
-Name: pager_stop
-Type: boolean
 Default: no
 
 When set, the internal-pager will not move to the next message

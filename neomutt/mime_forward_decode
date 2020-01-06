@@ -1,7 +1,4 @@
 C_MimeForwardDecode DT_BOOL
-
-Name: mime_forward_decode
-Type: boolean
 Default: no
 
 Controls the decoding of complex MIME messages into text/plain when

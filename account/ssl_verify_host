@@ -1,7 +1,4 @@
 C_SslVerifyHost DT_BOOL
-
-Name: ssl_verify_host
-Type: boolean
 Default: yes
 
 If set (the default), NeoMutt will not automatically accept a server

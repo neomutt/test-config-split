@@ -1,7 +1,4 @@
 C_StrictThreads DT_BOOL
-
-Name: strict_threads
-Type: boolean
 Default: no
 
 If set, threading will only make use of the "In-Reply-To" and

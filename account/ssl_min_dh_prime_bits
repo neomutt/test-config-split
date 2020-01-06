@@ -1,7 +1,4 @@
 C_SslMinDhPrimeBits DT_NUMBER|DT_NOT_NEGATIVE
-
-Name: ssl_min_dh_prime_bits
-Type: number
 Default: 0
 
 This variable specifies the minimum acceptable prime size (in bits)

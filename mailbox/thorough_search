@@ -1,7 +1,4 @@
 C_ThoroughSearch DT_BOOL
-
-Name: thorough_search
-Type: boolean
 Default: yes
 
 Affects the ~b and ~h search operations described in

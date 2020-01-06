@@ -1,7 +1,4 @@
 C_FastReply DT_BOOL
-
-Name: fast_reply
-Type: boolean
 Default: no
 
 When set, the initial prompt for recipients and subject are skipped

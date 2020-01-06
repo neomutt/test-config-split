@@ -1,7 +1,4 @@
 C_HonorDisposition DT_BOOL
-
-Name: honor_disposition
-Type: boolean
 Default: no
 
 When set, NeoMutt will not display attachments with a

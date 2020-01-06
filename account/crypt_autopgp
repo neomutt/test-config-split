@@ -1,7 +1,4 @@
 C_CryptAutopgp DT_BOOL
-
-Name: crypt_autopgp
-Type: boolean
 Default: yes
 
 This variable controls whether or not NeoMutt may automatically enable

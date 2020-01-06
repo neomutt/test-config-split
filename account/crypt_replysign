@@ -1,7 +1,4 @@
 C_CryptReplysign DT_BOOL
-
-Name: crypt_replysign
-Type: boolean
 Default: no
 
 If set, automatically PGP or OpenSSL sign replies to messages which are

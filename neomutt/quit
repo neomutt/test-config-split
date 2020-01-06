@@ -1,7 +1,4 @@
 C_Quit DT_QUAD
-
-Name: quit
-Type: quadoption
 Default: yes
 
 This variable controls whether "quit" and "exit" actually quit

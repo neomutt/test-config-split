@@ -1,7 +1,4 @@
 C_SmimeCertificates DT_STRING|DT_PATH
-
-Name: smime_certificates
-Type: path
 Default: ""
 
 Since for S/MIME there is no pubring/secring as with PGP, NeoMutt has to handle

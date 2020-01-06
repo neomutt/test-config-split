@@ -1,7 +1,4 @@
 C_SmimeDefaultKey DT_STRING
-
-Name: smime_default_key
-Type: string
 Default: ""
 
 This is the default key-pair to use for S/MIME operations, and must be

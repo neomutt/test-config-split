@@ -1,7 +1,4 @@
 C_SmimeGetCertEmailCommand DT_STRING|DT_COMMAND
-
-Name: smime_get_cert_email_command
-Type: command
 Default: ""
 
 This command is used to extract the mail address(es) used for storing

@@ -1,7 +1,4 @@
 C_NmQueryWindowDuration DT_NUMBER|DT_NOT_NEGATIVE
-
-Name: nm_query_window_duration
-Type: number
 Default: 0
 
 This variable sets the time duration of a windowed notmuch query.

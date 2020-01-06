@@ -1,7 +1,4 @@
 C_SidebarFormat DT_STRING|DT_NOT_EMPTY
-
-Name: sidebar_format
-Type: string
 Default: "%B%*  %n"
 
 This variable allows you to customize the sidebar display. This string is

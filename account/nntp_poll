@@ -1,7 +1,4 @@
 C_NntpPoll DT_NUMBER|DT_NOT_NEGATIVE
-
-Name: nntp_poll
-Type: number
 Default: 60
 
 The time in seconds until any operations on newsgroup except post new

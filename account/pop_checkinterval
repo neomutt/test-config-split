@@ -1,7 +1,4 @@
 C_PopCheckinterval DT_NUMBER|DT_NOT_NEGATIVE
-
-Name: pop_checkinterval
-Type: number
 Default: 60
 
 This variable configures how often (in seconds) NeoMutt should look for

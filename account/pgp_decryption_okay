@@ -1,7 +1,4 @@
 C_PgpDecryptionOkay DT_REGEX
-
-Name: pgp_decryption_okay
-Type: regular expression
 Default: ""
 
 If you assign text to this variable, then an encrypted PGP

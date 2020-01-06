@@ -1,7 +1,4 @@
 C_Attribution DT_STRING
-
-Name: attribution
-Type: string
 Default: "On %d, %n wrote:"
 
 This is the string that will precede a message which has been included

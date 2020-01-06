@@ -1,7 +1,4 @@
 C_Record DT_STRING|DT_PATH|DT_MAILBOX
-
-Name: record
-Type: path
 Default: "~/sent"
 
 This specifies the file into which your outgoing messages should be

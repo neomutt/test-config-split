@@ -1,7 +1,4 @@
 C_ImapQresync DT_BOOL
-
-Name: imap_qresync
-Type: boolean
 Default: no
 
 When set, NeoMutt will use the QRESYNC extension (RFC 7162)

@@ -1,7 +1,4 @@
 C_SimpleSearch DT_STRING
-
-Name: simple_search
-Type: string
 Default: "~f %s | ~s %s"
 
 Specifies how NeoMutt should expand a simple search into a real search

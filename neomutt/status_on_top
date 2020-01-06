@@ -1,7 +1,4 @@
 C_StatusOnTop DT_BOOL
-
-Name: status_on_top
-Type: boolean
 Default: no
 
 Setting this variable causes the "status bar" to be displayed on

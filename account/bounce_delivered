@@ -1,7 +1,4 @@
 C_BounceDelivered DT_BOOL
-
-Name: bounce_delivered
-Type: boolean
 Default: yes
 
 When this variable is set, NeoMutt will include Delivered-To headers when

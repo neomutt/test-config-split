@@ -1,7 +1,4 @@
 C_Allow8bit DT_BOOL
-
-Name: allow_8bit
-Type: boolean
 Default: yes
 
 Controls whether 8-bit data is converted to 7-bit using either Quoted-

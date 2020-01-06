@@ -1,7 +1,4 @@
 C_MenuMoveOff DT_BOOL
-
-Name: menu_move_off
-Type: boolean
 Default: yes
 
 When unset, the bottom entry of menus will never scroll up past

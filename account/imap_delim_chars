@@ -1,7 +1,4 @@
 C_ImapDelimChars DT_STRING
-
-Name: imap_delim_chars
-Type: string
 Default: "/."
 
 This contains the list of characters which you would like to treat

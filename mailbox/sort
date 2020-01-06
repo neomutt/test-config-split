@@ -1,7 +1,4 @@
 C_Sort DT_SORT
-
-Name: sort
-Type: sort order
 Default: date
 
 Specifies how to sort messages in the "index" menu.  Valid values

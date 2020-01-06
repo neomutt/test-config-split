@@ -1,7 +1,4 @@
 C_Print DT_QUAD
-
-Name: print
-Type: quadoption
 Default: ask-no
 
 Controls whether or not NeoMutt really prints messages.

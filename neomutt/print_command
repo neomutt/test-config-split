@@ -1,7 +1,4 @@
 C_PrintCommand DT_STRING|DT_COMMAND
-
-Name: print_command
-Type: command
 Default: "lpr"
 
 This specifies the command pipe that should be used to print messages.

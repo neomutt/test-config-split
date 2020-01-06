@@ -1,7 +1,4 @@
 C_CryptUseGpgme DT_BOOL
-
-Name: crypt_use_gpgme
-Type: boolean
 Default: no
 
 This variable controls the use of the GPGME-enabled crypto backends.

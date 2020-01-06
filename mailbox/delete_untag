@@ -1,7 +1,4 @@
 C_DeleteUntag DT_BOOL
-
-Name: delete_untag
-Type: boolean
 Default: yes
 
 If this option is set, NeoMutt will untag messages when marking them

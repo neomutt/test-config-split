@@ -1,7 +1,4 @@
 C_PgpEncryptOnlyCommand DT_STRING|DT_COMMAND
-
-Name: pgp_encrypt_only_command
-Type: command
 Default: ""
 
 This command is used to encrypt a body part without signing it.

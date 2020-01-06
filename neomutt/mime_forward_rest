@@ -1,7 +1,4 @@
 C_MimeForwardRest DT_QUAD
-
-Name: mime_forward_rest
-Type: quadoption
 Default: yes
 
 When forwarding multiple attachments of a MIME message from the attachment

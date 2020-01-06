@@ -1,7 +1,4 @@
 C_ForwardQuote DT_BOOL
-
-Name: forward_quote
-Type: boolean
 Default: no
 
 When set, forwarded messages included in the main body of the

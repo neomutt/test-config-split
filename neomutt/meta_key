@@ -1,7 +1,4 @@
 C_MetaKey DT_BOOL
-
-Name: meta_key
-Type: boolean
 Default: no
 
 If set, forces NeoMutt to interpret keystrokes with the high bit (bit 8)

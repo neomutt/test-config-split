@@ -1,7 +1,4 @@
 C_ForwardAttachments DT_QUAD
-
-Name: forward_attachments
-Type: quadoption
 Default: ask-yes
 
 When forwarding inline (i.e. $mime_forward unset or

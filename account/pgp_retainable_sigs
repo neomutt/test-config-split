@@ -1,7 +1,4 @@
 C_PgpRetainableSigs DT_BOOL
-
-Name: pgp_retainable_sigs
-Type: boolean
 Default: no
 
 If set, signed and encrypted messages will consist of nested

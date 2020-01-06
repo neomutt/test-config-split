@@ -1,7 +1,4 @@
 C_Rfc2047Parameters DT_BOOL
-
-Name: rfc2047_parameters
-Type: boolean
 Default: no
 
 When this variable is set, NeoMutt will decode RFC2047-encoded MIME

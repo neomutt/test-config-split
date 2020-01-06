@@ -1,7 +1,4 @@
 C_PgpAutoDecode DT_BOOL
-
-Name: pgp_auto_decode
-Type: boolean
 Default: no
 
 If set, NeoMutt will automatically attempt to decrypt traditional PGP

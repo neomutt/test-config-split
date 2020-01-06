@@ -1,7 +1,4 @@
 C_Use8bitmime DT_BOOL
-
-Name: use_8bitmime
-Type: boolean
 Default: no
 
 Warning: do not set this variable unless you are using a version

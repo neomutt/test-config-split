@@ -1,7 +1,4 @@
 C_NntpListgroup DT_BOOL
-
-Name: nntp_listgroup
-Type: boolean
 Default: yes
 
 This variable controls whether or not existence of each article is

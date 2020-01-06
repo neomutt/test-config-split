@@ -1,7 +1,4 @@
 C_CryptConfirmhook DT_BOOL
-
-Name: crypt_confirmhook
-Type: boolean
 Default: yes
 
 If set, then you will be prompted for confirmation of keys when using

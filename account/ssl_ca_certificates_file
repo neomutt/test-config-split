@@ -1,7 +1,4 @@
 C_SslCaCertificatesFile DT_STRING|DT_PATH
-
-Name: ssl_ca_certificates_file
-Type: path
 Default: ""
 
 This variable specifies a file containing trusted CA certificates.

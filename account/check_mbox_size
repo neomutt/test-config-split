@@ -1,7 +1,4 @@
 C_CheckMboxSize DT_BOOL
-
-Name: check_mbox_size
-Type: boolean
 Default: no
 
 When this variable is set, NeoMutt will use file size attribute instead of

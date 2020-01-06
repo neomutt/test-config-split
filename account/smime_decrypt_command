@@ -1,7 +1,4 @@
 C_SmimeDecryptCommand DT_STRING|DT_COMMAND
-
-Name: smime_decrypt_command
-Type: command
 Default: ""
 
 This format string specifies a command which is used to decrypt

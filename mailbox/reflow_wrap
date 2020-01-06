@@ -1,7 +1,4 @@
 C_ReflowWrap DT_NUMBER
-
-Name: reflow_wrap
-Type: number
 Default: 78
 
 This variable controls the maximum paragraph width when reformatting text/plain

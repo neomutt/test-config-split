@@ -1,7 +1,4 @@
 C_MessageCachedir DT_STRING|DT_PATH
-
-Name: message_cachedir
-Type: path
 Default: ""
 
 Set this to a directory and NeoMutt will cache copies of messages from

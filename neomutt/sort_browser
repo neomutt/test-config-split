@@ -1,7 +1,4 @@
 C_SortBrowser DT_SORT|DT_SORT_BROWSER
-
-Name: sort_browser
-Type: sort order
 Default: alpha
 
 Specifies how to sort entries in the file browser.  By default, the

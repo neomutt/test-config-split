@@ -1,7 +1,4 @@
 C_EncodeFrom DT_BOOL
-
-Name: encode_from
-Type: boolean
 Default: no
 
 When set, NeoMutt will quoted-printable encode messages when

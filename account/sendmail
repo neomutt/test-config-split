@@ -1,7 +1,4 @@
 C_Sendmail DT_STRING|DT_COMMAND
-
-Name: sendmail
-Type: command
 Default: "/usr/sbin/sendmail -oem -oi"
 
 Specifies the program and arguments used to deliver mail sent by NeoMutt.

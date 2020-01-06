@@ -1,7 +1,4 @@
 C_DuplicateThreads DT_BOOL
-
-Name: duplicate_threads
-Type: boolean
 Default: yes
 
 This variable controls whether NeoMutt, when $sort is set to threads, threads

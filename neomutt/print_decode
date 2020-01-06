@@ -1,7 +1,4 @@
 C_PrintDecode DT_BOOL
-
-Name: print_decode
-Type: boolean
 Default: yes
 
 Used in connection with the <print-message> command.  If this

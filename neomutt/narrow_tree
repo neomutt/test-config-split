@@ -1,7 +1,4 @@
 C_NarrowTree DT_BOOL
-
-Name: narrow_tree
-Type: boolean
 Default: no
 
 This variable, when set, makes the thread tree narrower, allowing

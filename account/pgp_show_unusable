@@ -1,7 +1,4 @@
 C_PgpShowUnusable DT_BOOL
-
-Name: pgp_show_unusable
-Type: boolean
 Default: yes
 
 If set, NeoMutt will display non-usable keys on the PGP key selection

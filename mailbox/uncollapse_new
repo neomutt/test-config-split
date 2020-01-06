@@ -1,7 +1,4 @@
 C_UncollapseNew DT_BOOL
-
-Name: uncollapse_new
-Type: boolean
 Default: yes
 
 When set, NeoMutt will automatically uncollapse any collapsed thread

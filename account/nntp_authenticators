@@ -1,7 +1,4 @@
 C_NntpAuthenticators DT_STRING
-
-Name: nntp_authenticators
-Type: string
 Default: ""
 
 This is a colon-delimited list of authentication methods NeoMutt may

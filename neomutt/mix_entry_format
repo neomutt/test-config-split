@@ -1,7 +1,4 @@
 C_MixEntryFormat DT_STRING|DT_NOT_EMPTY
-
-Name: mix_entry_format
-Type: string
 Default: "%4n %c %-16s %a"
 
 This variable describes the format of a remailer line on the mixmaster

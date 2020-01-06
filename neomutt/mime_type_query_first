@@ -1,7 +1,4 @@
 C_MimeTypeQueryFirst DT_BOOL
-
-Name: mime_type_query_first
-Type: boolean
 Default: no
 
 When set, the $mime_type_query_command will be run before the

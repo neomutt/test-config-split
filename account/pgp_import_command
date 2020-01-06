@@ -1,7 +1,4 @@
 C_PgpImportCommand DT_STRING|DT_COMMAND
-
-Name: pgp_import_command
-Type: command
 Default: ""
 
 This command is used to import a key from a message into

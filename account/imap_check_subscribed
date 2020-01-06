@@ -1,7 +1,4 @@
 C_ImapCheckSubscribed DT_BOOL
-
-Name: imap_check_subscribed
-Type: boolean
 Default: no
 
 When set, NeoMutt will fetch the set of subscribed folders from

@@ -1,7 +1,4 @@
 C_PagerFormat DT_STRING
-
-Name: pager_format
-Type: string
 Default: "-%Z- %C/%m: %-20.20n   %s%*  -- (%P)"
 
 This variable controls the format of the one-line message "status"

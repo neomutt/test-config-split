@@ -1,7 +1,4 @@
 C_WaitKey DT_BOOL
-
-Name: wait_key
-Type: boolean
 Default: yes
 
 Controls whether NeoMutt will ask you to press a key after an external command

@@ -1,7 +1,4 @@
 C_Tilde DT_BOOL
-
-Name: tilde
-Type: boolean
 Default: no
 
 When set, the internal-pager will pad blank lines to the bottom of the

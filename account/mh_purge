@@ -1,7 +1,4 @@
 C_MhPurge DT_BOOL
-
-Name: mh_purge
-Type: boolean
 Default: no
 
 When unset, NeoMutt will mimic mh's behavior and rename deleted messages

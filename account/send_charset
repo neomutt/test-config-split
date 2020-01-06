@@ -1,7 +1,4 @@
 C_SendCharset DT_STRING
-
-Name: send_charset
-Type: string
 Default: "us-ascii:iso-8859-1:utf-8"
 
 A colon-delimited list of character sets for outgoing messages. NeoMutt will use the

@@ -1,7 +1,4 @@
 C_AutocryptDir DT_STRING|DT_PATH
-
-Name: autocrypt_dir
-Type: path
 Default: "~/.mutt/autocrypt"
 
 This variable sets where autocrypt files are stored, including the GPG

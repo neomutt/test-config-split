@@ -1,7 +1,4 @@
 C_PopLast DT_BOOL
-
-Name: pop_last
-Type: boolean
 Default: no
 
 If this variable is set, NeoMutt will try to use the "LAST" POP command

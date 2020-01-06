@@ -1,7 +1,4 @@
 C_MimeSubject DT_BOOL
-
-Name: mime_subject
-Type: boolean
 Default: yes
 
 If unset, 8-bit "subject:" line in article header will not be

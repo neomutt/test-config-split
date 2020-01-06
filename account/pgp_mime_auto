@@ -1,7 +1,4 @@
 C_PgpMimeAuto DT_QUAD
-
-Name: pgp_mime_auto
-Type: quadoption
 Default: ask-yes
 
 This option controls whether NeoMutt will prompt you for

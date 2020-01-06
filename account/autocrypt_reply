@@ -1,7 +1,4 @@
 C_AutocryptReply DT_BOOL
-
-Name: autocrypt_reply
-Type: boolean
 Default: yes
 
 When set, replying to an autocrypt email automatically

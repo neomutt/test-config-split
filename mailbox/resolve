@@ -1,7 +1,4 @@
 C_Resolve DT_BOOL
-
-Name: resolve
-Type: boolean
 Default: yes
 
 When set, the cursor will be automatically advanced to the next

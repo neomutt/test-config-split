@@ -1,7 +1,4 @@
 C_Postpone DT_QUAD
-
-Name: postpone
-Type: quadoption
 Default: ask-yes
 
 Controls whether or not messages are saved in the $postponed

@@ -1,7 +1,4 @@
 C_NewsServer DT_STRING
-
-Name: news_server
-Type: string
 Default: ""
 
 This variable specifies domain name or address of NNTP server.

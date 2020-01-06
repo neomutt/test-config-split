@@ -1,7 +1,4 @@
 C_FlagChars DT_MBTABLE
-
-Name: flag_chars
-Type: character string
 Default: "*!DdrONon- "
 
 Controls the characters used in several flags.

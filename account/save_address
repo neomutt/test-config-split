@@ -1,7 +1,4 @@
 C_SaveAddress DT_BOOL
-
-Name: save_address
-Type: boolean
 Default: no
 
 If set, NeoMutt will take the sender's full address when choosing a

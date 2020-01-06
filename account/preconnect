@@ -1,7 +1,4 @@
 C_Preconnect DT_STRING
-
-Name: preconnect
-Type: string
 Default: ""
 
 If set, a shell command to be executed if NeoMutt fails to establish

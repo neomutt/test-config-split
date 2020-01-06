@@ -1,7 +1,4 @@
 C_HideTopLimited DT_BOOL
-
-Name: hide_top_limited
-Type: boolean
 Default: no
 
 When set, NeoMutt will not show the presence of messages that are hidden

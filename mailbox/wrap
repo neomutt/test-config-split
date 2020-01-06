@@ -1,7 +1,4 @@
 C_Wrap DT_NUMBER
-
-Name: wrap
-Type: number
 Default: 0
 
 When set to a positive value, NeoMutt will wrap text at $wrap characters.

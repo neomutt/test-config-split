@@ -1,7 +1,4 @@
 C_IndentString DT_STRING
-
-Name: indent_string
-Type: string
 Default: "> "
 
 Specifies the string to prepend to each line of text quoted in a

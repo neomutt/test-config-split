@@ -1,7 +1,4 @@
 C_ArrowCursor DT_BOOL
-
-Name: arrow_cursor
-Type: boolean
 Default: no
 
 When set, an arrow ("->") will be used to indicate the current entry

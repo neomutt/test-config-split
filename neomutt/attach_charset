@@ -1,7 +1,4 @@
 C_AttachCharset DT_STRING
-
-Name: attach_charset
-Type: string
 Default: ""
 
 This variable is a colon-separated list of character encoding

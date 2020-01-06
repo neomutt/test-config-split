@@ -1,7 +1,4 @@
 C_Smileys DT_REGEX
-
-Name: smileys
-Type: regular expression
 Default: "(>From )|(:[-^]?[][)(><}{|/DP])"
 
 The pager uses this variable to catch some common false

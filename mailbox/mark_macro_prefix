@@ -1,7 +1,4 @@
 C_MarkMacroPrefix DT_STRING
-
-Name: mark_macro_prefix
-Type: string
 Default: "'"
 
 Prefix for macros created using mark-message.  A new macro

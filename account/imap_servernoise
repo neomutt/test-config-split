@@ -1,7 +1,4 @@
 C_ImapServernoise DT_BOOL
-
-Name: imap_servernoise
-Type: boolean
 Default: yes
 
 When set, NeoMutt will display warning messages from the IMAP

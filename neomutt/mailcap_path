@@ -1,7 +1,4 @@
 C_MailcapPath DT_SLIST|SLIST_SEP_COLON
-
-Name: mailcap_path
-Type: string list
 Default: "~/.mailcap:/usr/share/neomutt/mailcap:/etc/mailcap:/etc/mailcap:/usr/etc/mailcap:/usr/local/etc/mailcap"
 
 This variable specifies which files to consult when attempting to

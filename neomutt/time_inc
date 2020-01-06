@@ -1,7 +1,4 @@
 C_TimeInc DT_NUMBER|DT_NOT_NEGATIVE
-
-Name: time_inc
-Type: number
 Default: 0
 
 Along with $read_inc, $write_inc, and $net_inc, this

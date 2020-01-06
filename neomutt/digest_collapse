@@ -1,7 +1,4 @@
 C_DigestCollapse DT_BOOL
-
-Name: digest_collapse
-Type: boolean
 Default: yes
 
 If this option is set, NeoMutt's received-attachments menu will not show the subparts of

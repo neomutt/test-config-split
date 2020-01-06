@@ -1,7 +1,4 @@
 C_SortRe DT_BOOL
-
-Name: sort_re
-Type: boolean
 Default: yes
 
 This variable is only useful when sorting by mailboxes in sidebar. By default,

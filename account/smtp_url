@@ -1,7 +1,4 @@
 C_SmtpUrl DT_STRING|DT_SENSITIVE
-
-Name: smtp_url
-Type: string
 Default: ""
 
 Defines the SMTP smarthost where sent messages should relayed for

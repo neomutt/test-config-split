@@ -1,7 +1,4 @@
 C_SidebarNewMailOnly DT_BOOL
-
-Name: sidebar_new_mail_only
-Type: boolean
 Default: no
 
 When set, the sidebar will only display mailboxes containing new, or

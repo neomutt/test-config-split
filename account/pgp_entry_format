@@ -1,7 +1,4 @@
 C_PgpEntryFormat DT_STRING|DT_NOT_EMPTY
-
-Name: pgp_entry_format
-Type: string
 Default: "%4n %t%f %4l/0x%k %-4a %2c %u"
 
 This variable allows you to customize the PGP key selection menu to

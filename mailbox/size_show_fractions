@@ -1,7 +1,4 @@
 C_SizeShowFractions DT_BOOL
-
-Name: size_show_fractions
-Type: boolean
 Default: yes
 
 If set, message sizes will be displayed with a single decimal value

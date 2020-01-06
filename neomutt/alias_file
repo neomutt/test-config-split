@@ -1,7 +1,4 @@
 C_AliasFile DT_STRING|DT_PATH
-
-Name: alias_file
-Type: path
 Default: "~/.neomuttrc"
 
 The default file in which to save aliases created by the

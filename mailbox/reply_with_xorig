@@ -1,7 +1,4 @@
 C_ReplyWithXorig DT_BOOL
-
-Name: reply_with_xorig
-Type: boolean
 Default: no
 
 This variable provides a toggle. When active, the From: header will be

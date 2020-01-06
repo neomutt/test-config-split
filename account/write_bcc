@@ -1,7 +1,4 @@
 C_WriteBcc DT_BOOL
-
-Name: write_bcc
-Type: boolean
 Default: no
 
 Controls whether mutt writes out the ``Bcc:'' header when

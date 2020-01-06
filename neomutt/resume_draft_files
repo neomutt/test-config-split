@@ -1,7 +1,4 @@
 C_ResumeDraftFiles DT_BOOL
-
-Name: resume_draft_files
-Type: boolean
 Default: no
 
 If set, draft files (specified by -H on the command

@@ -1,7 +1,4 @@
 C_ExternalSearchCommand DT_STRING|DT_COMMAND
-
-Name: external_search_command
-Type: command
 Default: ""
 
 If set, contains the name of the external program used by "~I" patterns.

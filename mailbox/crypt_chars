@@ -1,7 +1,4 @@
 C_CryptChars DT_MBTABLE
-
-Name: crypt_chars
-Type: character string
 Default: "SPsK "
 
 Controls the characters used in cryptography flags.

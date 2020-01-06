@@ -1,7 +1,4 @@
 C_ImapCondstore DT_BOOL
-
-Name: imap_condstore
-Type: boolean
 Default: no
 
 When set, NeoMutt will use the CONDSTORE extension (RFC 7162)

@@ -1,7 +1,4 @@
 C_SmartWrap DT_BOOL
-
-Name: smart_wrap
-Type: boolean
 Default: yes
 
 Controls the display of lines longer than the screen width in the

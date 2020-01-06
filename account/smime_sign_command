@@ -1,7 +1,4 @@
 C_SmimeSignCommand DT_STRING|DT_COMMAND
-
-Name: smime_sign_command
-Type: command
 Default: ""
 
 This command is used to created S/MIME signatures of type

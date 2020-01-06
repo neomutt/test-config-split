@@ -1,7 +1,4 @@
 C_SmimeTimeout DT_NUMBER|DT_NOT_NEGATIVE
-
-Name: smime_timeout
-Type: number
 Default: 300
 
 The number of seconds after which a cached passphrase will expire if

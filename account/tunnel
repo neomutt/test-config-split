@@ -1,7 +1,4 @@
 C_Tunnel DT_STRING|DT_COMMAND
-
-Name: tunnel
-Type: command
 Default: ""
 
 Setting this variable will cause NeoMutt to open a pipe to a command

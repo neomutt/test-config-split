@@ -1,7 +1,4 @@
 C_PgpStrictEnc DT_BOOL
-
-Name: pgp_strict_enc
-Type: boolean
 Default: yes
 
 If set, NeoMutt will automatically encode PGP/MIME signed messages as

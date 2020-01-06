@@ -1,7 +1,4 @@
 C_UseEnvelopeFrom DT_BOOL
-
-Name: use_envelope_from
-Type: boolean
 Default: no
 
 When set, NeoMutt will set the envelope sender of the message.

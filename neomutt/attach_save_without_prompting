@@ -1,7 +1,4 @@
 C_AttachSaveWithoutPrompting DT_BOOL
-
-Name: attach_save_without_prompting
-Type: boolean
 Default: no
 
 This variable, when set to true, will cause attachments to be saved to

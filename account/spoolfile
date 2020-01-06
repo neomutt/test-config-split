@@ -1,7 +1,4 @@
 C_Spoolfile DT_STRING|DT_PATH|DT_MAILBOX
-
-Name: spoolfile
-Type: path
 Default: ""
 
 If your spool mailbox is in a non-default place where NeoMutt can't find

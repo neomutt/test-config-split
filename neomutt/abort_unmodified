@@ -1,7 +1,4 @@
 C_AbortUnmodified DT_QUAD
-
-Name: abort_unmodified
-Type: quadoption
 Default: yes
 
 If set to yes, composition will automatically abort after

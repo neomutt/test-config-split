@@ -1,7 +1,4 @@
 C_CheckNew DT_BOOL
-
-Name: check_new
-Type: boolean
 Default: yes
 
 Note: this option only affects maildir and MH style

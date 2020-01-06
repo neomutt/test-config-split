@@ -1,7 +1,4 @@
 C_ChangeFolderNext DT_BOOL
-
-Name: change_folder_next
-Type: boolean
 Default: no
 
 When this variable is set, the <change-folder> function

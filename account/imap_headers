@@ -1,7 +1,4 @@
 C_ImapHeaders DT_STRING
-
-Name: imap_headers
-Type: string
 Default: ""
 
 NeoMutt requests these header fields in addition to the default headers

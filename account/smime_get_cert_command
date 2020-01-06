@@ -1,7 +1,4 @@
 C_SmimeGetCertCommand DT_STRING|DT_COMMAND
-
-Name: smime_get_cert_command
-Type: command
 Default: ""
 
 This command is used to extract X509 certificates from a PKCS7 structure.

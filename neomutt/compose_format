@@ -1,7 +1,4 @@
 C_ComposeFormat DT_STRING
-
-Name: compose_format
-Type: string
 Default: "-- NeoMutt: Compose  [Approx. msg size: %l   Atts: %a]%>-"
 
 Controls the format of the status line displayed in the "compose"

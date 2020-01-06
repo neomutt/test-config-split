@@ -1,7 +1,4 @@
 C_PgpUseGpgAgent DT_BOOL
-
-Name: pgp_use_gpg_agent
-Type: boolean
 Default: yes
 
 If set, NeoMutt expects a gpg-agent(1) process will handle

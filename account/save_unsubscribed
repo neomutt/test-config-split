@@ -1,7 +1,4 @@
 C_SaveUnsubscribed DT_BOOL
-
-Name: save_unsubscribed
-Type: boolean
 Default: no
 
 When set, info about unsubscribed newsgroups will be saved into

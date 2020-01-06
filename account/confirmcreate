@@ -1,7 +1,4 @@
 C_Confirmcreate DT_BOOL
-
-Name: confirmcreate
-Type: boolean
 Default: yes
 
 When set, NeoMutt will prompt for confirmation when saving messages to a

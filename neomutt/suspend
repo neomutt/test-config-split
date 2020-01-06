@@ -1,7 +1,4 @@
 C_Suspend DT_BOOL
-
-Name: suspend
-Type: boolean
 Default: yes
 
 When unset, NeoMutt won't stop when the user presses the terminal's

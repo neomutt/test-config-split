@@ -1,7 +1,4 @@
 C_PagerContext DT_NUMBER|DT_NOT_NEGATIVE
-
-Name: pager_context
-Type: number
 Default: 0
 
 This variable controls the number of lines of context that are given

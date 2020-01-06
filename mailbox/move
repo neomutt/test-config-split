@@ -1,7 +1,4 @@
 C_Move DT_QUAD
-
-Name: move
-Type: quadoption
 Default: no
 
 Controls whether or not NeoMutt will move read messages

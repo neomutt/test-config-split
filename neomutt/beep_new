@@ -1,7 +1,4 @@
 C_BeepNew DT_BOOL
-
-Name: beep_new
-Type: boolean
 Default: no
 
 When this variable is set, NeoMutt will beep whenever it prints a message

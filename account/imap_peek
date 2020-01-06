@@ -1,7 +1,4 @@
 C_ImapPeek DT_BOOL
-
-Name: imap_peek
-Type: boolean
 Default: yes
 
 When set, NeoMutt will avoid implicitly marking your mail as read whenever

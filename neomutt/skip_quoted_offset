@@ -1,7 +1,4 @@
 C_SkipQuotedOffset DT_NUMBER|DT_NOT_NEGATIVE
-
-Name: skip_quoted_offset
-Type: number
 Default: 0
 
 Lines of quoted text that are displayed before the unquoted text after

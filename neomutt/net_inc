@@ -1,7 +1,4 @@
 C_NetInc DT_NUMBER|DT_NOT_NEGATIVE
-
-Name: net_inc
-Type: number
 Default: 10
 
 Operations that expect to transfer a large amount of data over the

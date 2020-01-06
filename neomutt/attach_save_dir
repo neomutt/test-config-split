@@ -1,7 +1,4 @@
 C_AttachSaveDir DT_STRING|DT_PATH
-
-Name: attach_save_dir
-Type: path
 Default: "./"
 
 The directory where attachments are saved.

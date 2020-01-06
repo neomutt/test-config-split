@@ -1,7 +1,4 @@
 C_MaildirCheckCur DT_BOOL
-
-Name: maildir_check_cur
-Type: boolean
 Default: no
 
 If set, NeoMutt will poll both the new and cur directories of

@@ -1,7 +1,4 @@
 C_SidebarSortMethod DT_SORT|DT_SORT_SIDEBAR
-
-Name: sidebar_sort_method
-Type: sort order
 Default: order
 
 Specifies how to sort entries in the file browser.  By default, the

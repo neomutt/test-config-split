@@ -1,7 +1,4 @@
 C_ConfigCharset DT_STRING
-
-Name: config_charset
-Type: string
 Default: ""
 
 When defined, NeoMutt will recode commands in rc files from this

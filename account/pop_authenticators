@@ -1,7 +1,4 @@
 C_PopAuthenticators DT_SLIST|SLIST_SEP_COLON
-
-Name: pop_authenticators
-Type: string list
 Default: ""
 
 This is a colon-delimited list of authentication methods NeoMutt may

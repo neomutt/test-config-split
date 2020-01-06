@@ -1,7 +1,4 @@
 C_NntpPass DT_STRING|DT_SENSITIVE
-
-Name: nntp_pass
-Type: string
 Default: ""
 
 Your password for NNTP account.

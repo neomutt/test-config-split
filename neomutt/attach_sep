@@ -1,7 +1,4 @@
 C_AttachSep DT_STRING
-
-Name: attach_sep
-Type: string
 Default: "\n"
 
 The separator to add between attachments when operating (saving,

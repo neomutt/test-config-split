@@ -1,7 +1,4 @@
 C_HideTopMissing DT_BOOL
-
-Name: hide_top_missing
-Type: boolean
 Default: yes
 
 When set, NeoMutt will not show the presence of missing messages at the

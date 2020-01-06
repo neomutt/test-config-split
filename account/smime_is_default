@@ -1,7 +1,4 @@
 C_SmimeIsDefault DT_BOOL
-
-Name: smime_is_default
-Type: boolean
 Default: no
 
 The default behavior of NeoMutt is to use PGP on all auto-sign/encryption

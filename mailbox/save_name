@@ -1,7 +1,4 @@
 C_SaveName DT_BOOL
-
-Name: save_name
-Type: boolean
 Default: no
 
 This variable controls how copies of outgoing messages are saved.

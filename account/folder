@@ -1,7 +1,4 @@
 C_Folder DT_STRING|DT_PATH|DT_MAILBOX
-
-Name: folder
-Type: path
 Default: "~/Mail"
 
 Specifies the default location of your mailboxes.  A "+" or "=" at the

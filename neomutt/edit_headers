@@ -1,7 +1,4 @@
 C_EditHeaders DT_BOOL
-
-Name: edit_headers
-Type: boolean
 Default: no
 
 This option allows you to edit the header of your outgoing messages

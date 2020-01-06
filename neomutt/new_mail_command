@@ -1,7 +1,4 @@
 C_NewMailCommand DT_STRING|DT_COMMAND
-
-Name: new_mail_command
-Type: command
 Default: ""
 
 If set, NeoMutt will call this command after a new message is received.

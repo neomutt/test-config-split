@@ -1,7 +1,4 @@
 C_PromptAfter DT_BOOL
-
-Name: prompt_after
-Type: boolean
 Default: yes
 
 If you use an external $pager, setting this variable will

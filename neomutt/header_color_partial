@@ -1,7 +1,4 @@
 C_HeaderColorPartial DT_BOOL
-
-Name: header_color_partial
-Type: boolean
 Default: no
 
 When set, color header regexes behave like color body regexes:

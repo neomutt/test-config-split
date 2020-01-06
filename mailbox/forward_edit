@@ -1,7 +1,4 @@
 C_ForwardEdit DT_QUAD
-
-Name: forward_edit
-Type: quadoption
 Default: yes
 
 This quadoption controls whether or not the user is automatically

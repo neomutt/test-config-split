@@ -1,7 +1,4 @@
 C_SmimeCaLocation DT_STRING|DT_PATH
-
-Name: smime_ca_location
-Type: path
 Default: ""
 
 This variable contains the name of either a directory, or a file which
