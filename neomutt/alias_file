@@ -1,3 +1,5 @@
+C_AliasFile DT_STRING|DT_PATH
+
 Name: alias_file
 Type: path
 Default: "~/.neomuttrc"

@@ -1,3 +1,5 @@
+C_DigestCollapse DT_BOOL
+
 Name: digest_collapse
 Type: boolean
 Default: yes

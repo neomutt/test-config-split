@@ -1,3 +1,5 @@
+C_SidebarIndentString DT_STRING
+
 Name: sidebar_indent_string
 Type: string
 Default: "  "

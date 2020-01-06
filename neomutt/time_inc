@@ -1,3 +1,5 @@
+C_TimeInc DT_NUMBER|DT_NOT_NEGATIVE
+
 Name: time_inc
 Type: number
 Default: 0

@@ -1,3 +1,5 @@
+C_SkipQuotedOffset DT_NUMBER|DT_NOT_NEGATIVE
+
 Name: skip_quoted_offset
 Type: number
 Default: 0

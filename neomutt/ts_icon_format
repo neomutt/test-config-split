@@ -1,3 +1,5 @@
+C_TsIconFormat DT_STRING
+
 Name: ts_icon_format
 Type: string
 Default: "M%?n?AIL&ail?"

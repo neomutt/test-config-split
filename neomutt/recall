@@ -1,3 +1,5 @@
+C_Recall DT_QUAD
+
 Name: recall
 Type: quadoption
 Default: ask-yes

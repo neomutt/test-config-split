@@ -1,3 +1,5 @@
+C_ResumeEditedDraftFiles DT_BOOL
+
 Name: resume_edited_draft_files
 Type: boolean
 Default: yes

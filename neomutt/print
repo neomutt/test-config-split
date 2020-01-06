@@ -1,3 +1,5 @@
+C_Print DT_QUAD
+
 Name: print
 Type: quadoption
 Default: ask-no

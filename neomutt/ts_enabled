@@ -1,3 +1,5 @@
+C_TsEnabled DT_BOOL
+
 Name: ts_enabled
 Type: boolean
 Default: no

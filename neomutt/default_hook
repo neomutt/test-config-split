@@ -1,3 +1,5 @@
+C_DefaultHook DT_STRING
+
 Name: default_hook
 Type: string
 Default: "~f %s !~P | (~P ~C %s)"

@@ -1,3 +1,5 @@
+C_AbortUnmodified DT_QUAD
+
 Name: abort_unmodified
 Type: quadoption
 Default: yes

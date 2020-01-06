@@ -1,3 +1,5 @@
+C_ContentType DT_STRING
+
 Name: content_type
 Type: string
 Default: "text/plain"

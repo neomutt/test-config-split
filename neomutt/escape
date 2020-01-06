@@ -1,3 +1,5 @@
+C_Escape DT_STRING
+
 Name: escape
 Type: string
 Default: "~"

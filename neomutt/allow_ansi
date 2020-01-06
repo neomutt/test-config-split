@@ -1,3 +1,5 @@
+C_AllowAnsi DT_BOOL
+
 Name: allow_ansi
 Type: boolean
 Default: no

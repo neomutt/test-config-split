@@ -1,3 +1,5 @@
+C_HeaderCacheCompress DT_BOOL
+
 Name: header_cache_compress
 Type: boolean
 Default: yes

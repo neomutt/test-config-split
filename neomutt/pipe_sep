@@ -1,3 +1,5 @@
+C_PipeSep DT_STRING
+
 Name: pipe_sep
 Type: string
 Default: "\n"

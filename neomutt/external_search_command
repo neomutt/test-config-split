@@ -1,3 +1,5 @@
+C_ExternalSearchCommand DT_STRING|DT_COMMAND
+
 Name: external_search_command
 Type: command
 Default: ""

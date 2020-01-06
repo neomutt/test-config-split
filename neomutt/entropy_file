@@ -1,3 +1,5 @@
+C_EntropyFile DT_STRING|DT_PATH
+
 Name: entropy_file
 Type: path
 Default: ""

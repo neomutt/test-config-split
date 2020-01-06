@@ -1,3 +1,5 @@
+C_Markers DT_BOOL
+
 Name: markers
 Type: boolean
 Default: yes

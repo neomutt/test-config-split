@@ -1,3 +1,5 @@
+C_Suspend DT_BOOL
+
 Name: suspend
 Type: boolean
 Default: yes

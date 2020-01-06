@@ -1,3 +1,5 @@
+C_QueryFormat DT_STRING|DT_NOT_EMPTY
+
 Name: query_format
 Type: string
 Default: "%4c %t %-25.25a %-25.25n %?e?(%e)?"

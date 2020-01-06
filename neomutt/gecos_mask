@@ -1,3 +1,5 @@
+C_GecosMask DT_REGEX
+
 Name: gecos_mask
 Type: regular expression
 Default: "^[^,]*"

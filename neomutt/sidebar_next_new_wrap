@@ -1,3 +1,5 @@
+C_SidebarNextNewWrap DT_BOOL
+
 Name: sidebar_next_new_wrap
 Type: boolean
 Default: no

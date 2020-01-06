@@ -1,3 +1,5 @@
+C_MetaKey DT_BOOL
+
 Name: meta_key
 Type: boolean
 Default: no

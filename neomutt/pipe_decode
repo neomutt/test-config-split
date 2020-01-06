@@ -1,3 +1,5 @@
+C_PipeDecode DT_BOOL
+
 Name: pipe_decode
 Type: boolean
 Default: no

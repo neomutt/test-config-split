@@ -1,3 +1,5 @@
+C_BrowserAbbreviateMailboxes DT_BOOL
+
 Name: browser_abbreviate_mailboxes
 Type: boolean
 Default: yes

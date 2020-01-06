@@ -1,3 +1,5 @@
+C_Shell DT_STRING|DT_COMMAND
+
 Name: shell
 Type: command
 Default: "/bin/sh"

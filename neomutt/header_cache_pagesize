@@ -1,3 +1,5 @@
+C_HeaderCachePagesize DT_LONG|DT_NOT_NEGATIVE
+
 Name: header_cache_pagesize
 Type: number (long)
 Default: 16384

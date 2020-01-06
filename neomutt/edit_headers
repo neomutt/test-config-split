@@ -1,3 +1,5 @@
+C_EditHeaders DT_BOOL
+
 Name: edit_headers
 Type: boolean
 Default: no

@@ -1,3 +1,5 @@
+C_ComposeFormat DT_STRING
+
 Name: compose_format
 Type: string
 Default: "-- NeoMutt: Compose  [Approx. msg size: %l   Atts: %a]%>-"

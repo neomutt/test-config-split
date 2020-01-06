@@ -1,3 +1,5 @@
+C_FastReply DT_BOOL
+
 Name: fast_reply
 Type: boolean
 Default: no

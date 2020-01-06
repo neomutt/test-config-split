@@ -1,3 +1,5 @@
+C_MenuContext DT_NUMBER|DT_NOT_NEGATIVE
+
 Name: menu_context
 Type: number
 Default: 0

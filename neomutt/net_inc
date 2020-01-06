@@ -1,3 +1,5 @@
+C_NetInc DT_NUMBER|DT_NOT_NEGATIVE
+
 Name: net_inc
 Type: number
 Default: 10

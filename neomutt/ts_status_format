@@ -1,3 +1,5 @@
+C_TsStatusFormat DT_STRING
+
 Name: ts_status_format
 Type: string
 Default: "NeoMutt with %?m?%m messages&no messages?%?n? [%n NEW]?"

@@ -1,3 +1,5 @@
+C_ImplicitAutoview DT_BOOL
+
 Name: implicit_autoview
 Type: boolean
 Default: no

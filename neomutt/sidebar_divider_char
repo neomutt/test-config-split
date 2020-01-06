@@ -1,3 +1,5 @@
+C_SidebarDividerChar DT_STRING
+
 Name: sidebar_divider_char
 Type: string
 Default: ""

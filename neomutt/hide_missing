@@ -1,3 +1,5 @@
+C_HideMissing DT_BOOL
+
 Name: hide_missing
 Type: boolean
 Default: yes

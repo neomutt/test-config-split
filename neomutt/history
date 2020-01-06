@@ -1,3 +1,5 @@
+C_History DT_NUMBER|DT_NOT_NEGATIVE
+
 Name: history
 Type: number
 Default: 10

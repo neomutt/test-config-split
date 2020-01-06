@@ -1,3 +1,5 @@
+C_MimeTypeQueryCommand DT_STRING|DT_COMMAND
+
 Name: mime_type_query_command
 Type: command
 Default: ""

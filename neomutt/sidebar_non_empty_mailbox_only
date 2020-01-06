@@ -1,3 +1,5 @@
+C_SidebarNonEmptyMailboxOnly DT_BOOL
+
 Name: sidebar_non_empty_mailbox_only
 Type: boolean
 Default: no

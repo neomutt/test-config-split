@@ -1,3 +1,5 @@
+C_PromptAfter DT_BOOL
+
 Name: prompt_after
 Type: boolean
 Default: yes

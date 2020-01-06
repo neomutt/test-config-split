@@ -1,3 +1,5 @@
+C_SpamSeparator DT_STRING
+
 Name: spam_separator
 Type: string
 Default: ","

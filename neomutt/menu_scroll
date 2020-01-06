@@ -1,3 +1,5 @@
+C_MenuScroll DT_BOOL
+
 Name: menu_scroll
 Type: boolean
 Default: no

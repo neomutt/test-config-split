@@ -1,3 +1,5 @@
+C_SidebarWidth DT_NUMBER|DT_NOT_NEGATIVE
+
 Name: sidebar_width
 Type: number
 Default: 30

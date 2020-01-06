@@ -1,3 +1,5 @@
+C_ReadInc DT_NUMBER|DT_NOT_NEGATIVE
+
 Name: read_inc
 Type: number
 Default: 10

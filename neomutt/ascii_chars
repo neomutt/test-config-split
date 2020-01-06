@@ -1,3 +1,5 @@
+C_AsciiChars DT_BOOL
+
 Name: ascii_chars
 Type: boolean
 Default: no

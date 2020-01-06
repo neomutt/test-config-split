@@ -1,3 +1,5 @@
+C_HonorFollowupTo DT_QUAD
+
 Name: honor_followup_to
 Type: quadoption
 Default: yes
