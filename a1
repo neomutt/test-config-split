@@ -1,100 +1,18 @@
-imap_login                       C_ImapLogin                    DT_STRING|DT_SENSITIVE
-imap_pass                        C_ImapPass                     DT_STRING|DT_SENSITIVE
-imap_user                        C_ImapUser                     DT_STRING|DT_SENSITIVE
-imap_authenticators              C_ImapAuthenticators           DT_SLIST|SLIST_SEP_COLON
-imap_check_subscribed            C_ImapCheckSubscribed          DT_BOOL
-imap_condstore                   C_ImapCondstore                DT_BOOL
-imap_delim_chars                 C_ImapDelimChars               DT_STRING
-imap_fetch_chunk_size            C_ImapFetchChunkSize           DT_LONG|DT_NOT_NEGATIVE
-imap_headers                     C_ImapHeaders                  DT_STRING
-imap_idle                        C_ImapIdle                     DT_BOOL
-imap_keepalive                   C_ImapKeepalive                DT_NUMBER|DT_NOT_NEGATIVE
-imap_list_subscribed             C_ImapListSubscribed           DT_BOOL
-imap_oauth_refresh_command       C_ImapOauthRefreshCommand      DT_STRING|DT_COMMAND|DT_SENSITIVE
-imap_passive                     C_ImapPassive                  DT_BOOL
-imap_peek                        C_ImapPeek                     DT_BOOL
-imap_pipeline_depth              C_ImapPipelineDepth            DT_NUMBER|DT_NOT_NEGATIVE
-imap_poll_timeout                C_ImapPollTimeout              DT_NUMBER|DT_NOT_NEGATIVE
-imap_qresync                     C_ImapQresync                  DT_BOOL
-imap_rfc5161                     C_ImapRfc5161                  DT_BOOL
-imap_servernoise                 C_ImapServernoise              DT_BOOL
-                                 
-pop_authenticators               C_PopAuthenticators            DT_SLIST|SLIST_SEP_COLON
-pop_auth_try_all                 C_PopAuthTryAll                DT_BOOL
-pop_checkinterval                C_PopCheckinterval             DT_NUMBER|DT_NOT_NEGATIVE
-pop_delete                       C_PopDelete                    DT_QUAD
-pop_host                         C_PopHost                      DT_STRING
-pop_last                         C_PopLast                      DT_BOOL
-pop_oauth_refresh_command        C_PopOauthRefreshCommand       DT_STRING|DT_COMMAND|DT_SENSITIVE
-pop_pass                         C_PopPass                      DT_STRING|DT_SENSITIVE
-pop_reconnect                    C_PopReconnect                 DT_QUAD
-pop_user                         C_PopUser                      DT_STRING|DT_SENSITIVE
-                                 
-nm_db_limit                      C_NmDbLimit                    DT_NUMBER|DT_NOT_NEGATIVE
-nm_default_uri                   C_NmDefaultUri                 DT_STRING
-nm_exclude_tags                  C_NmExcludeTags                DT_STRING
-nm_flagged_tag                   C_NmFlaggedTag                 DT_STRING
-nm_open_timeout                  C_NmOpenTimeout                DT_NUMBER|DT_NOT_NEGATIVE
-nm_query_type                    C_NmQueryType                  DT_STRING
-nm_query_window_current_position C_NmQueryWindowCurrentPosition DT_NUMBER
-nm_query_window_current_search   C_NmQueryWindowCurrentSearch   DT_STRING
-nm_query_window_duration         C_NmQueryWindowDuration        DT_NUMBER|DT_NOT_NEGATIVE
-nm_query_window_timebase         C_NmQueryWindowTimebase        DT_STRING
-nm_record                        C_NmRecord                     DT_BOOL
-nm_record_tags                   C_NmRecordTags                 DT_STRING
-nm_replied_tag                   C_NmRepliedTag                 DT_STRING
-nm_unread_tag                    C_NmUnreadTag                  DT_STRING
-vfolder_format                   C_VfolderFormat                DT_STRING|DT_NOT_EMPTY
-virtual_spoolfile                C_VirtualSpoolfile             DT_BOOL
-                                 
-ask_follow_up                    C_AskFollowUp                  DT_BOOL
-ask_x_comment_to                 C_AskXCommentTo                DT_BOOL
-catchup_newsgroup                C_CatchupNewsgroup             DT_QUAD
-followup_to_poster               C_FollowupToPoster             DT_QUAD
-group_index_format               C_GroupIndexFormat             DT_STRING|DT_NOT_EMPTY
-inews                            C_Inews                        DT_STRING|DT_COMMAND
-mime_subject                     C_MimeSubject                  DT_BOOL
-news_cache_dir                   C_NewsCacheDir                 DT_STRING|DT_PATH
-newsgroups_charset               C_NewsgroupsCharset            DT_STRING
-newsrc                           C_Newsrc                       DT_STRING|DT_PATH
-news_server                      C_NewsServer                   DT_STRING
-nntp_authenticators              C_NntpAuthenticators           DT_STRING
-nntp_context                     C_NntpContext                  DT_NUMBER|DT_NOT_NEGATIVE
-nntp_listgroup                   C_NntpListgroup                DT_BOOL
-nntp_load_description            C_NntpLoadDescription          DT_BOOL
-nntp_pass                        C_NntpPass                     DT_STRING|DT_SENSITIVE
-nntp_poll                        C_NntpPoll                     DT_NUMBER|DT_NOT_NEGATIVE
-nntp_user                        C_NntpUser                     DT_STRING|DT_SENSITIVE
-post_moderated                   C_PostModerated                DT_QUAD
-save_unsubscribed                C_SaveUnsubscribed             DT_BOOL
-show_new_news                    C_ShowNewNews                  DT_BOOL
-show_only_unread                 C_ShowOnlyUnread               DT_BOOL
-x_comment_to                     C_XCommentTo                   DT_BOOL
-                                 
-maildir_check_cur                C_MaildirCheckCur              DT_BOOL
-maildir_header_cache_verify      C_MaildirHeaderCacheVerify     DT_BOOL
-maildir_trash                    C_MaildirTrash                 DT_BOOL
-mh_purge                         C_MhPurge                      DT_BOOL
-mh_seq_flagged                   C_MhSeqFlagged                 DT_STRING
-mh_seq_replied                   C_MhSeqReplied                 DT_STRING
-mh_seq_unseen                    C_MhSeqUnseen                  DT_STRING
-check_new                        C_CheckNew                     DT_BOOL
-                                 
 mail_check                       C_MailCheck                    DT_NUMBER|DT_NOT_NEGATIVE
 mail_check_recent                C_MailCheckRecent              DT_BOOL
 mail_check_stats                 C_MailCheckStats               DT_BOOL
 mail_check_stats_interval        C_MailCheckStatsInterval       DT_NUMBER|DT_NOT_NEGATIVE
-                                 
+
 spoolfile                        C_Spoolfile                    DT_STRING|DT_PATH|DT_MAILBOX
 trash                            C_Trash                        DT_STRING|DT_PATH|DT_MAILBOX
 tunnel                           C_Tunnel                       DT_STRING|DT_COMMAND
 folder                           C_Folder                       DT_STRING|DT_PATH|DT_MAILBOX
-                                 
+
 postpone                         C_Postpone                     DT_QUAD
 postponed                        C_Postponed                    DT_STRING|DT_PATH|DT_MAILBOX
 postpone_encrypt                 C_PostponeEncrypt              DT_BOOL
 postpone_encrypt_as              C_PostponeEncryptAs            DT_STRING
-                                 
+
 ssl_ca_certificates_file         C_SslCaCertificatesFile        DT_STRING|DT_PATH
 ssl_ciphers                      C_SslCiphers                   DT_STRING
 ssl_client_cert                  C_SslClientCert                DT_STRING|DT_PATH
@@ -111,16 +29,16 @@ ssl_use_tlsv1_3                  C_SslUseTlsv13                 DT_BOOL
 ssl_verify_dates                 C_SslVerifyDates               DT_BOOL
 ssl_verify_host                  C_SslVerifyHost                DT_BOOL
 ssl_verify_partial_chains        C_SslVerifyPartialChains       DT_BOOL
-                                 
+
 smtp_authenticators              C_SmtpAuthenticators           DT_SLIST|SLIST_SEP_COLON
 smtp_oauth_refresh_command       C_SmtpOauthRefreshCommand      DT_STRING|DT_COMMAND|DT_SENSITIVE
 smtp_pass                        C_SmtpPass                     DT_STRING|DT_SENSITIVE
 smtp_url                         C_SmtpUrl                      DT_STRING|DT_SENSITIVE
-                                 
+
 sendmail                         C_Sendmail                     DT_STRING|DT_COMMAND
 sendmail_wait                    C_SendmailWait                 DT_NUMBER
 user_agent                       C_UserAgent                    DT_BOOL
-                                 
+
 mbox                             C_Mbox                         DT_STRING|DT_PATH|DT_MAILBOX
 mbox_type                        C_MboxType                     DT_ENUM
 record                           C_Record                       DT_STRING|DT_PATH|DT_MAILBOX
@@ -138,7 +56,7 @@ hostname                         C_Hostname                     DT_STRING
 use_domain                       C_UseDomain                    DT_BOOL
 allow_8bit                       C_Allow8bit                    DT_BOOL
 delete                           C_Delete                       DT_QUAD
-                                 
+
 crypt_autoencrypt                C_CryptAutoencrypt             DT_BOOL
 crypt_autopgp                    C_CryptAutopgp                 DT_BOOL
 crypt_autosign                   C_CryptAutosign                DT_BOOL
@@ -156,7 +74,7 @@ crypt_timestamp                  C_CryptTimestamp               DT_BOOL
 crypt_use_gpgme                  C_CryptUseGpgme                DT_BOOL
 crypt_use_pka                    C_CryptUsePka                  DT_BOOL
 crypt_verify_sig                 C_CryptVerifySig               DT_QUAD
-                                 
+
 pgp_auto_decode                  C_PgpAutoDecode                DT_BOOL
 pgp_autoinline                   C_PgpAutoinline                DT_BOOL
 pgp_check_exit                   C_PgpCheckExit                 DT_BOOL
@@ -190,7 +108,7 @@ pgp_timeout                      C_PgpTimeout                   DT_LONG|DT_NOT_N
 pgp_use_gpg_agent                C_PgpUseGpgAgent               DT_BOOL
 pgp_verify_command               C_PgpVerifyCommand             DT_STRING|DT_COMMAND
 pgp_verify_key_command           C_PgpVerifyKeyCommand          DT_STRING|DT_COMMAND
-                                 
+
 smime_ask_cert_label             C_SmimeAskCertLabel            DT_BOOL
 smime_ca_location                C_SmimeCaLocation              DT_STRING|DT_PATH
 smime_certificates               C_SmimeCertificates            DT_STRING|DT_PATH
@@ -213,7 +131,7 @@ smime_sign_digest_alg            C_SmimeSignDigestAlg           DT_STRING
 smime_timeout                    C_SmimeTimeout                 DT_NUMBER|DT_NOT_NEGATIVE
 smime_verify_command             C_SmimeVerifyCommand           DT_STRING|DT_COMMAND
 smime_verify_opaque_command      C_SmimeVerifyOpaqueCommand     DT_STRING|DT_COMMAND
-                                 
+
 keep_flagged                     C_KeepFlagged                  DT_BOOL
 preconnect                       C_Preconnect                   DT_STRING
 save_empty                       C_SaveEmpty                    DT_BOOL
@@ -226,12 +144,12 @@ message_format                   C_MessageFormat                DT_STRING|DT_NOT
 copy                             C_Copy                         DT_QUAD
 display_filter                   C_DisplayFilter                DT_STRING|DT_COMMAND
 assumed_charset                  C_AssumedCharset               DT_STRING
-                                 
+
 autocrypt                        C_Autocrypt                    DT_BOOL
 autocrypt_acct_format            C_AutocryptAcctFormat          DT_STRING
 autocrypt_dir                    C_AutocryptDir                 DT_STRING|DT_PATH
 autocrypt_reply                  C_AutocryptReply               DT_BOOL
-                                 
+
 bounce_delivered                 C_BounceDelivered              DT_BOOL
 write_bcc                        C_WriteBcc                     DT_BOOL
 hidden_host                      C_HiddenHost                   DT_BOOL

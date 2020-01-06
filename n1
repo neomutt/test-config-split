@@ -20,7 +20,7 @@ ts_status_format                 C_TsStatusFormat               DT_STRING
 use_ipv6                         C_UseIpv6                      DT_BOOL
 visual                           C_Visual                       DT_STRING|DT_COMMAND
 wait_key                         C_WaitKey                      DT_BOOL
-                                 
+
 sidebar_component_depth          C_SidebarComponentDepth        DT_NUMBER
 sidebar_delim_chars              C_SidebarDelimChars            DT_STRING
 sidebar_divider_char             C_SidebarDividerChar           DT_STRING
@@ -35,11 +35,11 @@ sidebar_short_path               C_SidebarShortPath             DT_BOOL
 sidebar_sort_method              C_SidebarSortMethod            DT_SORT|DT_SORT_SIDEBAR
 sidebar_visible                  C_SidebarVisible               DT_BOOL
 sidebar_width                    C_SidebarWidth                 DT_NUMBER|DT_NOT_NEGATIVE
-                                 
+
 history                          C_History                      DT_NUMBER|DT_NOT_NEGATIVE
 history_file                     C_HistoryFile                  DT_STRING|DT_PATH
 history_remove_dups              C_HistoryRemoveDups            DT_BOOL
-                                 
+
 sleep_time                       C_SleepTime                    DT_NUMBER|DT_NOT_NEGATIVE
 timeout                          C_Timeout                      DT_NUMBER|DT_NOT_NEGATIVE
 write_inc                        C_WriteInc                     DT_NUMBER|DT_NOT_NEGATIVE
