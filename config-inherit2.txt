@@ -1,0 +1,121 @@
+87 C_Sort
+10 C_PgpSortKeys
+ 9 C_SortBrowser
+ 9 C_SortAux
+ 6 C_SidebarSortMethod
+ 2 C_SortAlias
+ 1 C_SortRe
+
+56 C_Charset
+47 C_Folder
+32 C_StatusOnTop
+29 C_Resolve
+28 C_FlagChars
+28 C_Autocrypt
+21 C_Weed
+
+10-20
+  C_AttachSep C_CertificateFile C_CryptChars C_CryptOpportunisticEncrypt
+  C_DebugLevel C_Editor C_HeaderCache C_History C_Hostname C_Pager
+  C_PagerIndexLines C_PgpSignAs C_Postponed C_SendCharset C_SendmailWait
+  C_SidebarDelimChars C_SmimeDefaultKey C_SmimeEncryptWith C_SmimeSignAs
+  C_Spoolfile C_SslForceTls C_TextFlowed C_WaitKey
+
+3-9
+  C_AbortNoattach C_AbortNoattachRegex C_AbortNosubject C_ArrowCursor
+  C_AsciiChars C_AssumedCharset C_AttachSplit C_Attribution C_AttributionLocale
+  C_AutocryptDir C_Autoedit C_AutoTag C_BeepNew C_BrailleFriendly C_CheckMboxSize
+  C_CollapseAll C_ConfigCharset C_Confirmappend C_Confirmcreate C_ConnectTimeout
+  C_CryptAutosmime C_CryptProtectedHeadersRead C_CryptProtectedHeadersWrite
+  C_CryptUseGpgme C_CryptUsePka C_DebugFile C_DefaultHook C_Delete C_DeleteUntag
+  C_DsnNotify C_DsnReturn C_EditHeaders C_EnvelopeFromAddress C_Escape
+  C_FccBeforeSend C_FollowupToPoster C_ForwardDecode C_ForwardQuote C_From
+  C_FromChars C_Header C_HeaderCacheCompress C_HeaderColorPartial C_Help
+  C_HideLimited C_HideMissing C_HistoryFile C_HistoryRemoveDups
+  C_HonorDisposition C_ImapAuthenticators C_ImapCheckSubscribed C_ImapDelimChars
+  C_ImapKeepalive C_ImapListSubscribed C_ImapOauthRefreshCommand C_ImapPassive
+  C_ImapPeek C_ImapPollTimeout C_ImapUser C_IndentString C_KeepFlagged
+  C_MailcapPath C_MailcapSanitize C_MailCheckRecent C_MaildirTrash C_Markers
+  C_MarkOld C_Mask C_Mbox C_MboxType C_MenuContext C_MenuMoveOff C_MessageFormat
+  C_MhSeqFlagged C_MhSeqReplied C_MhSeqUnseen C_MimeForward C_MimeForwardDecode
+  C_MimeTypeQueryCommand C_NewMailCommand C_NewsCacheDir C_NewsServer C_NmDbLimit
+  C_NmDefaultUri C_NmFlaggedTag C_NmOpenTimeout C_NmQueryWindowCurrentPosition
+  C_NmQueryWindowCurrentSearch C_NmQueryWindowDuration C_NmQueryWindowTimebase
+  C_NmUnreadTag C_NntpContext C_NntpListgroup C_NntpLoadDescription C_NntpUser
+  C_PgpAutoDecode C_PgpCheckExit C_PgpDecryptionOkay C_PgpDefaultKey
+  C_PgpGoodSign C_PgpIgnoreSubkeys C_PgpMimeAuto C_PgpShowUnusable C_PopHost
+  C_PopOauthRefreshCommand C_PopUser C_PostModerated C_Preconnect C_Print
+  C_PrintCommand C_QueryCommand C_Quit C_QuoteRegex C_ReadOnly C_Realname
+  C_Record C_ReplyRegex C_SaveAddress C_SaveEmpty C_SaveHistory
+  C_SaveUnsubscribed C_Score C_SearchContext C_ShowMultipartAlternative
+  C_SidebarDividerChar C_SidebarNewMailOnly C_SidebarNonEmptyMailboxOnly
+  C_SidebarOnRight C_SidebarVisible C_SidebarWidth C_SimpleSearch
+  C_SizeUnitsOnLeft C_SkipQuotedOffset C_SmimeCertificates C_SmimeIsDefault
+  C_SmimeKeys C_SmtpAuthenticators C_SmtpUrl C_SpamSeparator C_SslCiphers
+  C_SslClientCert C_SslStarttls C_SslUseSslv3 C_SslUseTlsv1 C_SslUseTlsv11
+  C_SslUseTlsv12 C_SslVerifyPartialChains C_StatusChars C_ThreadReceived
+  C_Timeout C_Tmpdir C_ToChars C_Trash C_Tunnel C_Wrap C_WrapHeaders C_WrapSearch
+  C_WriteBcc C_XCommentTo
+
+2
+  C_Allow8bit C_Askbcc C_Askcc C_AttachCharset C_AttachFormat C_AttachSaveDir
+  C_AttachSaveWithoutPrompting C_AutoSubscribe C_Bounce C_CheckNew C_Copy
+  C_CryptAutoencrypt C_CryptAutopgp C_CryptConfirmhook
+  C_CryptProtectedHeadersSubject C_DateFormat C_DigestCollapse C_DisplayFilter
+  C_DuplicateThreads C_ExternalSearchCommand C_FastReply C_FccAttach C_FlagSafe
+  C_ForceName C_ForwardAttachments C_ForwardAttributionIntro
+  C_ForwardAttributionTrailer C_ForwardDecrypt C_Hdrs C_HeaderCachePagesize
+  C_HiddenTags C_IdnDecode C_ImapCondstore C_ImapFetchChunkSize C_ImapHeaders
+  C_ImapLogin C_ImapPass C_ImapRfc5161 C_IndexFormat C_MailCheckStats
+  C_MessageCacheClean C_MessageCachedir C_MimeForwardRest C_MimeTypeQueryFirst
+  C_Mixmaster C_Move C_NewsgroupsCharset C_NmExcludeTags C_NmQueryType
+  C_NmRecordTags C_NmRepliedTag C_NntpAuthenticators C_NntpPass C_PagerContext
+  C_PagerFormat C_PagerStop C_PgpAutoinline C_PgpEncryptOnlyCommand
+  C_PgpEncryptSelf C_PgpEncryptSignCommand C_PgpEntryFormat C_PgpGetkeysCommand
+  C_PgpLongIds C_PgpStrictEnc C_PopAuthenticators C_PopAuthTryAll C_PopPass
+  C_PostIndentString C_PreferredLanguages C_Recall C_ReplySelf C_ReplyTo
+  C_ReplyWithXorig C_ResumeDraftFiles C_ResumeEditedDraftFiles C_Sendmail C_Shell
+  C_SidebarComponentDepth C_SidebarNextNewWrap C_SidebarShortPath C_Signature
+  C_SigOnTop C_SizeShowFractions C_SleepTime C_SmimeCaLocation C_SmimeEncryptSelf
+  C_SmimeSignDigestAlg C_SmtpOauthRefreshCommand C_SmtpPass
+  C_SslCaCertificatesFile C_SslMinDhPrimeBits C_SslUseTlsv13 C_SslVerifyDates
+  C_SslVerifyHost C_StatusFormat C_Suspend C_ThoroughSearch C_TimeInc C_TsEnabled
+  C_TsIconFormat C_TsStatusFormat C_UncollapseJump C_UncollapseNew C_UseDomain
+  C_Visual
+
+1
+  C_AbortUnmodified C_AliasFile C_AliasFormat C_AllowAnsi C_AskFollowUp
+  C_AskXCommentTo C_AutocryptAcctFormat C_AutocryptReply C_Beep C_BounceDelivered
+  C_BrowserAbbreviateMailboxes C_CatchupNewsgroup C_ChangeFolderNext
+  C_CollapseFlagged C_CollapseUnread C_ComposeFormat C_ContentType
+  C_CryptAutosign C_CryptProtectedHeadersSave C_CryptReplyencrypt
+  C_CryptReplysign C_CryptReplysignencrypted C_CryptTimestamp C_CryptVerifySig
+  C_EmptySubject C_EncodeFrom C_EntropyFile C_FccClear C_FolderFormat
+  C_FollowupTo C_ForwardEdit C_ForwardFormat C_ForwardReferences C_GecosMask
+  C_GroupIndexFormat C_HiddenHost C_HideThreadSubject C_HideTopLimited
+  C_HideTopMissing C_HonorFollowupTo C_IdnEncode C_IgnoreListReplyTo C_ImapIdle
+  C_ImapPipelineDepth C_ImapQresync C_ImapServernoise C_ImplicitAutoview
+  C_Include C_IncludeEncrypted C_IncludeOnlyfirst C_Inews C_Ispell C_MailCheck
+  C_MailCheckStatsInterval C_MaildirCheckCur C_MaildirHeaderCacheVerify
+  C_MarkMacroPrefix C_MenuScroll C_MetaKey C_Metoo C_MhPurge C_MixEntryFormat
+  C_NarrowTree C_NetInc C_Newsrc C_NmRecord C_NntpPoll
+  C_PgpCheckGpgDecryptStatusFd C_PgpClearsignCommand C_PgpDecodeCommand
+  C_PgpDecryptCommand C_PgpExportCommand C_PgpImportCommand
+  C_PgpListPubringCommand C_PgpListSecringCommand C_PgpReplyinline
+  C_PgpRetainableSigs C_PgpSelfEncrypt C_PgpSignCommand C_PgpTimeout
+  C_PgpUseGpgAgent C_PgpVerifyCommand C_PgpVerifyKeyCommand C_PipeDecode
+  C_PipeSep C_PipeSplit C_PopCheckinterval C_PopDelete C_PopLast C_PopReconnect
+  C_Postpone C_PostponeEncrypt C_PostponeEncryptAs C_PrintDecode C_PrintSplit
+  C_PromptAfter C_QueryFormat C_ReadInc C_ReflowSpaceQuotes C_ReflowText
+  C_ReflowWrap C_ReverseAlias C_ReverseName C_ReverseRealname C_Rfc2047Parameters
+  C_SaveName C_ScoreThresholdDelete C_ScoreThresholdFlag C_ScoreThresholdRead
+  C_ShowNewNews C_ShowOnlyUnread C_SidebarFolderIndent C_SidebarFormat
+  C_SidebarIndentString C_SigDashes C_SizeShowBytes C_SizeShowMb C_SmartWrap
+  C_Smileys C_SmimeAskCertLabel C_SmimeDecryptCommand C_SmimeDecryptUseDefaultKey
+  C_SmimeEncryptCommand C_SmimeGetCertCommand C_SmimeGetCertEmailCommand
+  C_SmimeGetSignerCertCommand C_SmimeImportCertCommand C_SmimePk7outCommand
+  C_SmimeSelfEncrypt C_SmimeSignCommand C_SmimeTimeout C_SmimeVerifyCommand
+  C_SmimeVerifyOpaqueCommand C_SslUseSslv2 C_SslUsesystemcerts C_StrictThreads
+  C_Tilde C_ToggleQuotedShowLevels C_Use8bitmime C_UseEnvelopeFrom C_UseFrom
+  C_UseIpv6 C_UserAgent C_VirtualSpoolfile C_WriteInc
+

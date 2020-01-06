@@ -1,0 +1,133 @@
+C_Spoolfile                    spoolfile                        DT_STRING|DT_PATH|DT_MAILBOX                                   ""
+C_Trash                        trash                            DT_STRING|DT_PATH|DT_MAILBOX                                   ""
+C_Tunnel                       tunnel                           DT_STRING|DT_COMMAND                                           ""
+C_Folder                       folder                           DT_STRING|DT_PATH|DT_MAILBOX                                   "~/Mail"
+
+C_ImapLogin                    imap_login                       DT_STRING|DT_SENSITIVE                                         ""
+C_ImapPass                     imap_pass                        DT_STRING|DT_SENSITIVE                                         ""
+C_ImapUser                     imap_user                        DT_STRING|DT_SENSITIVE                                         ""
+C_ImapAuthenticators           imap_authenticators              DT_SLIST|SLIST_SEP_COLON                                       0
+C_ImapCheckSubscribed          imap_check_subscribed            DT_BOOL                                                        false
+C_ImapCondstore                imap_condstore                   DT_BOOL                                                        false
+C_ImapDelimChars               imap_delim_chars                 DT_STRING                                                      "/."
+C_ImapFetchChunkSize           imap_fetch_chunk_size            DT_LONG|DT_NOT_NEGATIVE                                        0
+C_ImapHeaders                  imap_headers                     DT_STRING                                                      ""
+C_ImapIdle                     imap_idle                        DT_BOOL                                                        false
+C_ImapKeepalive                imap_keepalive                   DT_NUMBER|DT_NOT_NEGATIVE                                      300
+C_ImapListSubscribed           imap_list_subscribed             DT_BOOL                                                        false
+C_ImapOauthRefreshCommand      imap_oauth_refresh_command       DT_STRING|DT_COMMAND|DT_SENSITIVE                              ""
+C_ImapPassive                  imap_passive                     DT_BOOL                                                        true
+C_ImapPeek                     imap_peek                        DT_BOOL                                                        true
+C_ImapPipelineDepth            imap_pipeline_depth              DT_NUMBER|DT_NOT_NEGATIVE                                      15
+C_ImapPollTimeout              imap_poll_timeout                DT_NUMBER|DT_NOT_NEGATIVE                                      15
+C_ImapQresync                  imap_qresync                     DT_BOOL                                                        false
+C_ImapRfc5161                  imap_rfc5161                     DT_BOOL                                                        true
+C_ImapServernoise              imap_servernoise                 DT_BOOL                                                        true
+
+C_PopAuthenticators            pop_authenticators               DT_SLIST|SLIST_SEP_COLON                                       0
+C_PopAuthTryAll                pop_auth_try_all                 DT_BOOL                                                        true
+C_PopCheckinterval             pop_checkinterval                DT_NUMBER|DT_NOT_NEGATIVE                                      60
+C_PopDelete                    pop_delete                       DT_QUAD                                                        MUTT_ASKNO
+C_PopHost                      pop_host                         DT_STRING                                                      ""
+C_PopLast                      pop_last                         DT_BOOL                                                        false
+C_PopOauthRefreshCommand       pop_oauth_refresh_command        DT_STRING|DT_COMMAND|DT_SENSITIVE                              ""
+C_PopPass                      pop_pass                         DT_STRING|DT_SENSITIVE                                         ""
+C_PopReconnect                 pop_reconnect                    DT_QUAD                                                        MUTT_ASKYES
+C_PopUser                      pop_user                         DT_STRING|DT_SENSITIVE                                         ""
+
+C_NmDbLimit                    nm_db_limit                      DT_NUMBER|DT_NOT_NEGATIVE                                      0
+C_NmDefaultUri                 nm_default_uri                   DT_STRING                                                      ""
+C_NmExcludeTags                nm_exclude_tags                  DT_STRING                                                      ""
+C_NmFlaggedTag                 nm_flagged_tag                   DT_STRING                                                      "flagged"
+C_NmOpenTimeout                nm_open_timeout                  DT_NUMBER|DT_NOT_NEGATIVE                                      5
+C_NmQueryType                  nm_query_type                    DT_STRING                                                      "messages"
+C_NmQueryWindowCurrentPosition nm_query_window_current_position DT_NUMBER                                                      0
+C_NmQueryWindowCurrentSearch   nm_query_window_current_search   DT_STRING                                                      ""
+C_NmQueryWindowDuration        nm_query_window_duration         DT_NUMBER|DT_NOT_NEGATIVE                                      0
+C_NmQueryWindowTimebase        nm_query_window_timebase         DT_STRING                                                      "week"
+C_NmRecord                     nm_record                        DT_BOOL                                                        false
+C_NmRecordTags                 nm_record_tags                   DT_STRING                                                      ""
+C_NmRepliedTag                 nm_replied_tag                   DT_STRING                                                      "replied"
+C_NmUnreadTag                  nm_unread_tag                    DT_STRING                                                      "unread"
+C_VfolderFormat                vfolder_format                   DT_STRING|DT_NOT_EMPTY                                         "%2C %?n?%4n/&     ?%4m %f"
+C_VirtualSpoolfile             virtual_spoolfile                DT_BOOL                                                        false
+
+C_AskFollowUp                  ask_follow_up                    DT_BOOL                                                        false
+C_AskXCommentTo                ask_x_comment_to                 DT_BOOL                                                        false
+C_CatchupNewsgroup             catchup_newsgroup                DT_QUAD                                                        MUTT_ASKYES
+C_FollowupToPoster             followup_to_poster               DT_QUAD                                                        MUTT_ASKYES
+C_GroupIndexFormat             group_index_format               DT_STRING|DT_NOT_EMPTY                                         "%4C %M%N %5s  %-45.45f %d"
+C_Inews                        inews                            DT_STRING|DT_COMMAND                                           ""
+C_MimeSubject                  mime_subject                     DT_BOOL                                                        true
+C_NewsCacheDir                 news_cache_dir                   DT_STRING|DT_PATH                                              "~/.neomutt"
+C_NewsgroupsCharset            newsgroups_charset               DT_STRING                                                      "utf-8"
+C_Newsrc                       newsrc                           DT_STRING|DT_PATH                                              "~/.newsrc"
+C_NewsServer                   news_server                      DT_STRING                                                      ""
+C_NntpAuthenticators           nntp_authenticators              DT_STRING                                                      ""
+C_NntpContext                  nntp_context                     DT_NUMBER|DT_NOT_NEGATIVE                                      1000
+C_NntpListgroup                nntp_listgroup                   DT_BOOL                                                        true
+C_NntpLoadDescription          nntp_load_description            DT_BOOL                                                        true
+C_NntpPass                     nntp_pass                        DT_STRING|DT_SENSITIVE                                         ""
+C_NntpPoll                     nntp_poll                        DT_NUMBER|DT_NOT_NEGATIVE                                      60
+C_NntpUser                     nntp_user                        DT_STRING|DT_SENSITIVE                                         ""
+C_PostModerated                post_moderated                   DT_QUAD                                                        MUTT_ASKYES
+C_SaveUnsubscribed             save_unsubscribed                DT_BOOL                                                        false
+C_ShowNewNews                  show_new_news                    DT_BOOL                                                        true
+C_ShowOnlyUnread               show_only_unread                 DT_BOOL                                                        false
+C_XCommentTo                   x_comment_to                     DT_BOOL                                                        false
+
+C_MaildirCheckCur              maildir_check_cur                DT_BOOL                                                        false
+C_MaildirHeaderCacheVerify     maildir_header_cache_verify      DT_BOOL                                                        true
+C_MaildirTrash                 maildir_trash                    DT_BOOL                                                        false
+C_MhPurge                      mh_purge                         DT_BOOL                                                        false
+C_MhSeqFlagged                 mh_seq_flagged                   DT_STRING                                                      "flagged"
+C_MhSeqReplied                 mh_seq_replied                   DT_STRING                                                      "replied"
+C_MhSeqUnseen                  mh_seq_unseen                    DT_STRING                                                      "unseen"
+
+C_MailCheck                    mail_check                       DT_NUMBER|DT_NOT_NEGATIVE                                      5
+C_MailCheckRecent              mail_check_recent                DT_BOOL                                                        true
+C_MailCheckStats               mail_check_stats                 DT_BOOL                                                        false
+C_MailCheckStatsInterval       mail_check_stats_interval        DT_NUMBER|DT_NOT_NEGATIVE                                      60
+
+C_Postpone                     postpone                         DT_QUAD                                                        MUTT_ASKYES
+C_Postponed                    postponed                        DT_STRING|DT_PATH|DT_MAILBOX                                   "~/postponed"
+C_PostponeEncrypt              postpone_encrypt                 DT_BOOL                                                        false
+C_PostponeEncryptAs            postpone_encrypt_as              DT_STRING                                                      ""
+
+C_SslCaCertificatesFile        ssl_ca_certificates_file         DT_STRING|DT_PATH                                              ""
+C_SslCiphers                   ssl_ciphers                      DT_STRING                                                      ""
+C_SslClientCert                ssl_client_cert                  DT_STRING|DT_PATH                                              ""
+C_SslForceTls                  ssl_force_tls                    DT_BOOL                                                        true
+C_SslMinDhPrimeBits            ssl_min_dh_prime_bits            DT_NUMBER|DT_NOT_NEGATIVE                                      0
+C_SslStarttls                  ssl_starttls                     DT_QUAD                                                        MUTT_YES
+C_SslUsesystemcerts            ssl_usesystemcerts               DT_BOOL                                                        true
+C_SslUseSslv2                  ssl_use_sslv2                    DT_BOOL                                                        false
+C_SslUseSslv3                  ssl_use_sslv3                    DT_BOOL                                                        false
+C_SslUseTlsv1                  ssl_use_tlsv1                    DT_BOOL                                                        false
+C_SslUseTlsv11                 ssl_use_tlsv1_1                  DT_BOOL                                                        false
+C_SslUseTlsv12                 ssl_use_tlsv1_2                  DT_BOOL                                                        true
+C_SslUseTlsv13                 ssl_use_tlsv1_3                  DT_BOOL                                                        true
+C_SslVerifyDates               ssl_verify_dates                 DT_BOOL                                                        true
+C_SslVerifyHost                ssl_verify_host                  DT_BOOL                                                        true
+C_SslVerifyPartialChains       ssl_verify_partial_chains        DT_BOOL                                                        false
+
+C_SmtpAuthenticators           smtp_authenticators              DT_SLIST|SLIST_SEP_COLON                                       0
+C_SmtpOauthRefreshCommand      smtp_oauth_refresh_command       DT_STRING|DT_COMMAND|DT_SENSITIVE                              ""
+C_SmtpPass                     smtp_pass                        DT_STRING|DT_SENSITIVE                                         ""
+C_SmtpUrl                      smtp_url                         DT_STRING|DT_SENSITIVE                                         ""
+
+C_Sendmail                     sendmail                         DT_STRING|DT_COMMAND                                           SENDMAIL " -oem -oi"
+C_SendmailWait                 sendmail_wait                    DT_NUMBER                                                      0
+C_UserAgent                    user_agent                       DT_BOOL                                                        false
+
+C_Mbox                         mbox                             DT_STRING|DT_PATH|DT_MAILBOX                                   "~/mbox"
+C_MboxType                     mbox_type                        DT_ENUM                                                        MUTT_MBOX, &MagicDef
+C_Record                       record                           DT_STRING|DT_PATH|DT_MAILBOX                                   "~/sent"
+C_FccAttach                    fcc_attach                       DT_QUAD                                                        MUTT_YES
+C_FccBeforeSend                fcc_before_send                  DT_BOOL                                                        false
+C_FccClear                     fcc_clear                        DT_BOOL                                                        false
+C_SendCharset                  send_charset                     DT_STRING                                                      "us-ascii:iso-8859-1:utf-8"
+C_Askbcc                       askbcc                           DT_BOOL                                                        false
+C_Askcc                        askcc                            DT_BOOL                                                        false
+C_Confirmappend                confirmappend                    DT_BOOL                                                        true
+C_Confirmcreate                confirmcreate                    DT_BOOL                                                        true
