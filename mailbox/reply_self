@@ -1,3 +1,5 @@
+C_ReplySelf DT_BOOL
+
 Name: reply_self
 Type: boolean
 Default: no

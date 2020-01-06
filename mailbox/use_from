@@ -1,3 +1,5 @@
+C_UseFrom DT_BOOL
+
 Name: use_from
 Type: boolean
 Default: yes

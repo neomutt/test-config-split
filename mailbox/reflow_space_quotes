@@ -1,3 +1,5 @@
+C_ReflowSpaceQuotes DT_BOOL
+
 Name: reflow_space_quotes
 Type: boolean
 Default: yes

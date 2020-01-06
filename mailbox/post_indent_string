@@ -1,3 +1,5 @@
+C_PostIndentString DT_STRING
+
 Name: post_indent_string
 Type: string
 Default: ""

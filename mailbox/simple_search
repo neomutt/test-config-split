@@ -1,3 +1,5 @@
+C_SimpleSearch DT_STRING
+
 Name: simple_search
 Type: string
 Default: "~f %s | ~s %s"

@@ -1,3 +1,5 @@
+C_ReplyRegex DT_REGEX
+
 Name: reply_regex
 Type: regular expression
 Default: "^((re|aw|sv)(\\[[0-9]+\\])*:[ \t]*)*"

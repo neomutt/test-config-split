@@ -1,3 +1,5 @@
+C_SizeShowBytes DT_BOOL
+
 Name: size_show_bytes
 Type: boolean
 Default: no

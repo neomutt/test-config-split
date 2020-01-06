@@ -1,3 +1,5 @@
+C_ForwardEdit DT_QUAD
+
 Name: forward_edit
 Type: quadoption
 Default: yes

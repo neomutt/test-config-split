@@ -1,3 +1,5 @@
+C_Smileys DT_REGEX
+
 Name: smileys
 Type: regular expression
 Default: "(>From )|(:[-^]?[][)(><}{|/DP])"

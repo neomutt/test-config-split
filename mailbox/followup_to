@@ -1,3 +1,5 @@
+C_FollowupTo DT_BOOL
+
 Name: followup_to
 Type: boolean
 Default: yes

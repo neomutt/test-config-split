@@ -1,3 +1,5 @@
+C_EnvelopeFromAddress DT_ADDRESS
+
 Name: envelope_from_address
 Type: e-mail address
 Default: ""

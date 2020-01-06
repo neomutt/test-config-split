@@ -1,3 +1,5 @@
+C_UncollapseNew DT_BOOL
+
 Name: uncollapse_new
 Type: boolean
 Default: yes

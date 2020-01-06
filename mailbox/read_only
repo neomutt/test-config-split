@@ -1,3 +1,5 @@
+C_ReadOnly DT_BOOL
+
 Name: read_only
 Type: boolean
 Default: no

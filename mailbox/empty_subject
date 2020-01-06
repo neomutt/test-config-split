@@ -1,3 +1,5 @@
+C_EmptySubject DT_STRING
+
 Name: empty_subject
 Type: string
 Default: "Re: your mail"

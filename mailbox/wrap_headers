@@ -1,3 +1,5 @@
+C_WrapHeaders DT_NUMBER|DT_NOT_NEGATIVE
+
 Name: wrap_headers
 Type: number
 Default: 78

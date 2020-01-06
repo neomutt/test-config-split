@@ -1,3 +1,5 @@
+C_PagerStop DT_BOOL
+
 Name: pager_stop
 Type: boolean
 Default: no

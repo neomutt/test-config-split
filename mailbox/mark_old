@@ -1,3 +1,5 @@
+C_MarkOld DT_BOOL
+
 Name: mark_old
 Type: boolean
 Default: yes

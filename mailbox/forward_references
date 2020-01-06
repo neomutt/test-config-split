@@ -1,3 +1,5 @@
+C_ForwardReferences DT_BOOL
+
 Name: forward_references
 Type: boolean
 Default: no

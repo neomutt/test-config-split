@@ -1,3 +1,5 @@
+C_ForwardAttributionIntro DT_STRING
+
 Name: forward_attribution_intro
 Type: string
 Default: "----- Forwarded message from %f -----"

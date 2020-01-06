@@ -1,3 +1,5 @@
+C_ReverseName DT_BOOL
+
 Name: reverse_name
 Type: boolean
 Default: no

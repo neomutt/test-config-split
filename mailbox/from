@@ -1,3 +1,5 @@
+C_From DT_ADDRESS
+
 Name: from
 Type: e-mail address
 Default: ""

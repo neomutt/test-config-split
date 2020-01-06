@@ -1,3 +1,5 @@
+C_ScoreThresholdDelete DT_NUMBER
+
 Name: score_threshold_delete
 Type: number
 Default: -1

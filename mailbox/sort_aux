@@ -1,3 +1,5 @@
+C_SortAux DT_SORT|DT_SORT_AUX
+
 Name: sort_aux
 Type: sort order
 Default: date

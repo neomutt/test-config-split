@@ -1,3 +1,5 @@
+C_FromChars DT_MBTABLE
+
 Name: from_chars
 Type: character string
 Default: ""

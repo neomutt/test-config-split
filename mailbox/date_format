@@ -1,3 +1,5 @@
+C_DateFormat DT_STRING|DT_NOT_EMPTY
+
 Name: date_format
 Type: string
 Default: "!%a, %b %d, %Y at %I:%M:%S%p %Z"

@@ -1,3 +1,5 @@
+C_Resolve DT_BOOL
+
 Name: resolve
 Type: boolean
 Default: yes

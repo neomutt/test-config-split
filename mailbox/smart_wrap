@@ -1,3 +1,5 @@
+C_SmartWrap DT_BOOL
+
 Name: smart_wrap
 Type: boolean
 Default: yes

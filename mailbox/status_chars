@@ -1,3 +1,5 @@
+C_StatusChars DT_MBTABLE
+
 Name: status_chars
 Type: character string
 Default: "-*%A"

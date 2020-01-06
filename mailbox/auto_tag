@@ -1,3 +1,5 @@
+C_AutoTag DT_BOOL
+
 Name: auto_tag
 Type: boolean
 Default: no

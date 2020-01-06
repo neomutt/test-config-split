@@ -1,3 +1,5 @@
+C_Signature DT_STRING|DT_PATH
+
 Name: signature
 Type: path
 Default: "~/.signature"

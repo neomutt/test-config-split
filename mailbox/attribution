@@ -1,3 +1,5 @@
+C_Attribution DT_STRING
+
 Name: attribution
 Type: string
 Default: "On %d, %n wrote:"

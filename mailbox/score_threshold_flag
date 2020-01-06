@@ -1,3 +1,5 @@
+C_ScoreThresholdFlag DT_NUMBER
+
 Name: score_threshold_flag
 Type: number
 Default: 9999
