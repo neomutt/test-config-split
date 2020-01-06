@@ -1,135 +1,135 @@
-C_AliasFile                    alias_file                       DT_STRING|DT_PATH                                              "~/.neomuttrc"
-C_AliasFormat                  alias_format                     DT_STRING|DT_NOT_EMPTY                                         "%4n %2f %t %-10a   %r"
-C_ArrowCursor                  arrow_cursor                     DT_BOOL                                                        false
-C_AsciiChars                   ascii_chars                      DT_BOOL                                                        false
-C_Beep                         beep                             DT_BOOL                                                        true
-C_BrailleFriendly              braille_friendly                 DT_BOOL                                                        false
-C_ConfigCharset                config_charset                   DT_STRING                                                      ""
-C_DebugFile                    debug_file                       DT_STRING|DT_PATH                                              "~/.neomuttdebug"
-C_DebugLevel                   debug_level                      DT_NUMBER                                                      0
-C_Editor                       editor                           DT_STRING|DT_COMMAND                                           "vi"
-C_GecosMask                    gecos_mask                       DT_REGEX                                                       "^[^,]*"
-C_Help                         help                             DT_BOOL                                                        true
-C_Quit                         quit                             DT_QUAD                                                        MUTT_YES
-C_Shell                        shell                            DT_STRING|DT_COMMAND                                           "/bin/sh"
-C_StatusOnTop                  status_on_top                    DT_BOOL                                                        false
-C_Tmpdir                       tmpdir                           DT_STRING|DT_PATH                                              "/tmp"
-C_TsEnabled                    ts_enabled                       DT_BOOL                                                        false
-C_TsIconFormat                 ts_icon_format                   DT_STRING                                                      "M%?n?AIL&ail?"
-C_TsStatusFormat               ts_status_format                 DT_STRING                                                      "NeoMutt with %?m?%m messages&no messages?%?n? [%n NEW]?"
-C_UseIpv6                      use_ipv6                         DT_BOOL                                                        true
-C_Visual                       visual                           DT_STRING|DT_COMMAND                                           "vi"
-C_WaitKey                      wait_key                         DT_BOOL                                                        true
-
-C_SidebarComponentDepth        sidebar_component_depth          DT_NUMBER                                                      0
-C_SidebarDelimChars            sidebar_delim_chars              DT_STRING                                                      "/."
-C_SidebarDividerChar           sidebar_divider_char             DT_STRING                                                      ""
-C_SidebarFolderIndent          sidebar_folder_indent            DT_BOOL                                                        false
-C_SidebarFormat                sidebar_format                   DT_STRING|DT_NOT_EMPTY                                         "%B%*  %n"
-C_SidebarIndentString          sidebar_indent_string            DT_STRING                                                      "  "
-C_SidebarNewMailOnly           sidebar_new_mail_only            DT_BOOL                                                        false
-C_SidebarNextNewWrap           sidebar_next_new_wrap            DT_BOOL                                                        false
-C_SidebarNonEmptyMailboxOnly   sidebar_non_empty_mailbox_only   DT_BOOL                                                        false
-C_SidebarOnRight               sidebar_on_right                 DT_BOOL                                                        false
-C_SidebarShortPath             sidebar_short_path               DT_BOOL                                                        false
-C_SidebarSortMethod            sidebar_sort_method              DT_SORT|DT_SORT_SIDEBAR                                        SORT_ORDER
-C_SidebarVisible               sidebar_visible                  DT_BOOL                                                        false
-C_SidebarWidth                 sidebar_width                    DT_NUMBER|DT_NOT_NEGATIVE                                      30
-
-C_History                      history                          DT_NUMBER|DT_NOT_NEGATIVE                                      10
-C_HistoryFile                  history_file                     DT_STRING|DT_PATH                                              "~/.mutthistory"
-C_HistoryRemoveDups            history_remove_dups              DT_BOOL                                                        false
-
-C_SleepTime                    sleep_time                       DT_NUMBER|DT_NOT_NEGATIVE                                      1
-C_Timeout                      timeout                          DT_NUMBER|DT_NOT_NEGATIVE                                      600
-C_WriteInc                     write_inc                        DT_NUMBER|DT_NOT_NEGATIVE                                      10
-C_NetInc                       net_inc                          DT_NUMBER|DT_NOT_NEGATIVE                                      10
-C_ReadInc                      read_inc                         DT_NUMBER|DT_NOT_NEGATIVE                                      10
-C_TimeInc                      time_inc                         DT_NUMBER|DT_NOT_NEGATIVE                                      0
-C_Header                       header                           DT_BOOL                                                        false
-C_EditHeaders                  edit_headers                     DT_BOOL                                                        false
-C_HeaderCache                  header_cache                     DT_STRING|DT_PATH                                              ""
-C_HeaderCacheBackend           header_cache_backend             DT_STRING                                                      ""
-C_HeaderCacheCompress          header_cache_compress            DT_BOOL                                                        true
-C_HeaderCachePagesize          header_cache_pagesize            DT_LONG|DT_NOT_NEGATIVE                                        16384
-C_FastReply                    fast_reply                       DT_BOOL                                                        false
-C_Markers                      markers                          DT_BOOL                                                        true
-C_MenuContext                  menu_context                     DT_NUMBER|DT_NOT_NEGATIVE                                      0
-C_MenuMoveOff                  menu_move_off                    DT_BOOL                                                        true
-C_MenuScroll                   menu_scroll                      DT_BOOL                                                        false
-C_NarrowTree                   narrow_tree                      DT_BOOL                                                        false
-C_FolderFormat                 folder_format                    DT_STRING|DT_NOT_EMPTY                                         "%2C %t %N %F %2l %-8.8u %-8.8g %8s %d %i"
-C_Ispell                       ispell                           DT_STRING|DT_COMMAND                                           ISPELL
-C_Suspend                      suspend                          DT_BOOL                                                        true
-C_Print                        print                            DT_QUAD                                                        MUTT_ASKNO
-C_PrintCommand                 print_command                    DT_STRING|DT_COMMAND                                           "lpr"
-C_PrintDecode                  print_decode                     DT_BOOL                                                        true
-C_PrintSplit                   print_split                      DT_BOOL                                                        false
-C_QueryCommand                 query_command                    DT_STRING|DT_COMMAND                                           ""
-C_QueryFormat                  query_format                     DT_STRING|DT_NOT_EMPTY                                         "%4c %t %-25.25a %-25.25n %?e?(%e)?"
-C_SortAlias                    sort_alias                       DT_SORT|DT_SORT_ALIAS                                          SORT_ALIAS
-C_SortBrowser                  sort_browser                     DT_SORT|DT_SORT_BROWSER                                        SORT_ALPHA
-C_HideLimited                  hide_limited                     DT_BOOL                                                        false
-C_HideMissing                  hide_missing                     DT_BOOL                                                        true
-C_HideThreadSubject            hide_thread_subject              DT_BOOL                                                        true
-C_HideTopLimited               hide_top_limited                 DT_BOOL                                                        false
-C_HideTopMissing               hide_top_missing                 DT_BOOL                                                        true
-C_Recall                       recall                           DT_QUAD                                                        MUTT_ASKYES
-C_ResumeDraftFiles             resume_draft_files               DT_BOOL                                                        false
-C_ResumeEditedDraftFiles       resume_edited_draft_files        DT_BOOL                                                        true
-C_SaveHistory                  save_history                     DT_NUMBER|DT_NOT_NEGATIVE                                      0
-C_Autoedit                     autoedit                         DT_BOOL                                                        false
-C_CertificateFile              certificate_file                 DT_STRING|DT_PATH                                              "~/.mutt_certificates"
-C_Escape                       escape                           DT_STRING                                                      "~"
-C_Mask                         mask                             DT_REGEX|DT_REGEX_MATCH_CASE|DT_REGEX_ALLOW_NOT|DT_REGEX_NOSUB "!^\\.[^.]"
-C_MailcapPath                  mailcap_path                     DT_SLIST|SLIST_SEP_COLON                                       "~/.mailcap:" PKGDATADIR "/mailcap:" SYSCONFDIR "/mailcap:/etc/mailcap:/usr/etc/mailcap:/usr/local/etc/mailcap"
-C_MailcapSanitize              mailcap_sanitize                 DT_BOOL                                                        true
-C_SkipQuotedOffset             skip_quoted_offset               DT_NUMBER|DT_NOT_NEGATIVE                                      0
-C_AllowAnsi                    allow_ansi                       DT_BOOL                                                        false
-C_DigestCollapse               digest_collapse                  DT_BOOL                                                        true
-C_EntropyFile                  entropy_file                     DT_STRING|DT_PATH                                              ""
-C_PromptAfter                  prompt_after                     DT_BOOL                                                        true
-C_DuplicateThreads             duplicate_threads                DT_BOOL                                                        true
-C_HeaderColorPartial           header_color_partial             DT_BOOL                                                        false
-C_MetaKey                      meta_key                         DT_BOOL                                                        false
-C_MixEntryFormat               mix_entry_format                 DT_STRING|DT_NOT_EMPTY                                         "%4n %c %-16s %a"
-C_Mixmaster                    mixmaster                        DT_STRING|DT_COMMAND                                           MIXMASTER
-C_PipeDecode                   pipe_decode                      DT_BOOL                                                        false
-C_PipeSep                      pipe_sep                         DT_STRING                                                      "\n"
-C_PipeSplit                    pipe_split                       DT_BOOL                                                        false
-C_AbortNoattach                abort_noattach                   DT_QUAD                                                        MUTT_NO
-C_AbortNoattachRegex           abort_noattach_regex             DT_REGEX                                                       "\\<(attach|attached|attachments?)\\>"
-C_AbortNosubject               abort_nosubject                  DT_QUAD                                                        MUTT_ASKYES
-C_AbortUnmodified              abort_unmodified                 DT_QUAD                                                        MUTT_YES
-C_BeepNew                      beep_new                         DT_BOOL                                                        false
-C_ComposeFormat                compose_format                   DT_STRING                                                      "-- NeoMutt: Compose  [Approx. msg size: %l   Atts: %a]%>-"
-C_EncodeFrom                   encode_from                      DT_BOOL                                                        false
-C_IdnDecode                    idn_decode                       DT_BOOL                                                        true
-C_IdnEncode                    idn_encode                       DT_BOOL                                                        true
-C_NewMailCommand               new_mail_command                 DT_STRING|DT_COMMAND                                           ""
-C_PreferredLanguages           preferred_languages              DT_SLIST|SLIST_SEP_COMMA                                       0
-C_Rfc2047Parameters            rfc2047_parameters               DT_BOOL                                                        false
-C_BrowserAbbreviateMailboxes   browser_abbreviate_mailboxes     DT_BOOL                                                        true
-C_ContentType                  content_type                     DT_STRING                                                      "text/plain"
-C_AutoSubscribe                auto_subscribe                   DT_BOOL                                                        false
-C_Bounce                       bounce                           DT_QUAD                                                        MUTT_ASKYES
-C_MimeForward                  mime_forward                     DT_QUAD                                                        MUTT_NO
-C_MimeForwardDecode            mime_forward_decode              DT_BOOL                                                        false
-C_MimeForwardRest              mime_forward_rest                DT_QUAD                                                        MUTT_YES
-C_MimeTypeQueryCommand         mime_type_query_command          DT_STRING|DT_COMMAND                                           ""
-C_MimeTypeQueryFirst           mime_type_query_first            DT_BOOL                                                        false
-C_AttachCharset                attach_charset                   DT_STRING                                                      ""
-C_AttachFormat                 attach_format                    DT_STRING|DT_NOT_EMPTY                                         "%u%D%I %t%4n %T%.40d%> [%.7m/%.10M, %.6e%?C?, %C?, %s] "
-C_AttachSaveDir                attach_save_dir                  DT_STRING|DT_PATH                                              "./"
-C_AttachSaveWithoutPrompting   attach_save_without_prompting    DT_BOOL                                                        false
-C_AttachSep                    attach_sep                       DT_STRING                                                      "\n"
-C_AttachSplit                  attach_split                     DT_BOOL                                                        true
-C_Charset                      charset                          DT_STRING|DT_NOT_EMPTY                                         ""
-C_DefaultHook                  default_hook                     DT_STRING                                                      "~f %s !~P | (~P ~C %s)"
-C_ExternalSearchCommand        external_search_command          DT_STRING|DT_COMMAND                                           ""
-C_HonorDisposition             honor_disposition                DT_BOOL                                                        false
-C_HonorFollowupTo              honor_followup_to                DT_QUAD                                                        MUTT_YES
-C_ImplicitAutoview             implicit_autoview                DT_BOOL                                                        false
-C_ShowMultipartAlternative     show_multipart_alternative       DT_STRING                                                      ""
-C_SortRe                       sort_re                          DT_BOOL                                                        true
-C_SpamSeparator                spam_separator                   DT_STRING                                                      ","
+alias_file                       C_AliasFile                    DT_STRING|DT_PATH
+alias_format                     C_AliasFormat                  DT_STRING|DT_NOT_EMPTY
+arrow_cursor                     C_ArrowCursor                  DT_BOOL
+ascii_chars                      C_AsciiChars                   DT_BOOL
+beep                             C_Beep                         DT_BOOL
+braille_friendly                 C_BrailleFriendly              DT_BOOL
+config_charset                   C_ConfigCharset                DT_STRING
+debug_file                       C_DebugFile                    DT_STRING|DT_PATH
+debug_level                      C_DebugLevel                   DT_NUMBER
+editor                           C_Editor                       DT_STRING|DT_COMMAND
+gecos_mask                       C_GecosMask                    DT_REGEX
+help                             C_Help                         DT_BOOL
+quit                             C_Quit                         DT_QUAD
+shell                            C_Shell                        DT_STRING|DT_COMMAND
+status_on_top                    C_StatusOnTop                  DT_BOOL
+tmpdir                           C_Tmpdir                       DT_STRING|DT_PATH
+ts_enabled                       C_TsEnabled                    DT_BOOL
+ts_icon_format                   C_TsIconFormat                 DT_STRING
+ts_status_format                 C_TsStatusFormat               DT_STRING
+use_ipv6                         C_UseIpv6                      DT_BOOL
+visual                           C_Visual                       DT_STRING|DT_COMMAND
+wait_key                         C_WaitKey                      DT_BOOL
+                                 
+sidebar_component_depth          C_SidebarComponentDepth        DT_NUMBER
+sidebar_delim_chars              C_SidebarDelimChars            DT_STRING
+sidebar_divider_char             C_SidebarDividerChar           DT_STRING
+sidebar_folder_indent            C_SidebarFolderIndent          DT_BOOL
+sidebar_format                   C_SidebarFormat                DT_STRING|DT_NOT_EMPTY
+sidebar_indent_string            C_SidebarIndentString          DT_STRING
+sidebar_new_mail_only            C_SidebarNewMailOnly           DT_BOOL
+sidebar_next_new_wrap            C_SidebarNextNewWrap           DT_BOOL
+sidebar_non_empty_mailbox_only   C_SidebarNonEmptyMailboxOnly   DT_BOOL
+sidebar_on_right                 C_SidebarOnRight               DT_BOOL
+sidebar_short_path               C_SidebarShortPath             DT_BOOL
+sidebar_sort_method              C_SidebarSortMethod            DT_SORT|DT_SORT_SIDEBAR
+sidebar_visible                  C_SidebarVisible               DT_BOOL
+sidebar_width                    C_SidebarWidth                 DT_NUMBER|DT_NOT_NEGATIVE
+                                 
+history                          C_History                      DT_NUMBER|DT_NOT_NEGATIVE
+history_file                     C_HistoryFile                  DT_STRING|DT_PATH
+history_remove_dups              C_HistoryRemoveDups            DT_BOOL
+                                 
+sleep_time                       C_SleepTime                    DT_NUMBER|DT_NOT_NEGATIVE
+timeout                          C_Timeout                      DT_NUMBER|DT_NOT_NEGATIVE
+write_inc                        C_WriteInc                     DT_NUMBER|DT_NOT_NEGATIVE
+net_inc                          C_NetInc                       DT_NUMBER|DT_NOT_NEGATIVE
+read_inc                         C_ReadInc                      DT_NUMBER|DT_NOT_NEGATIVE
+time_inc                         C_TimeInc                      DT_NUMBER|DT_NOT_NEGATIVE
+header                           C_Header                       DT_BOOL
+edit_headers                     C_EditHeaders                  DT_BOOL
+header_cache                     C_HeaderCache                  DT_STRING|DT_PATH
+header_cache_backend             C_HeaderCacheBackend           DT_STRING
+header_cache_compress            C_HeaderCacheCompress          DT_BOOL
+header_cache_pagesize            C_HeaderCachePagesize          DT_LONG|DT_NOT_NEGATIVE
+fast_reply                       C_FastReply                    DT_BOOL
+markers                          C_Markers                      DT_BOOL
+menu_context                     C_MenuContext                  DT_NUMBER|DT_NOT_NEGATIVE
+menu_move_off                    C_MenuMoveOff                  DT_BOOL
+menu_scroll                      C_MenuScroll                   DT_BOOL
+narrow_tree                      C_NarrowTree                   DT_BOOL
+folder_format                    C_FolderFormat                 DT_STRING|DT_NOT_EMPTY
+ispell                           C_Ispell                       DT_STRING|DT_COMMAND
+suspend                          C_Suspend                      DT_BOOL
+print                            C_Print                        DT_QUAD
+print_command                    C_PrintCommand                 DT_STRING|DT_COMMAND
+print_decode                     C_PrintDecode                  DT_BOOL
+print_split                      C_PrintSplit                   DT_BOOL
+query_command                    C_QueryCommand                 DT_STRING|DT_COMMAND
+query_format                     C_QueryFormat                  DT_STRING|DT_NOT_EMPTY
+sort_alias                       C_SortAlias                    DT_SORT|DT_SORT_ALIAS
+sort_browser                     C_SortBrowser                  DT_SORT|DT_SORT_BROWSER
+hide_limited                     C_HideLimited                  DT_BOOL
+hide_missing                     C_HideMissing                  DT_BOOL
+hide_thread_subject              C_HideThreadSubject            DT_BOOL
+hide_top_limited                 C_HideTopLimited               DT_BOOL
+hide_top_missing                 C_HideTopMissing               DT_BOOL
+recall                           C_Recall                       DT_QUAD
+resume_draft_files               C_ResumeDraftFiles             DT_BOOL
+resume_edited_draft_files        C_ResumeEditedDraftFiles       DT_BOOL
+save_history                     C_SaveHistory                  DT_NUMBER|DT_NOT_NEGATIVE
+autoedit                         C_Autoedit                     DT_BOOL
+certificate_file                 C_CertificateFile              DT_STRING|DT_PATH
+escape                           C_Escape                       DT_STRING
+mask                             C_Mask                         DT_REGEX|DT_REGEX_MATCH_CASE|DT_REGEX_ALLOW_NOT|DT_REGEX_NOSUB
+mailcap_path                     C_MailcapPath                  DT_SLIST|SLIST_SEP_COLON
+mailcap_sanitize                 C_MailcapSanitize              DT_BOOL
+skip_quoted_offset               C_SkipQuotedOffset             DT_NUMBER|DT_NOT_NEGATIVE
+allow_ansi                       C_AllowAnsi                    DT_BOOL
+digest_collapse                  C_DigestCollapse               DT_BOOL
+entropy_file                     C_EntropyFile                  DT_STRING|DT_PATH
+prompt_after                     C_PromptAfter                  DT_BOOL
+duplicate_threads                C_DuplicateThreads             DT_BOOL
+header_color_partial             C_HeaderColorPartial           DT_BOOL
+meta_key                         C_MetaKey                      DT_BOOL
+mix_entry_format                 C_MixEntryFormat               DT_STRING|DT_NOT_EMPTY
+mixmaster                        C_Mixmaster                    DT_STRING|DT_COMMAND
+pipe_decode                      C_PipeDecode                   DT_BOOL
+pipe_sep                         C_PipeSep                      DT_STRING
+pipe_split                       C_PipeSplit                    DT_BOOL
+abort_noattach                   C_AbortNoattach                DT_QUAD
+abort_noattach_regex             C_AbortNoattachRegex           DT_REGEX
+abort_nosubject                  C_AbortNosubject               DT_QUAD
+abort_unmodified                 C_AbortUnmodified              DT_QUAD
+beep_new                         C_BeepNew                      DT_BOOL
+compose_format                   C_ComposeFormat                DT_STRING
+encode_from                      C_EncodeFrom                   DT_BOOL
+idn_decode                       C_IdnDecode                    DT_BOOL
+idn_encode                       C_IdnEncode                    DT_BOOL
+new_mail_command                 C_NewMailCommand               DT_STRING|DT_COMMAND
+preferred_languages              C_PreferredLanguages           DT_SLIST|SLIST_SEP_COMMA
+rfc2047_parameters               C_Rfc2047Parameters            DT_BOOL
+browser_abbreviate_mailboxes     C_BrowserAbbreviateMailboxes   DT_BOOL
+content_type                     C_ContentType                  DT_STRING
+auto_subscribe                   C_AutoSubscribe                DT_BOOL
+bounce                           C_Bounce                       DT_QUAD
+mime_forward                     C_MimeForward                  DT_QUAD
+mime_forward_decode              C_MimeForwardDecode            DT_BOOL
+mime_forward_rest                C_MimeForwardRest              DT_QUAD
+mime_type_query_command          C_MimeTypeQueryCommand         DT_STRING|DT_COMMAND
+mime_type_query_first            C_MimeTypeQueryFirst           DT_BOOL
+attach_charset                   C_AttachCharset                DT_STRING
+attach_format                    C_AttachFormat                 DT_STRING|DT_NOT_EMPTY
+attach_save_dir                  C_AttachSaveDir                DT_STRING|DT_PATH
+attach_save_without_prompting    C_AttachSaveWithoutPrompting   DT_BOOL
+attach_sep                       C_AttachSep                    DT_STRING
+attach_split                     C_AttachSplit                  DT_BOOL
+charset                          C_Charset                      DT_STRING|DT_NOT_EMPTY
+default_hook                     C_DefaultHook                  DT_STRING
+external_search_command          C_ExternalSearchCommand        DT_STRING|DT_COMMAND
+honor_disposition                C_HonorDisposition             DT_BOOL
+honor_followup_to                C_HonorFollowupTo              DT_QUAD
+implicit_autoview                C_ImplicitAutoview             DT_BOOL
+show_multipart_alternative       C_ShowMultipartAlternative     DT_STRING
+sort_re                          C_SortRe                       DT_BOOL
+spam_separator                   C_SpamSeparator                DT_STRING

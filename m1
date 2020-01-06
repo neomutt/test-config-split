@@ -1,87 +1,87 @@
-C_Attribution                  attribution                      DT_STRING                                                      "On %d, %n wrote:"
-C_AttributionLocale            attribution_locale               DT_STRING                                                      ""
-C_CollapseAll                  collapse_all                     DT_BOOL                                                        false
-C_CollapseFlagged              collapse_flagged                 DT_BOOL                                                        true
-C_CollapseUnread               collapse_unread                  DT_BOOL                                                        true
-C_From                         from                             DT_ADDRESS                                                     0
-C_IndexFormat                  index_format                     DT_STRING|DT_NOT_EMPTY                                         "%4C %Z %{%b %d} %-15.15L (%?l?%4l&%4c?) %s"
-C_SizeShowBytes                size_show_bytes                  DT_BOOL                                                        false
-C_SizeShowFractions            size_show_fractions              DT_BOOL                                                        true
-C_SizeShowMb                   size_show_mb                     DT_BOOL                                                        true
-C_SizeUnitsOnLeft              size_units_on_left               DT_BOOL                                                        false
-C_Sort                         sort                             DT_SORT                                                        SORT_DATE
-C_SortAux                      sort_aux                         DT_SORT|DT_SORT_AUX                                            SORT_DATE
-C_StrictThreads                strict_threads                   DT_BOOL                                                        false
-C_StatusFormat                 status_format                    DT_STRING                                                      "-%r-NeoMutt: %D [Msgs:%?M?%M/?%m%?n? New:%n?%?o? Old:%o?%?d? Del:%d?%?F? Flag:%F?%?t? Tag:%t?%?p? Post:%p?%?b? Inc:%b?%?l? %l?]---(%s/%S)-%>-(%P)---"
-C_CryptChars                   crypt_chars                      DT_MBTABLE                                                     "SPsK "
-C_FlagChars                    flag_chars                       DT_MBTABLE                                                     "*!DdrONon- "
-C_FromChars                    from_chars                       DT_MBTABLE                                                     0
-C_StatusChars                  status_chars                     DT_MBTABLE                                                     "-*%A"
-C_ToChars                      to_chars                         DT_MBTABLE                                                     " +TCFLR"
-C_AutoTag                      auto_tag                         DT_BOOL                                                        false
-C_ChangeFolderNext             change_folder_next               DT_BOOL                                                        false
-C_DeleteUntag                  delete_untag                     DT_BOOL                                                        true
-C_MarkMacroPrefix              mark_macro_prefix                DT_STRING                                                      "'"
-C_MarkOld                      mark_old                         DT_BOOL                                                        true
-C_Resolve                      resolve                          DT_BOOL                                                        true
-C_UncollapseJump               uncollapse_jump                  DT_BOOL                                                        false
-C_UncollapseNew                uncollapse_new                   DT_BOOL                                                        true
-C_Weed                         weed                             DT_BOOL                                                        true
-C_Pager                        pager                            DT_STRING|DT_COMMAND                                           "builtin"
-C_PagerContext                 pager_context                    DT_NUMBER|DT_NOT_NEGATIVE                                      0
-C_PagerFormat                  pager_format                     DT_STRING                                                      "-%Z- %C/%m: %-20.20n   %s%*  -- (%P)"
-C_PagerIndexLines              pager_index_lines                DT_NUMBER|DT_NOT_NEGATIVE                                      0
-C_PagerStop                    pager_stop                       DT_BOOL                                                        false
-C_QuoteRegex                   quote_regex                      DT_REGEX                                                       "^([ \t]*[|>:}#])+"
-C_SearchContext                search_context                   DT_NUMBER|DT_NOT_NEGATIVE                                      0
-C_Smileys                      smileys                          DT_REGEX                                                       "(>From )|(:[-^]?[][)(><}{|/DP])"
-C_Tilde                        tilde                            DT_BOOL                                                        false
-C_ToggleQuotedShowLevels       toggle_quoted_show_levels        DT_NUMBER|DT_NOT_NEGATIVE                                      0
-C_Wrap                         wrap                             DT_NUMBER                                                      0
-C_WrapHeaders                  wrap_headers                     DT_NUMBER|DT_NOT_NEGATIVE                                      78
-C_WrapSearch                   wrap_search                      DT_BOOL                                                        true
-C_ReverseAlias                 reverse_alias                    DT_BOOL                                                        false
-C_ReverseName                  reverse_name                     DT_BOOL                                                        false
-C_ReverseRealname              reverse_realname                 DT_BOOL                                                        true
-C_Metoo                        metoo                            DT_BOOL                                                        false
-C_UseFrom                      use_from                         DT_BOOL                                                        true
-C_EnvelopeFromAddress          envelope_from_address            DT_ADDRESS                                                     0
-C_ForwardAttachments           forward_attachments              DT_QUAD                                                        MUTT_ASKYES
-C_ForwardAttributionIntro      forward_attribution_intro        DT_STRING                                                      "----- Forwarded message from %f -----"
-C_ForwardAttributionTrailer    forward_attribution_trailer      DT_STRING                                                      "----- End forwarded message -----"
-C_ForwardDecode                forward_decode                   DT_BOOL                                                        true
-C_ForwardDecrypt               forward_decrypt                  DT_BOOL                                                        true
-C_ForwardEdit                  forward_edit                     DT_QUAD                                                        MUTT_YES
-C_ForwardFormat                forward_format                   DT_STRING|DT_NOT_EMPTY                                         "[%a: %s]"
-C_ForwardQuote                 forward_quote                    DT_BOOL                                                        false
-C_ForwardReferences            forward_references               DT_BOOL                                                        false
-C_EmptySubject                 empty_subject                    DT_STRING                                                      "Re: your mail"
-C_Move                         move                             DT_QUAD                                                        MUTT_NO
-C_ReflowSpaceQuotes            reflow_space_quotes              DT_BOOL                                                        true
-C_ReflowText                   reflow_text                      DT_BOOL                                                        true
-C_ReflowWrap                   reflow_wrap                      DT_NUMBER                                                      78
-C_ReplyRegex                   reply_regex                      DT_REGEX                                                       "^((re|aw|sv)(\\[[0-9]+\\])*:[ \t]*)*"
-C_ReplySelf                    reply_self                       DT_BOOL                                                        false
-C_ReplyTo                      reply_to                         DT_QUAD                                                        MUTT_ASKYES
-C_ReplyWithXorig               reply_with_xorig                 DT_BOOL                                                        false
-C_FlagSafe                     flag_safe                        DT_BOOL                                                        false
-C_ForceName                    force_name                       DT_BOOL                                                        false
-C_IndentString                 indent_string                    DT_STRING                                                      "> "
-C_Realname                     realname                         DT_STRING                                                      ""
-C_SaveName                     save_name                        DT_BOOL                                                        false
-C_Score                        score                            DT_BOOL                                                        true
-C_ScoreThresholdDelete         score_threshold_delete           DT_NUMBER                                                      -1
-C_ScoreThresholdFlag           score_threshold_flag             DT_NUMBER                                                      9999
-C_ScoreThresholdRead           score_threshold_read             DT_NUMBER                                                      -1
-C_SigDashes                    sig_dashes                       DT_BOOL                                                        true
-C_Signature                    signature                        DT_STRING|DT_PATH                                              "~/.signature"
-C_SigOnTop                     sig_on_top                       DT_BOOL                                                        false
-C_SmartWrap                    smart_wrap                       DT_BOOL                                                        true
-C_TextFlowed                   text_flowed                      DT_BOOL                                                        false
-C_ThoroughSearch               thorough_search                  DT_BOOL                                                        true
-C_ThreadReceived               thread_received                  DT_BOOL                                                        false
-C_FollowupTo                   followup_to                      DT_BOOL                                                        true
-C_ReadOnly                     read_only                        DT_BOOL                                                        false
-C_DateFormat                   date_format                      DT_STRING|DT_NOT_EMPTY                                         "!%a, %b %d, %Y at %I:%M:%S%p %Z"
-C_PostIndentString             post_indent_string               DT_STRING                                                      ""
-C_SimpleSearch                 simple_search                    DT_STRING                                                      "~f %s | ~s %s"
+attribution                      C_Attribution                  DT_STRING
+attribution_locale               C_AttributionLocale            DT_STRING
+collapse_all                     C_CollapseAll                  DT_BOOL
+collapse_flagged                 C_CollapseFlagged              DT_BOOL
+collapse_unread                  C_CollapseUnread               DT_BOOL
+from                             C_From                         DT_ADDRESS
+index_format                     C_IndexFormat                  DT_STRING|DT_NOT_EMPTY
+size_show_bytes                  C_SizeShowBytes                DT_BOOL
+size_show_fractions              C_SizeShowFractions            DT_BOOL
+size_show_mb                     C_SizeShowMb                   DT_BOOL
+size_units_on_left               C_SizeUnitsOnLeft              DT_BOOL
+sort                             C_Sort                         DT_SORT
+sort_aux                         C_SortAux                      DT_SORT|DT_SORT_AUX
+strict_threads                   C_StrictThreads                DT_BOOL
+status_format                    C_StatusFormat                 DT_STRING
+crypt_chars                      C_CryptChars                   DT_MBTABLE
+flag_chars                       C_FlagChars                    DT_MBTABLE
+from_chars                       C_FromChars                    DT_MBTABLE
+status_chars                     C_StatusChars                  DT_MBTABLE
+to_chars                         C_ToChars                      DT_MBTABLE
+auto_tag                         C_AutoTag                      DT_BOOL
+change_folder_next               C_ChangeFolderNext             DT_BOOL
+delete_untag                     C_DeleteUntag                  DT_BOOL
+mark_macro_prefix                C_MarkMacroPrefix              DT_STRING
+mark_old                         C_MarkOld                      DT_BOOL
+resolve                          C_Resolve                      DT_BOOL
+uncollapse_jump                  C_UncollapseJump               DT_BOOL
+uncollapse_new                   C_UncollapseNew                DT_BOOL
+weed                             C_Weed                         DT_BOOL
+pager                            C_Pager                        DT_STRING|DT_COMMAND
+pager_context                    C_PagerContext                 DT_NUMBER|DT_NOT_NEGATIVE
+pager_format                     C_PagerFormat                  DT_STRING
+pager_index_lines                C_PagerIndexLines              DT_NUMBER|DT_NOT_NEGATIVE
+pager_stop                       C_PagerStop                    DT_BOOL
+quote_regex                      C_QuoteRegex                   DT_REGEX
+search_context                   C_SearchContext                DT_NUMBER|DT_NOT_NEGATIVE
+smileys                          C_Smileys                      DT_REGEX
+tilde                            C_Tilde                        DT_BOOL
+toggle_quoted_show_levels        C_ToggleQuotedShowLevels       DT_NUMBER|DT_NOT_NEGATIVE
+wrap                             C_Wrap                         DT_NUMBER
+wrap_headers                     C_WrapHeaders                  DT_NUMBER|DT_NOT_NEGATIVE
+wrap_search                      C_WrapSearch                   DT_BOOL
+reverse_alias                    C_ReverseAlias                 DT_BOOL
+reverse_name                     C_ReverseName                  DT_BOOL
+reverse_realname                 C_ReverseRealname              DT_BOOL
+metoo                            C_Metoo                        DT_BOOL
+use_from                         C_UseFrom                      DT_BOOL
+envelope_from_address            C_EnvelopeFromAddress          DT_ADDRESS
+forward_attachments              C_ForwardAttachments           DT_QUAD
+forward_attribution_intro        C_ForwardAttributionIntro      DT_STRING
+forward_attribution_trailer      C_ForwardAttributionTrailer    DT_STRING
+forward_decode                   C_ForwardDecode                DT_BOOL
+forward_decrypt                  C_ForwardDecrypt               DT_BOOL
+forward_edit                     C_ForwardEdit                  DT_QUAD
+forward_format                   C_ForwardFormat                DT_STRING|DT_NOT_EMPTY
+forward_quote                    C_ForwardQuote                 DT_BOOL
+forward_references               C_ForwardReferences            DT_BOOL
+empty_subject                    C_EmptySubject                 DT_STRING
+move                             C_Move                         DT_QUAD
+reflow_space_quotes              C_ReflowSpaceQuotes            DT_BOOL
+reflow_text                      C_ReflowText                   DT_BOOL
+reflow_wrap                      C_ReflowWrap                   DT_NUMBER
+reply_regex                      C_ReplyRegex                   DT_REGEX
+reply_self                       C_ReplySelf                    DT_BOOL
+reply_to                         C_ReplyTo                      DT_QUAD
+reply_with_xorig                 C_ReplyWithXorig               DT_BOOL
+flag_safe                        C_FlagSafe                     DT_BOOL
+force_name                       C_ForceName                    DT_BOOL
+indent_string                    C_IndentString                 DT_STRING
+realname                         C_Realname                     DT_STRING
+save_name                        C_SaveName                     DT_BOOL
+score                            C_Score                        DT_BOOL
+score_threshold_delete           C_ScoreThresholdDelete         DT_NUMBER
+score_threshold_flag             C_ScoreThresholdFlag           DT_NUMBER
+score_threshold_read             C_ScoreThresholdRead           DT_NUMBER
+sig_dashes                       C_SigDashes                    DT_BOOL
+signature                        C_Signature                    DT_STRING|DT_PATH
+sig_on_top                       C_SigOnTop                     DT_BOOL
+smart_wrap                       C_SmartWrap                    DT_BOOL
+text_flowed                      C_TextFlowed                   DT_BOOL
+thorough_search                  C_ThoroughSearch               DT_BOOL
+thread_received                  C_ThreadReceived               DT_BOOL
+followup_to                      C_FollowupTo                   DT_BOOL
+read_only                        C_ReadOnly                     DT_BOOL
+date_format                      C_DateFormat                   DT_STRING|DT_NOT_EMPTY
+post_indent_string               C_PostIndentString             DT_STRING
+simple_search                    C_SimpleSearch                 DT_STRING
