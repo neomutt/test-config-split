@@ -1,0 +1,5 @@
+Name: nm_query_type
+Type: string
+Default: "messages"
+
+This variable specifies the default query type (threads or messages) used in notmuch queries.

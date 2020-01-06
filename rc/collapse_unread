@@ -1,0 +1,6 @@
+Name: collapse_unread
+Type: boolean
+Default: yes
+
+When unset, NeoMutt will not collapse a thread if it contains any
+unread messages.

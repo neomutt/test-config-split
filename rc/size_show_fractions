@@ -1,0 +1,7 @@
+Name: size_show_fractions
+Type: boolean
+Default: yes
+
+If set, message sizes will be displayed with a single decimal value
+for sizes from 0 to 10 kilobytes and 1 to 10 megabytes.
+See formatstrings-size.

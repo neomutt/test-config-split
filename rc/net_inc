@@ -1,0 +1,9 @@
+Name: net_inc
+Type: number
+Default: 10
+
+Operations that expect to transfer a large amount of data over the
+network will update their progress every $net_inc kilobytes.
+If set to 0, no progress messages will be displayed.
+
+See also $read_inc, $write_inc and $net_inc.

@@ -1,0 +1,7 @@
+Name: ssl_starttls
+Type: quadoption
+Default: yes
+
+If set (the default), NeoMutt will attempt to use STARTTLS on servers
+advertising the capability. When unset, NeoMutt will not attempt to
+use STARTTLS regardless of the server's capabilities.

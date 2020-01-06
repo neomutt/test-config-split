@@ -1,0 +1,5 @@
+Name: beep
+Type: boolean
+Default: yes
+
+When this variable is set, NeoMutt will beep when an error occurs.

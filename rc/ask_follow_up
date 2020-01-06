@@ -1,0 +1,6 @@
+Name: ask_follow_up
+Type: boolean
+Default: no
+
+If set, NeoMutt will prompt you for follow-up groups before editing
+the body of an outgoing message.

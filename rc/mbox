@@ -1,0 +1,8 @@
+Name: mbox
+Type: path
+Default: "~/mbox"
+
+This specifies the folder into which read mail in your $spoolfile
+folder will be appended.
+
+Also see the $move variable.

@@ -1,0 +1,9 @@
+Name: pgp_encrypt_sign_command
+Type: command
+Default: ""
+
+This command is used to both sign and encrypt a body part.
+
+This is a format string, see the $pgp_decode_command command for
+possible printf(3)-like sequences.
+(PGP only)

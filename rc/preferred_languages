@@ -1,0 +1,6 @@
+Name: preferred_languages
+Type: string list
+Default: ""
+
+RFC8255 : user preferred languages to be search in parts and display
+Ex. : set preferred_languages="en,fr,de"

@@ -1,0 +1,5 @@
+Name: nntp_pass
+Type: string
+Default: ""
+
+Your password for NNTP account.

@@ -1,0 +1,7 @@
+Name: crypt_replyencrypt
+Type: boolean
+Default: yes
+
+If set, automatically PGP or OpenSSL encrypt replies to messages which are
+encrypted.
+(Crypto only)

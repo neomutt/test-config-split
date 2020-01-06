@@ -1,0 +1,6 @@
+Name: hide_missing
+Type: boolean
+Default: yes
+
+When set, NeoMutt will not show the presence of missing messages in the
+thread tree.

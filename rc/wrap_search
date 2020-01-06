@@ -1,0 +1,8 @@
+Name: wrap_search
+Type: boolean
+Default: yes
+
+Controls whether searches wrap around the end.
+
+When set, searches will wrap around the first (or last) item. When
+unset, incremental searches will not wrap.

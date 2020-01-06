@@ -1,0 +1,16 @@
+Name: sort_browser
+Type: sort order
+Default: alpha
+
+Specifies how to sort entries in the file browser.  By default, the
+entries are sorted alphabetically.  Valid values:
+- alpha (alphabetically)
+- count (all message count)
+- date
+- desc (description)
+- new (new message count)
+- size
+- unsorted
+
+You may optionally use the "reverse-" prefix to specify reverse sorting
+order (example: "set sort_browser=reverse-date").

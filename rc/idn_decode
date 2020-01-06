@@ -1,0 +1,7 @@
+Name: idn_decode
+Type: boolean
+Default: yes
+
+When set, NeoMutt will show you international domain names decoded.
+Note: You can use IDNs for addresses even if this is unset.
+This variable only affects decoding. (IDN only)

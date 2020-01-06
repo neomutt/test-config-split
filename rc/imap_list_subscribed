@@ -1,0 +1,7 @@
+Name: imap_list_subscribed
+Type: boolean
+Default: no
+
+This variable configures whether IMAP folder browsing will look for
+only subscribed folders or all folders.  This can be toggled in the
+IMAP browser with the <toggle-subscribed> function.

@@ -1,0 +1,8 @@
+Name: smart_wrap
+Type: boolean
+Default: yes
+
+Controls the display of lines longer than the screen width in the
+internal pager. If set, long lines are wrapped at a word boundary.  If
+unset, lines are simply wrapped at the screen edge. Also see the
+$markers variable.

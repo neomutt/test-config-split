@@ -1,0 +1,7 @@
+Name: ssl_usesystemcerts
+Type: boolean
+Default: yes
+
+If set to yes, NeoMutt will use CA certificates in the
+system-wide certificate store when checking if a server certificate
+is signed by a trusted CA. (OpenSSL only)

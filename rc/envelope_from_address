@@ -1,0 +1,6 @@
+Name: envelope_from_address
+Type: e-mail address
+Default: ""
+
+Manually sets the envelope sender for outgoing messages.
+This value is ignored if $use_envelope_from is unset.

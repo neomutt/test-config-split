@@ -1,0 +1,22 @@
+Name: sort
+Type: sort order
+Default: date
+
+Specifies how to sort messages in the "index" menu.  Valid values
+are:
+- date or date-sent
+- date-received
+- from
+- mailbox-order (unsorted)
+- score
+- size
+- spam
+- subject
+- threads
+- to
+
+You may optionally use the "reverse-" prefix to specify reverse sorting
+order.
+
+Example:
+set sort=reverse-date-sent

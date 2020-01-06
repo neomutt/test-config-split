@@ -1,0 +1,6 @@
+Name: include_onlyfirst
+Type: boolean
+Default: no
+
+Controls whether or not NeoMutt includes only the first attachment
+of the message you are replying.

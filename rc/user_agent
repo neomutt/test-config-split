@@ -1,0 +1,7 @@
+Name: user_agent
+Type: boolean
+Default: no
+
+When set, NeoMutt will add a "User-Agent:" header to outgoing
+messages, indicating which version of NeoMutt was used for composing
+them.

@@ -1,0 +1,8 @@
+Name: pop_auth_try_all
+Type: boolean
+Default: yes
+
+If set, NeoMutt will try all available authentication methods.
+When unset, NeoMutt will only fall back to other authentication
+methods if the previous methods are unavailable. If a method is
+available but authentication fails, NeoMutt will not connect to the POP server.

@@ -1,0 +1,6 @@
+Name: pop_reconnect
+Type: quadoption
+Default: ask-yes
+
+Controls whether or not NeoMutt will try to reconnect to the POP server if
+the connection is lost.

@@ -1,0 +1,6 @@
+Name: show_only_unread
+Type: boolean
+Default: no
+
+If set, only subscribed newsgroups that contain unread articles
+will be displayed in browser.

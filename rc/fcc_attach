@@ -1,0 +1,6 @@
+Name: fcc_attach
+Type: quadoption
+Default: yes
+
+This variable controls whether or not attachments on outgoing messages
+are saved along with the main body of your message.

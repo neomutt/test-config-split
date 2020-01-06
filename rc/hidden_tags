@@ -1,0 +1,6 @@
+Name: hidden_tags
+Type: string list
+Default: "unread,draft,flagged,passed,replied,attachment,signed,encrypted"
+
+This variable specifies private notmuch/imap tags which should not be printed
+on screen.

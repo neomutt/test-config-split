@@ -1,0 +1,6 @@
+Name: ssl_use_tlsv1_3
+Type: boolean
+Default: yes
+
+If set , NeoMutt will use TLSv1.3 when communicating with servers that
+request it.

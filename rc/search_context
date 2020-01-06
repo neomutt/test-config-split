@@ -1,0 +1,6 @@
+Name: search_context
+Type: number
+Default: 0
+
+For the pager, this variable specifies the number of lines shown
+before search results. By default, search results will be top-aligned.

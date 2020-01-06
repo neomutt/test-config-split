@@ -1,0 +1,7 @@
+Name: toggle_quoted_show_levels
+Type: number
+Default: 0
+
+Quoted text may be filtered out using the <toggle-quoted> command.
+If set to a number greater than 0, then the <toggle-quoted>
+command will only filter out quote levels above this number.

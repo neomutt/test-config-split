@@ -1,0 +1,6 @@
+Name: weed
+Type: boolean
+Default: yes
+
+When set, NeoMutt will weed headers when displaying, forwarding,
+printing, or replying to messages.

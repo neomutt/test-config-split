@@ -1,0 +1,7 @@
+Name: nm_replied_tag
+Type: string
+Default: "replied"
+
+This variable specifies notmuch tag which is used for replied messages. The
+variable is used to set the replied flag when modifiying tags. All other NeoMutt
+commands use standard (e.g. maildir) flags.

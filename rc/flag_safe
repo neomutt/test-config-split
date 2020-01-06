@@ -1,0 +1,5 @@
+Name: flag_safe
+Type: boolean
+Default: no
+
+If set, flagged messages can't be deleted.

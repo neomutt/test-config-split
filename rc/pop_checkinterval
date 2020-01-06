@@ -1,0 +1,6 @@
+Name: pop_checkinterval
+Type: number
+Default: 60
+
+This variable configures how often (in seconds) NeoMutt should look for
+new mail in the currently selected mailbox if it is a POP mailbox.

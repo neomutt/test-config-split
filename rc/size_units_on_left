@@ -1,0 +1,6 @@
+Name: size_units_on_left
+Type: boolean
+Default: no
+
+If set, message sizes units will be displayed to the left of the number.
+See formatstrings-size.

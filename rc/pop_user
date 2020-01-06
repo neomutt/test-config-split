@@ -1,0 +1,7 @@
+Name: pop_user
+Type: string
+Default: ""
+
+Your login name on the POP server.
+
+This variable defaults to your user name on the local machine.

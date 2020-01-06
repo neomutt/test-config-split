@@ -1,0 +1,5 @@
+Name: header_cache_backend
+Type: string
+Default: ""
+
+This variable specifies the header cache backend.

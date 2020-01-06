@@ -1,0 +1,6 @@
+Name: thread_received
+Type: boolean
+Default: no
+
+When set, NeoMutt uses the date received rather than the date sent
+to thread messages by subject.

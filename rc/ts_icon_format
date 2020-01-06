@@ -1,0 +1,7 @@
+Name: ts_icon_format
+Type: string
+Default: "M%?n?AIL&ail?"
+
+Controls the format of the icon title, as long as "$ts_enabled" is set.
+This string is identical in formatting to the one used by
+"$status_format".

@@ -1,0 +1,6 @@
+Name: honor_followup_to
+Type: quadoption
+Default: yes
+
+This variable controls whether or not a Mail-Followup-To header is
+honored when group-replying to a message.

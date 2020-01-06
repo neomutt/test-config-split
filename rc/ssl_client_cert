@@ -1,0 +1,6 @@
+Name: ssl_client_cert
+Type: path
+Default: ""
+
+The file containing a client certificate and its associated private
+key.

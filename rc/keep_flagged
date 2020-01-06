@@ -1,0 +1,7 @@
+Name: keep_flagged
+Type: boolean
+Default: no
+
+If set, read messages marked as flagged will not be moved
+from your spool mailbox to your $mbox mailbox, or as a result of
+a "mbox-hook" command.

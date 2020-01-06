@@ -1,0 +1,10 @@
+Name: crypt_replysign
+Type: boolean
+Default: no
+
+If set, automatically PGP or OpenSSL sign replies to messages which are
+signed.
+
+Note: this does not work on messages that are encrypted
+and signed!
+(Crypto only)

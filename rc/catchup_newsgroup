@@ -1,0 +1,6 @@
+Name: catchup_newsgroup
+Type: quadoption
+Default: ask-yes
+
+If this variable is set, NeoMutt will mark all articles in newsgroup
+as read when you quit the newsgroup (catchup newsgroup).

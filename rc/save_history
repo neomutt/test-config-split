@@ -1,0 +1,6 @@
+Name: save_history
+Type: number
+Default: 0
+
+This variable controls the size of the history (per category) saved in the
+$history_file file.

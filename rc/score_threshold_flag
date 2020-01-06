@@ -1,0 +1,6 @@
+Name: score_threshold_flag
+Type: number
+Default: 9999
+
+Messages which have been assigned a score greater than or equal to this
+variable's value are automatically marked "flagged".

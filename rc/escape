@@ -1,0 +1,5 @@
+Name: escape
+Type: string
+Default: "~"
+
+Escape character to use for functions in the built-in editor.

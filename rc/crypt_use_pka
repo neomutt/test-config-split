@@ -1,0 +1,7 @@
+Name: crypt_use_pka
+Type: boolean
+Default: no
+
+Controls whether NeoMutt uses PKA
+(see http://www.g10code.de/docs/pka-intro.de.pdf) during signature
+verification (only supported by the GPGME backend).

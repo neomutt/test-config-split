@@ -1,0 +1,6 @@
+Name: nntp_listgroup
+Type: boolean
+Default: yes
+
+This variable controls whether or not existence of each article is
+checked when newsgroup is entered.

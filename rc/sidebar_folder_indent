@@ -1,0 +1,7 @@
+Name: sidebar_folder_indent
+Type: boolean
+Default: no
+
+Set this to indent mailboxes in the sidebar.
+
+See also: $sidebar_short_path, $sidebar_indent_string, $sidebar_delim_chars.

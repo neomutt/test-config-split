@@ -1,0 +1,6 @@
+Name: size_show_mb
+Type: boolean
+Default: yes
+
+If set, message sizes will display megabytes for values greater than
+or equal to 1 megabyte.  See formatstrings-size.

@@ -1,0 +1,8 @@
+Name: uncollapse_new
+Type: boolean
+Default: yes
+
+When set, NeoMutt will automatically uncollapse any collapsed thread
+that receives a new message. When unset, collapsed threads will
+remain collapsed. the presence of the new message will still affect
+index sorting, though.

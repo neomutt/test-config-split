@@ -1,0 +1,7 @@
+Name: connect_timeout
+Type: number
+Default: 30
+
+Causes NeoMutt to timeout a network connection (for IMAP, POP or SMTP) after this
+many seconds if the connection is not able to be established.  A negative
+value causes NeoMutt to wait indefinitely for the connection attempt to succeed.

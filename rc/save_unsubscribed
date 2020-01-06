@@ -1,0 +1,6 @@
+Name: save_unsubscribed
+Type: boolean
+Default: no
+
+When set, info about unsubscribed newsgroups will be saved into
+"newsrc" file and into cache.

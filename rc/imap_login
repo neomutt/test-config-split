@@ -1,0 +1,7 @@
+Name: imap_login
+Type: string
+Default: ""
+
+Your login name on the IMAP server.
+
+This variable defaults to the value of $imap_user.

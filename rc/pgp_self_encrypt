@@ -1,0 +1,7 @@
+Name: pgp_self_encrypt
+Type: boolean
+Default: yes
+
+When set, PGP encrypted messages will also be encrypted
+using the key in $pgp_default_key.
+(PGP only)

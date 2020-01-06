@@ -1,0 +1,10 @@
+Name: fast_reply
+Type: boolean
+Default: no
+
+When set, the initial prompt for recipients and subject are skipped
+when replying to messages, and the initial prompt for subject is
+skipped when forwarding messages.
+
+Note: this variable has no effect when the $autoedit
+variable is set.

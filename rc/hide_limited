@@ -1,0 +1,6 @@
+Name: hide_limited
+Type: boolean
+Default: no
+
+When set, NeoMutt will not show the presence of messages that are hidden
+by limiting, in the thread tree.

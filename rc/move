@@ -1,0 +1,7 @@
+Name: move
+Type: quadoption
+Default: no
+
+Controls whether or not NeoMutt will move read messages
+from your spool mailbox to your $mbox mailbox, or as a result of
+a "mbox-hook" command.

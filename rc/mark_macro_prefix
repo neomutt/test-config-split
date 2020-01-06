@@ -1,0 +1,7 @@
+Name: mark_macro_prefix
+Type: string
+Default: "'"
+
+Prefix for macros created using mark-message.  A new macro
+automatically generated with <mark-message>a will be composed
+from this prefix and the letter a.

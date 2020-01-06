@@ -1,0 +1,5 @@
+Name: nm_record
+Type: boolean
+Default: no
+
+This variable specifies if the NeoMutt record should indexed by notmuch.

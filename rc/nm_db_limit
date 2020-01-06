@@ -1,0 +1,5 @@
+Name: nm_db_limit
+Type: number
+Default: 0
+
+This variable specifies the default limit used in notmuch queries.

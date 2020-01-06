@@ -1,0 +1,5 @@
+Name: newsgroups_charset
+Type: string
+Default: "utf-8"
+
+Character set of newsgroups descriptions.

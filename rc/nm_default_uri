@@ -1,0 +1,6 @@
+Name: nm_default_uri
+Type: string
+Default: ""
+
+This variable specifies the default Notmuch database in format
+notmuch://<absolute path>.

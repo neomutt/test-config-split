@@ -1,0 +1,6 @@
+Name: nm_query_window_timebase
+Type: string
+Default: "week"
+
+This variable sets the time base of a windowed notmuch query.
+Accepted values are 'minute', 'hour', 'day', 'week', 'month', 'year'

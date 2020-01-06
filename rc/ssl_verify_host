@@ -1,0 +1,8 @@
+Name: ssl_verify_host
+Type: boolean
+Default: yes
+
+If set (the default), NeoMutt will not automatically accept a server
+certificate whose host name does not match the host used in your folder
+URL. You should only unset this for particular known hosts, using
+the <account-hook> function.

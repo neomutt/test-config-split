@@ -1,0 +1,7 @@
+Name: nntp_load_description
+Type: boolean
+Default: yes
+
+This variable controls whether or not descriptions for each newsgroup
+must be loaded when newsgroup is added to list (first time list
+loading or new newsgroup adding).

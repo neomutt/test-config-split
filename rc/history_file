@@ -1,0 +1,7 @@
+Name: history_file
+Type: path
+Default: "~/.mutthistory"
+
+The file in which NeoMutt will save its history.
+
+Also see $save_history.

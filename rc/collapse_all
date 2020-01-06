@@ -1,0 +1,5 @@
+Name: collapse_all
+Type: boolean
+Default: no
+
+When set, NeoMutt will collapse all threads when entering a folder.

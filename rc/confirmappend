@@ -1,0 +1,6 @@
+Name: confirmappend
+Type: boolean
+Default: yes
+
+When set, NeoMutt will prompt for confirmation when appending messages to
+an existing mailbox.

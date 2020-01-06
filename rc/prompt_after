@@ -1,0 +1,8 @@
+Name: prompt_after
+Type: boolean
+Default: yes
+
+If you use an external $pager, setting this variable will
+cause NeoMutt to prompt you for a command when the pager exits rather
+than returning to the index menu.  If unset, NeoMutt will return to the
+index menu when the external pager exits.

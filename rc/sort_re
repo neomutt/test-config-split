@@ -1,0 +1,11 @@
+Name: sort_re
+Type: boolean
+Default: yes
+
+This variable is only useful when sorting by mailboxes in sidebar. By default,
+entries are unsorted.  Valid values:
+- count (all message count)
+- desc  (virtual mailbox description)
+- new (new message count)
+- path
+- unsorted

@@ -1,0 +1,6 @@
+Name: metoo
+Type: boolean
+Default: no
+
+If unset, NeoMutt will remove your address (see the "alternates"
+command) from the list of recipients when replying to a message.

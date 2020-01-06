@@ -1,0 +1,7 @@
+Name: mask
+Type: regular expression
+Default: "!^\\.[^.]"
+
+A regular expression used in the file browser, optionally preceded by
+the not operator "!".  Only files whose names match this mask
+will be shown. The match is always case-sensitive.
