@@ -82,3 +82,6 @@ C_ThoroughSearch               thorough_search                  DT_BOOL         
 C_ThreadReceived               thread_received                  DT_BOOL                                                        false
 C_FollowupTo                   followup_to                      DT_BOOL                                                        true
 C_ReadOnly                     read_only                        DT_BOOL                                                        false
+C_DateFormat                   date_format                      DT_STRING|DT_NOT_EMPTY                                         "!%a, %b %d, %Y at %I:%M:%S%p %Z"
+C_PostIndentString             post_indent_string               DT_STRING                                                      ""
+C_SimpleSearch                 simple_search                    DT_STRING                                                      "~f %s | ~s %s"

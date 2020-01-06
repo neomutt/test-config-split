@@ -78,3 +78,58 @@ C_Recall                       recall                           DT_QUAD         
 C_ResumeDraftFiles             resume_draft_files               DT_BOOL                                                        false
 C_ResumeEditedDraftFiles       resume_edited_draft_files        DT_BOOL                                                        true
 C_SaveHistory                  save_history                     DT_NUMBER|DT_NOT_NEGATIVE                                      0
+C_Autoedit                     autoedit                         DT_BOOL                                                        false
+C_CertificateFile              certificate_file                 DT_STRING|DT_PATH                                              "~/.mutt_certificates"
+C_Escape                       escape                           DT_STRING                                                      "~"
+C_Mask                         mask                             DT_REGEX|DT_REGEX_MATCH_CASE|DT_REGEX_ALLOW_NOT|DT_REGEX_NOSUB "!^\\.[^.]"
+C_MailcapPath                  mailcap_path                     DT_SLIST|SLIST_SEP_COLON                                       "~/.mailcap:" PKGDATADIR "/mailcap:" SYSCONFDIR "/mailcap:/etc/mailcap:/usr/etc/mailcap:/usr/local/etc/mailcap"
+C_MailcapSanitize              mailcap_sanitize                 DT_BOOL                                                        true
+C_SkipQuotedOffset             skip_quoted_offset               DT_NUMBER|DT_NOT_NEGATIVE                                      0
+C_AllowAnsi                    allow_ansi                       DT_BOOL                                                        false
+C_DigestCollapse               digest_collapse                  DT_BOOL                                                        true
+C_EntropyFile                  entropy_file                     DT_STRING|DT_PATH                                              ""
+C_PromptAfter                  prompt_after                     DT_BOOL                                                        true
+C_DuplicateThreads             duplicate_threads                DT_BOOL                                                        true
+C_HeaderColorPartial           header_color_partial             DT_BOOL                                                        false
+C_MetaKey                      meta_key                         DT_BOOL                                                        false
+C_MixEntryFormat               mix_entry_format                 DT_STRING|DT_NOT_EMPTY                                         "%4n %c %-16s %a"
+C_Mixmaster                    mixmaster                        DT_STRING|DT_COMMAND                                           MIXMASTER
+C_PipeDecode                   pipe_decode                      DT_BOOL                                                        false
+C_PipeSep                      pipe_sep                         DT_STRING                                                      "\n"
+C_PipeSplit                    pipe_split                       DT_BOOL                                                        false
+C_AbortNoattach                abort_noattach                   DT_QUAD                                                        MUTT_NO
+C_AbortNoattachRegex           abort_noattach_regex             DT_REGEX                                                       "\\<(attach|attached|attachments?)\\>"
+C_AbortNosubject               abort_nosubject                  DT_QUAD                                                        MUTT_ASKYES
+C_AbortUnmodified              abort_unmodified                 DT_QUAD                                                        MUTT_YES
+C_BeepNew                      beep_new                         DT_BOOL                                                        false
+C_ComposeFormat                compose_format                   DT_STRING                                                      "-- NeoMutt: Compose  [Approx. msg size: %l   Atts: %a]%>-"
+C_EncodeFrom                   encode_from                      DT_BOOL                                                        false
+C_IdnDecode                    idn_decode                       DT_BOOL                                                        true
+C_IdnEncode                    idn_encode                       DT_BOOL                                                        true
+C_NewMailCommand               new_mail_command                 DT_STRING|DT_COMMAND                                           ""
+C_PreferredLanguages           preferred_languages              DT_SLIST|SLIST_SEP_COMMA                                       0
+C_Rfc2047Parameters            rfc2047_parameters               DT_BOOL                                                        false
+C_BrowserAbbreviateMailboxes   browser_abbreviate_mailboxes     DT_BOOL                                                        true
+C_ContentType                  content_type                     DT_STRING                                                      "text/plain"
+C_AutoSubscribe                auto_subscribe                   DT_BOOL                                                        false
+C_Bounce                       bounce                           DT_QUAD                                                        MUTT_ASKYES
+C_MimeForward                  mime_forward                     DT_QUAD                                                        MUTT_NO
+C_MimeForwardDecode            mime_forward_decode              DT_BOOL                                                        false
+C_MimeForwardRest              mime_forward_rest                DT_QUAD                                                        MUTT_YES
+C_MimeTypeQueryCommand         mime_type_query_command          DT_STRING|DT_COMMAND                                           ""
+C_MimeTypeQueryFirst           mime_type_query_first            DT_BOOL                                                        false
+C_AttachCharset                attach_charset                   DT_STRING                                                      ""
+C_AttachFormat                 attach_format                    DT_STRING|DT_NOT_EMPTY                                         "%u%D%I %t%4n %T%.40d%> [%.7m/%.10M, %.6e%?C?, %C?, %s] "
+C_AttachSaveDir                attach_save_dir                  DT_STRING|DT_PATH                                              "./"
+C_AttachSaveWithoutPrompting   attach_save_without_prompting    DT_BOOL                                                        false
+C_AttachSep                    attach_sep                       DT_STRING                                                      "\n"
+C_AttachSplit                  attach_split                     DT_BOOL                                                        true
+C_Charset                      charset                          DT_STRING|DT_NOT_EMPTY                                         ""
+C_DefaultHook                  default_hook                     DT_STRING                                                      "~f %s !~P | (~P ~C %s)"
+C_ExternalSearchCommand        external_search_command          DT_STRING|DT_COMMAND                                           ""
+C_HonorDisposition             honor_disposition                DT_BOOL                                                        false
+C_HonorFollowupTo              honor_followup_to                DT_QUAD                                                        MUTT_YES
+C_ImplicitAutoview             implicit_autoview                DT_BOOL                                                        false
+C_ShowMultipartAlternative     show_multipart_alternative       DT_STRING                                                      ""
+C_SortRe                       sort_re                          DT_BOOL                                                        true
+C_SpamSeparator                spam_separator                   DT_STRING                                                      ","

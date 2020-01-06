@@ -1,8 +1,3 @@
-C_Spoolfile                    spoolfile                        DT_STRING|DT_PATH|DT_MAILBOX                                   ""
-C_Trash                        trash                            DT_STRING|DT_PATH|DT_MAILBOX                                   ""
-C_Tunnel                       tunnel                           DT_STRING|DT_COMMAND                                           ""
-C_Folder                       folder                           DT_STRING|DT_PATH|DT_MAILBOX                                   "~/Mail"
-
 C_ImapLogin                    imap_login                       DT_STRING|DT_SENSITIVE                                         ""
 C_ImapPass                     imap_pass                        DT_STRING|DT_SENSITIVE                                         ""
 C_ImapUser                     imap_user                        DT_STRING|DT_SENSITIVE                                         ""
@@ -83,11 +78,17 @@ C_MhPurge                      mh_purge                         DT_BOOL         
 C_MhSeqFlagged                 mh_seq_flagged                   DT_STRING                                                      "flagged"
 C_MhSeqReplied                 mh_seq_replied                   DT_STRING                                                      "replied"
 C_MhSeqUnseen                  mh_seq_unseen                    DT_STRING                                                      "unseen"
+C_CheckNew                     check_new                        DT_BOOL                                                        true
 
 C_MailCheck                    mail_check                       DT_NUMBER|DT_NOT_NEGATIVE                                      5
 C_MailCheckRecent              mail_check_recent                DT_BOOL                                                        true
 C_MailCheckStats               mail_check_stats                 DT_BOOL                                                        false
 C_MailCheckStatsInterval       mail_check_stats_interval        DT_NUMBER|DT_NOT_NEGATIVE                                      60
+
+C_Spoolfile                    spoolfile                        DT_STRING|DT_PATH|DT_MAILBOX                                   ""
+C_Trash                        trash                            DT_STRING|DT_PATH|DT_MAILBOX                                   ""
+C_Tunnel                       tunnel                           DT_STRING|DT_COMMAND                                           ""
+C_Folder                       folder                           DT_STRING|DT_PATH|DT_MAILBOX                                   "~/Mail"
 
 C_Postpone                     postpone                         DT_QUAD                                                        MUTT_ASKYES
 C_Postponed                    postponed                        DT_STRING|DT_PATH|DT_MAILBOX                                   "~/postponed"
@@ -131,3 +132,114 @@ C_Askbcc                       askbcc                           DT_BOOL         
 C_Askcc                        askcc                            DT_BOOL                                                        false
 C_Confirmappend                confirmappend                    DT_BOOL                                                        true
 C_Confirmcreate                confirmcreate                    DT_BOOL                                                        true
+C_CheckMboxSize                check_mbox_size                  DT_BOOL                                                        false
+C_Hdrs                         hdrs                             DT_BOOL                                                        true
+C_Hostname                     hostname                         DT_STRING                                                      ""
+C_UseDomain                    use_domain                       DT_BOOL                                                        true
+C_Allow8bit                    allow_8bit                       DT_BOOL                                                        true
+C_Delete                       delete                           DT_QUAD                                                        MUTT_ASKYES
+
+C_CryptAutoencrypt             crypt_autoencrypt                DT_BOOL                                                        false
+C_CryptAutopgp                 crypt_autopgp                    DT_BOOL                                                        true
+C_CryptAutosign                crypt_autosign                   DT_BOOL                                                        false
+C_CryptAutosmime               crypt_autosmime                  DT_BOOL                                                        true
+C_CryptConfirmhook             crypt_confirmhook                DT_BOOL                                                        true
+C_CryptOpportunisticEncrypt    crypt_opportunistic_encrypt      DT_BOOL                                                        false
+C_CryptProtectedHeadersRead    crypt_protected_headers_read     DT_BOOL                                                        true
+C_CryptProtectedHeadersSave    crypt_protected_headers_save     DT_BOOL                                                        false
+C_CryptProtectedHeadersSubject crypt_protected_headers_subject  DT_STRING                                                      "Encrypted subject"
+C_CryptProtectedHeadersWrite   crypt_protected_headers_write    DT_BOOL                                                        false
+C_CryptReplyencrypt            crypt_replyencrypt               DT_BOOL                                                        true
+C_CryptReplysign               crypt_replysign                  DT_BOOL                                                        false
+C_CryptReplysignencrypted      crypt_replysignencrypted         DT_BOOL                                                        false
+C_CryptTimestamp               crypt_timestamp                  DT_BOOL                                                        true
+C_CryptUseGpgme                crypt_use_gpgme                  DT_BOOL                                                        false
+C_CryptUsePka                  crypt_use_pka                    DT_BOOL                                                        false
+C_CryptVerifySig               crypt_verify_sig                 DT_QUAD                                                        MUTT_YES
+
+C_PgpAutoDecode                pgp_auto_decode                  DT_BOOL                                                        false
+C_PgpAutoinline                pgp_autoinline                   DT_BOOL                                                        false
+C_PgpCheckExit                 pgp_check_exit                   DT_BOOL                                                        true
+C_PgpCheckGpgDecryptStatusFd   pgp_check_gpg_decrypt_status_fd  DT_BOOL                                                        true
+C_PgpClearsignCommand          pgp_clearsign_command            DT_STRING|DT_COMMAND                                           ""
+C_PgpDecodeCommand             pgp_decode_command               DT_STRING|DT_COMMAND                                           ""
+C_PgpDecryptCommand            pgp_decrypt_command              DT_STRING|DT_COMMAND                                           ""
+C_PgpDecryptionOkay            pgp_decryption_okay              DT_REGEX                                                       0
+C_PgpDefaultKey                pgp_default_key                  DT_STRING                                                      ""
+C_PgpEncryptOnlyCommand        pgp_encrypt_only_command         DT_STRING|DT_COMMAND                                           ""
+C_PgpEncryptSignCommand        pgp_encrypt_sign_command         DT_STRING|DT_COMMAND                                           ""
+C_PgpEntryFormat               pgp_entry_format                 DT_STRING|DT_NOT_EMPTY                                         "%4n %t%f %4l/0x%k %-4a %2c %u"
+C_PgpExportCommand             pgp_export_command               DT_STRING|DT_COMMAND                                           ""
+C_PgpGetkeysCommand            pgp_getkeys_command              DT_STRING|DT_COMMAND                                           ""
+C_PgpGoodSign                  pgp_good_sign                    DT_REGEX                                                       0
+C_PgpIgnoreSubkeys             pgp_ignore_subkeys               DT_BOOL                                                        true
+C_PgpImportCommand             pgp_import_command               DT_STRING|DT_COMMAND                                           ""
+C_PgpListPubringCommand        pgp_list_pubring_command         DT_STRING|DT_COMMAND                                           ""
+C_PgpListSecringCommand        pgp_list_secring_command         DT_STRING|DT_COMMAND                                           ""
+C_PgpLongIds                   pgp_long_ids                     DT_BOOL                                                        true
+C_PgpMimeAuto                  pgp_mime_auto                    DT_QUAD                                                        MUTT_ASKYES
+C_PgpReplyinline               pgp_replyinline                  DT_BOOL                                                        false
+C_PgpRetainableSigs            pgp_retainable_sigs              DT_BOOL                                                        false
+C_PgpSelfEncrypt               pgp_self_encrypt                 DT_BOOL                                                        true
+C_PgpShowUnusable              pgp_show_unusable                DT_BOOL                                                        true
+C_PgpSignAs                    pgp_sign_as                      DT_STRING                                                      ""
+C_PgpSignCommand               pgp_sign_command                 DT_STRING|DT_COMMAND                                           ""
+C_PgpSortKeys                  pgp_sort_keys                    DT_SORT|DT_SORT_KEYS                                           SORT_ADDRESS
+C_PgpStrictEnc                 pgp_strict_enc                   DT_BOOL                                                        true
+C_PgpTimeout                   pgp_timeout                      DT_LONG|DT_NOT_NEGATIVE                                        300
+C_PgpUseGpgAgent               pgp_use_gpg_agent                DT_BOOL                                                        true
+C_PgpVerifyCommand             pgp_verify_command               DT_STRING|DT_COMMAND                                           ""
+C_PgpVerifyKeyCommand          pgp_verify_key_command           DT_STRING|DT_COMMAND                                           ""
+
+C_SmimeAskCertLabel            smime_ask_cert_label             DT_BOOL                                                        true
+C_SmimeCaLocation              smime_ca_location                DT_STRING|DT_PATH                                              ""
+C_SmimeCertificates            smime_certificates               DT_STRING|DT_PATH                                              ""
+C_SmimeDecryptCommand          smime_decrypt_command            DT_STRING|DT_COMMAND                                           ""
+C_SmimeDecryptUseDefaultKey    smime_decrypt_use_default_key    DT_BOOL                                                        true
+C_SmimeDefaultKey              smime_default_key                DT_STRING                                                      ""
+C_SmimeEncryptCommand          smime_encrypt_command            DT_STRING|DT_COMMAND                                           ""
+C_SmimeEncryptWith             smime_encrypt_with               DT_STRING                                                      "aes256"
+C_SmimeGetCertCommand          smime_get_cert_command           DT_STRING|DT_COMMAND                                           ""
+C_SmimeGetCertEmailCommand     smime_get_cert_email_command     DT_STRING|DT_COMMAND                                           ""
+C_SmimeGetSignerCertCommand    smime_get_signer_cert_command    DT_STRING|DT_COMMAND                                           ""
+C_SmimeImportCertCommand       smime_import_cert_command        DT_STRING|DT_COMMAND                                           ""
+C_SmimeIsDefault               smime_is_default                 DT_BOOL                                                        false
+C_SmimeKeys                    smime_keys                       DT_STRING|DT_PATH                                              ""
+C_SmimePk7outCommand           smime_pk7out_command             DT_STRING|DT_COMMAND                                           ""
+C_SmimeSelfEncrypt             smime_self_encrypt               DT_BOOL                                                        true
+C_SmimeSignAs                  smime_sign_as                    DT_STRING                                                      ""
+C_SmimeSignCommand             smime_sign_command               DT_STRING|DT_COMMAND                                           ""
+C_SmimeSignDigestAlg           smime_sign_digest_alg            DT_STRING                                                      "sha256"
+C_SmimeTimeout                 smime_timeout                    DT_NUMBER|DT_NOT_NEGATIVE                                      300
+C_SmimeVerifyCommand           smime_verify_command             DT_STRING|DT_COMMAND                                           ""
+C_SmimeVerifyOpaqueCommand     smime_verify_opaque_command      DT_STRING|DT_COMMAND                                           ""
+
+C_KeepFlagged                  keep_flagged                     DT_BOOL                                                        false
+C_Preconnect                   preconnect                       DT_STRING                                                      ""
+C_SaveEmpty                    save_empty                       DT_BOOL                                                        true
+C_ConnectTimeout               connect_timeout                  DT_NUMBER                                                      30
+C_DsnNotify                    dsn_notify                       DT_STRING                                                      ""
+C_DsnReturn                    dsn_return                       DT_STRING                                                      ""
+C_MessageCacheClean            message_cache_clean              DT_BOOL                                                        false
+C_MessageCachedir              message_cachedir                 DT_STRING|DT_PATH                                              ""
+C_MessageFormat                message_format                   DT_STRING|DT_NOT_EMPTY                                         "%s"
+C_Copy                         copy                             DT_QUAD                                                        MUTT_YES
+C_DisplayFilter                display_filter                   DT_STRING|DT_COMMAND                                           ""
+C_AssumedCharset               assumed_charset                  DT_STRING                                                      ""
+
+C_Autocrypt                    autocrypt                        DT_BOOL                                                        false
+C_AutocryptAcctFormat          autocrypt_acct_format            DT_STRING                                                      "%4n %-30a %20p %10s"
+C_AutocryptDir                 autocrypt_dir                    DT_STRING|DT_PATH                                              "~/.mutt/autocrypt"
+C_AutocryptReply               autocrypt_reply                  DT_BOOL                                                        true
+
+C_BounceDelivered              bounce_delivered                 DT_BOOL                                                        true
+C_WriteBcc                     write_bcc                        DT_BOOL                                                        false
+C_HiddenHost                   hidden_host                      DT_BOOL                                                        false
+C_HiddenTags                   hidden_tags                      DT_SLIST|SLIST_SEP_COMMA                                       "unread,draft,flagged,passed,replied,attachment,signed,encrypted"
+C_IgnoreListReplyTo            ignore_list_reply_to             DT_BOOL                                                        false
+C_Include                      include                          DT_QUAD                                                        MUTT_ASKYES
+C_IncludeEncrypted             include_encrypted                DT_BOOL                                                        false
+C_IncludeOnlyfirst             include_onlyfirst                DT_BOOL                                                        false
+C_SaveAddress                  save_address                     DT_BOOL                                                        false
+C_Use8bitmime                  use_8bitmime                     DT_BOOL                                                        false
+C_UseEnvelopeFrom              use_envelope_from                DT_BOOL                                                        false
