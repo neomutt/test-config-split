@@ -1,6 +1,0 @@
-C_PopLast DT_BOOL
-Default: no
-
-If this variable is set, NeoMutt will try to use the "LAST" POP command
-for retrieving only unread messages from the POP server when using
-the <fetch-mail> function.
