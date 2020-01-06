@@ -1,3 +1,5 @@
+C_Delete DT_QUAD
+
 Name: delete
 Type: quadoption
 Default: ask-yes

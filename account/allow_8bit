@@ -1,3 +1,5 @@
+C_Allow8bit DT_BOOL
+
 Name: allow_8bit
 Type: boolean
 Default: yes

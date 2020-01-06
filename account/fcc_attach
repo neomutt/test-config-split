@@ -1,3 +1,5 @@
+C_FccAttach DT_QUAD
+
 Name: fcc_attach
 Type: quadoption
 Default: yes

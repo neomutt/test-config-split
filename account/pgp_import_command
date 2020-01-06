@@ -1,3 +1,5 @@
+C_PgpImportCommand DT_STRING|DT_COMMAND
+
 Name: pgp_import_command
 Type: command
 Default: ""

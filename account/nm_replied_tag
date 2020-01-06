@@ -1,3 +1,5 @@
+C_NmRepliedTag DT_STRING
+
 Name: nm_replied_tag
 Type: string
 Default: "replied"

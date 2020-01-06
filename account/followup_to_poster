@@ -1,3 +1,5 @@
+C_FollowupToPoster DT_QUAD
+
 Name: followup_to_poster
 Type: quadoption
 Default: ask-yes

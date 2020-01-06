@@ -1,3 +1,5 @@
+C_SmimeEncryptCommand DT_STRING|DT_COMMAND
+
 Name: smime_encrypt_command
 Type: command
 Default: ""

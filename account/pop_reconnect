@@ -1,3 +1,5 @@
+C_PopReconnect DT_QUAD
+
 Name: pop_reconnect
 Type: quadoption
 Default: ask-yes

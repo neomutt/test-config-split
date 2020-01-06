@@ -1,3 +1,5 @@
+C_HiddenHost DT_BOOL
+
 Name: hidden_host
 Type: boolean
 Default: no

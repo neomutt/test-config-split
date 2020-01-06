@@ -1,3 +1,5 @@
+C_SslCiphers DT_STRING
+
 Name: ssl_ciphers
 Type: string
 Default: ""

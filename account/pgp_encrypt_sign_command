@@ -1,3 +1,5 @@
+C_PgpEncryptSignCommand DT_STRING|DT_COMMAND
+
 Name: pgp_encrypt_sign_command
 Type: command
 Default: ""

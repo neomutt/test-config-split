@@ -1,3 +1,5 @@
+C_Tunnel DT_STRING|DT_COMMAND
+
 Name: tunnel
 Type: command
 Default: ""

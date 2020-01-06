@@ -1,3 +1,5 @@
+C_NmOpenTimeout DT_NUMBER|DT_NOT_NEGATIVE
+
 Name: nm_open_timeout
 Type: number
 Default: 5

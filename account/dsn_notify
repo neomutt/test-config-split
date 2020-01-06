@@ -1,3 +1,5 @@
+C_DsnNotify DT_STRING
+
 Name: dsn_notify
 Type: string
 Default: ""

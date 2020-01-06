@@ -1,3 +1,5 @@
+C_PopUser DT_STRING|DT_SENSITIVE
+
 Name: pop_user
 Type: string
 Default: ""

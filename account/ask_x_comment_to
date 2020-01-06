@@ -1,3 +1,5 @@
+C_AskXCommentTo DT_BOOL
+
 Name: ask_x_comment_to
 Type: boolean
 Default: no

@@ -1,3 +1,5 @@
+C_MaildirHeaderCacheVerify DT_BOOL
+
 Name: maildir_header_cache_verify
 Type: boolean
 Default: yes

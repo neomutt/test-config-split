@@ -1,3 +1,5 @@
+C_CryptAutosmime DT_BOOL
+
 Name: crypt_autosmime
 Type: boolean
 Default: yes

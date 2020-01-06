@@ -1,3 +1,5 @@
+C_SslUseTlsv11 DT_BOOL
+
 Name: ssl_use_tlsv1_1
 Type: boolean
 Default: no

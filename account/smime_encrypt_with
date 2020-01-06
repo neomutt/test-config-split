@@ -1,3 +1,5 @@
+C_SmimeEncryptWith DT_STRING
+
 Name: smime_encrypt_with
 Type: string
 Default: "aes256"

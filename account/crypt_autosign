@@ -1,3 +1,5 @@
+C_CryptAutosign DT_BOOL
+
 Name: crypt_autosign
 Type: boolean
 Default: no

@@ -1,3 +1,5 @@
+C_SslClientCert DT_STRING|DT_PATH
+
 Name: ssl_client_cert
 Type: path
 Default: ""

@@ -1,3 +1,5 @@
+C_SmimeVerifyCommand DT_STRING|DT_COMMAND
+
 Name: smime_verify_command
 Type: command
 Default: ""

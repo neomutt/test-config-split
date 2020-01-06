@@ -1,3 +1,5 @@
+C_ImapIdle DT_BOOL
+
 Name: imap_idle
 Type: boolean
 Default: no

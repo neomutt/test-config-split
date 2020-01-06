@@ -1,3 +1,5 @@
+C_SmimeCertificates DT_STRING|DT_PATH
+
 Name: smime_certificates
 Type: path
 Default: ""

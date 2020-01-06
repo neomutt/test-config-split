@@ -1,3 +1,5 @@
+C_CryptProtectedHeadersSubject DT_STRING
+
 Name: crypt_protected_headers_subject
 Type: string
 Default: "Encrypted subject"

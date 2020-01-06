@@ -1,3 +1,5 @@
+C_Spoolfile DT_STRING|DT_PATH|DT_MAILBOX
+
 Name: spoolfile
 Type: path
 Default: ""

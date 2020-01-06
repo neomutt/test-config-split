@@ -1,3 +1,5 @@
+C_SslVerifyHost DT_BOOL
+
 Name: ssl_verify_host
 Type: boolean
 Default: yes

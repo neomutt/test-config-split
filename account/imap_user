@@ -1,3 +1,5 @@
+C_ImapUser DT_STRING|DT_SENSITIVE
+
 Name: imap_user
 Type: string
 Default: ""

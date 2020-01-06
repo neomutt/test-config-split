@@ -1,3 +1,5 @@
+C_NntpContext DT_NUMBER|DT_NOT_NEGATIVE
+
 Name: nntp_context
 Type: number
 Default: 1000

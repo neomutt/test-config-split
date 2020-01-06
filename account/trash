@@ -1,3 +1,5 @@
+C_Trash DT_STRING|DT_PATH|DT_MAILBOX
+
 Name: trash
 Type: path
 Default: ""

@@ -1,3 +1,5 @@
+C_SmimeImportCertCommand DT_STRING|DT_COMMAND
+
 Name: smime_import_cert_command
 Type: command
 Default: ""

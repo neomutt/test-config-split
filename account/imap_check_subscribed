@@ -1,3 +1,5 @@
+C_ImapCheckSubscribed DT_BOOL
+
 Name: imap_check_subscribed
 Type: boolean
 Default: no

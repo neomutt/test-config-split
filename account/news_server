@@ -1,3 +1,5 @@
+C_NewsServer DT_STRING
+
 Name: news_server
 Type: string
 Default: ""

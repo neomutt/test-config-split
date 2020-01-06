@@ -1,3 +1,5 @@
+C_CryptReplyencrypt DT_BOOL
+
 Name: crypt_replyencrypt
 Type: boolean
 Default: yes

@@ -1,3 +1,5 @@
+C_CryptTimestamp DT_BOOL
+
 Name: crypt_timestamp
 Type: boolean
 Default: yes

@@ -1,3 +1,5 @@
+C_Mbox DT_STRING|DT_PATH|DT_MAILBOX
+
 Name: mbox
 Type: path
 Default: "~/mbox"

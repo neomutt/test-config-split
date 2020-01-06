@@ -1,3 +1,5 @@
+C_SmimeIsDefault DT_BOOL
+
 Name: smime_is_default
 Type: boolean
 Default: no

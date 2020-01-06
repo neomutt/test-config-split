@@ -1,3 +1,5 @@
+C_PgpCheckExit DT_BOOL
+
 Name: pgp_check_exit
 Type: boolean
 Default: yes

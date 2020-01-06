@@ -1,3 +1,5 @@
+C_SmimeSignDigestAlg DT_STRING
+
 Name: smime_sign_digest_alg
 Type: string
 Default: "sha256"

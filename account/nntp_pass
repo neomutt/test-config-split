@@ -1,3 +1,5 @@
+C_NntpPass DT_STRING|DT_SENSITIVE
+
 Name: nntp_pass
 Type: string
 Default: ""

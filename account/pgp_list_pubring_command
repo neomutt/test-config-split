@@ -1,3 +1,5 @@
+C_PgpListPubringCommand DT_STRING|DT_COMMAND
+
 Name: pgp_list_pubring_command
 Type: command
 Default: ""

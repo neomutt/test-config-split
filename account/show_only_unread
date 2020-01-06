@@ -1,3 +1,5 @@
+C_ShowOnlyUnread DT_BOOL
+
 Name: show_only_unread
 Type: boolean
 Default: no

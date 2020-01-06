@@ -1,3 +1,5 @@
+C_Copy DT_QUAD
+
 Name: copy
 Type: quadoption
 Default: yes

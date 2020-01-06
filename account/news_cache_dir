@@ -1,3 +1,5 @@
+C_NewsCacheDir DT_STRING|DT_PATH
+
 Name: news_cache_dir
 Type: path
 Default: "~/.neomutt"

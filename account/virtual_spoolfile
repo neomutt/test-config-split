@@ -1,3 +1,5 @@
+C_VirtualSpoolfile DT_BOOL
+
 Name: virtual_spoolfile
 Type: boolean
 Default: no

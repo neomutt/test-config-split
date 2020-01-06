@@ -1,3 +1,5 @@
+C_CheckMboxSize DT_BOOL
+
 Name: check_mbox_size
 Type: boolean
 Default: no

@@ -1,3 +1,5 @@
+C_PopHost DT_STRING
+
 Name: pop_host
 Type: string
 Default: ""

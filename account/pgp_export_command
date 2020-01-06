@@ -1,3 +1,5 @@
+C_PgpExportCommand DT_STRING|DT_COMMAND
+
 Name: pgp_export_command
 Type: command
 Default: ""

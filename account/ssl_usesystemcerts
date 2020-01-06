@@ -1,3 +1,5 @@
+C_SslUsesystemcerts DT_BOOL
+
 Name: ssl_usesystemcerts
 Type: boolean
 Default: yes

@@ -1,3 +1,5 @@
+C_XCommentTo DT_BOOL
+
 Name: x_comment_to
 Type: boolean
 Default: no

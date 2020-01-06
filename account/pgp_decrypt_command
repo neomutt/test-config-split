@@ -1,3 +1,5 @@
+C_PgpDecryptCommand DT_STRING|DT_COMMAND
+
 Name: pgp_decrypt_command
 Type: command
 Default: ""

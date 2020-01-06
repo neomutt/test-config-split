@@ -1,3 +1,5 @@
+C_MailCheckRecent DT_BOOL
+
 Name: mail_check_recent
 Type: boolean
 Default: yes

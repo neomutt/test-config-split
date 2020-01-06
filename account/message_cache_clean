@@ -1,3 +1,5 @@
+C_MessageCacheClean DT_BOOL
+
 Name: message_cache_clean
 Type: boolean
 Default: no

@@ -1,3 +1,5 @@
+C_SmtpPass DT_STRING|DT_SENSITIVE
+
 Name: smtp_pass
 Type: string
 Default: ""

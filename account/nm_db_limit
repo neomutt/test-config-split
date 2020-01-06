@@ -1,3 +1,5 @@
+C_NmDbLimit DT_NUMBER|DT_NOT_NEGATIVE
+
 Name: nm_db_limit
 Type: number
 Default: 0

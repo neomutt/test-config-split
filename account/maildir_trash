@@ -1,3 +1,5 @@
+C_MaildirTrash DT_BOOL
+
 Name: maildir_trash
 Type: boolean
 Default: no

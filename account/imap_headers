@@ -1,3 +1,5 @@
+C_ImapHeaders DT_STRING
+
 Name: imap_headers
 Type: string
 Default: ""

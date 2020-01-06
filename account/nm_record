@@ -1,3 +1,5 @@
+C_NmRecord DT_BOOL
+
 Name: nm_record
 Type: boolean
 Default: no

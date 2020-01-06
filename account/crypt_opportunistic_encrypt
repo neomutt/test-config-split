@@ -1,3 +1,5 @@
+C_CryptOpportunisticEncrypt DT_BOOL
+
 Name: crypt_opportunistic_encrypt
 Type: boolean
 Default: no

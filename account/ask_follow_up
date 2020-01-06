@@ -1,3 +1,5 @@
+C_AskFollowUp DT_BOOL
+
 Name: ask_follow_up
 Type: boolean
 Default: no

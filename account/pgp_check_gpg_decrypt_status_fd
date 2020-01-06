@@ -1,3 +1,5 @@
+C_PgpCheckGpgDecryptStatusFd DT_BOOL
+
 Name: pgp_check_gpg_decrypt_status_fd
 Type: boolean
 Default: yes

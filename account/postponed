@@ -1,3 +1,5 @@
+C_Postponed DT_STRING|DT_PATH|DT_MAILBOX
+
 Name: postponed
 Type: path
 Default: "~/postponed"
