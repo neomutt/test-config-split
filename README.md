@@ -2,7 +2,23 @@
 
 [NeoMutt](README.md) [Account](account/README.md) [Mailbox](account/mailbox/README.md)
 
+## cache
+
+Header/message caching options.
+These _could_ be Account-specific, but for simplicity they're global.
+
+- [header_cache](header_cache.md)
+- [header_cache_backend](header_cache_backend.md)
+- [header_cache_compress](header_cache_compress.md)
+- [header_cache_pagesize](header_cache_pagesize.md)
+- [maildir_header_cache_verify](maildir_header_cache_verify.md)
+- [message_cachedir](message_cachedir.md)
+- [message_cache_clean](message_cache_clean.md)
+
 ## pgp
+
+These PGP commands will depend on your system and are unlikely to change.
+Better still, enable [crypt_use_gpgme](crypt_use_gpgme.md).
 
 - [pgp_clearsign_command](pgp_clearsign_command.md)
 - [pgp_decode_command](pgp_decode_command.md)
@@ -20,6 +36,8 @@
 
 ## sidebar
 
+The Sidebar is shared across multiple Accounts, so its settings need to be global.
+
 - [sidebar_component_depth](sidebar_component_depth.md)
 - [sidebar_delim_chars](sidebar_delim_chars.md)
 - [sidebar_divider_char](sidebar_divider_char.md)
@@ -36,6 +54,9 @@
 - [sidebar_width](sidebar_width.md)
 
 ## smime
+
+These SMIME commands will depend on your system and are unlikely to change.
+Better still, enable [crypt_use_gpgme](crypt_use_gpgme.md).
 
 - [smime_decrypt_command](smime_decrypt_command.md)
 - [smime_encrypt_command](smime_encrypt_command.md)
@@ -93,10 +114,6 @@
 - [folder_format](folder_format.md)
 - [gecos_mask](gecos_mask.md)
 - [header](header.md)
-- [header_cache](header_cache.md)
-- [header_cache_backend](header_cache_backend.md)
-- [header_cache_compress](header_cache_compress.md)
-- [header_cache_pagesize](header_cache_pagesize.md)
 - [header_color_partial](header_color_partial.md)
 - [help](help.md)
 - [hide_limited](hide_limited.md)

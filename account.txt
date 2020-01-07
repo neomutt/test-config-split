@@ -1,7 +1,3 @@
-imap/pop
-message_cachedir                 0
-message_cache_clean              false
-
 smtp_authenticators              0
 smtp_oauth_refresh_command       0
 smtp_pass                        0
@@ -26,13 +22,6 @@ ssl_verify_dates                 true
 ssl_verify_host                  true
 ssl_verify_partial_chains        false
 
-maildir_header_cache_verify      true
-header                           false
-header_cache                     0
-header_cache_backend             0
-header_cache_compress            true
-header_cache_pagesize            "16384"
-
 classic pgp
 pgp_check_exit                   true
 pgp_check_gpg_decrypt_status_fd  true
@@ -40,19 +29,6 @@ pgp_decryption_okay              0
 pgp_good_sign                    0
 pgp_timeout                      300
 pgp_use_gpg_agent                true
-pgp_clearsign_command            0
-pgp_decode_command               0
-pgp_decrypt_command              0
-pgp_encrypt_only_command         0
-pgp_encrypt_sign_command         0
-pgp_export_command               0
-pgp_getkeys_command              0
-pgp_import_command               0
-pgp_list_pubring_command         0
-pgp_list_secring_command         0
-pgp_sign_command                 0
-pgp_verify_command               0
-pgp_verify_key_command           0
 
 pgp_autoinline                   false
 pgp_auto_decode                  false
@@ -74,20 +50,10 @@ classic smime
 smime_ask_cert_label             true
 smime_ca_location                0
 smime_certificates               0
-smime_decrypt_command            0
 smime_decrypt_use_default_key    true
-smime_encrypt_command            0
-smime_get_cert_command           0
-smime_get_cert_email_command     0
-smime_get_signer_cert_command    0
-smime_import_cert_command        0
 smime_keys                       0
-smime_pk7out_command             0
-smime_sign_command               0
 smime_sign_digest_alg            "sha256"
 smime_timeout                    300
-smime_verify_command             0
-smime_verify_opaque_command      0
 
 smime_default_key                0
 smime_encrypt_self               MUTT_NO
@@ -116,276 +82,4 @@ crypt_timestamp                  true
 crypt_use_gpgme                  false
 crypt_use_pka                    false
 crypt_verify_sig                 MUTT_YES
-
-gui theming
-crypt_chars                      "SPsK "
-flag_chars                       "*!DdrONon- "
-from_chars                       0
-index_format                     "%4C %Z %{%b %d} %-15.15L (%?l?%4l&%4c?) %s"
-status_chars                     "-*%A"
-status_format                    "-%r-NeoMutt: %D [Msgs:%?M?%M/?%m%?n? New:%n?%?o? Old:%o?%?d? Del:%d?%?F? Flag:%F?%?t? Tag:%t?%?p? Post:%p?%?b? Inc:%b?%?l? %l?]---(%s/%S)-%>-(%P)---"
-to_chars                         " +TCFLR"
-
-account changing
-attribution                      "On %d, %n wrote:"
-attribution_locale               0
-envelope_from_address            0
-from                             0
-hdrs                             true
-hostname                         0
-realname                         0
-reverse_alias                    false
-reverse_name                     false
-reverse_realname                 true
-sendmail                         SENDMAIL " -oem -oi"
-sendmail_wait                    0
-signature                        "~/.signature"
-sig_dashes                       true
-sig_on_top                       false
-spoolfile                        0
-trash                            0
-
-
-abort_noattach                   MUTT_NO
-abort_noattach_regex             "\\<(attach|attached|attachments?)\\>"
-abort_nosubject                  MUTT_ASKYES
-abort_unmodified                 MUTT_YES
-alias_file                       "~/.neomuttrc"
-alias_format                     "%4n %2f %t %-10a %r"
-allow_8bit                       true
-allow_ansi                       false
-arrow_cursor                     false
-ascii_chars                      false
-askbcc                           false
-askcc                            false
-assumed_charset                  0
-attach_charset                   0
-attach_format                    "%u%D%I %t%4n %T%.40d%> [%.7m/%.10M, %.6e%?C?, %C?, %s] "
-attach_save_dir                  "./"
-attach_save_without_prompting    false
-attach_sep                       "\n"
-attach_split                     true
-autoedit                         false
-auto_subscribe                   false
-auto_tag                         false
-beep                             true
-beep_new                         false
-bounce                           MUTT_ASKYES
-bounce_delivered                 true
-braille_friendly                 false
-browser_abbreviate_mailboxes     true
-change_folder_next               false
-charset                          0
-check_mbox_size                  false
-check_new                        true
-collapse_all                     false
-collapse_flagged                 true
-collapse_unread                  true
-compose_format                   "-- NeoMutt: Compose [Approx. msg size: %l Atts: %a]%>-"
-config_charset                   0
-confirmappend                    true
-confirmcreate                    true
-connect_timeout                  30
-content_type                     "text/plain"
-copy                             MUTT_YES
-date_format                      "!%a, %b %d, %Y at %I:%M:%S%p %Z"
-debug_file                       "~/.neomuttdebug"
-debug_level                      0
-default_hook                     "~f %s !~P | (~P ~C %s)"
-delete                           MUTT_ASKYES
-delete_untag                     true
-digest_collapse                  true
-display_filter                   0
-dsn_notify                       0
-dsn_return                       0
-duplicate_threads                true
-editor                           "vi"
-edit_headers                     false
-empty_subject                    "Re: your mail"
-encode_from                      false
-escape                           "~"
-external_search_command          0
-fast_reply                       false
-fcc_attach                       MUTT_YES
-fcc_clear                        false
-flag_safe                        false
-folder                           "~/Mail"
-folder_format                    "%2C %t %N %F %2l %-8.8u %-8.8g %8s %d %i"
-followup_to                      true
-force_name                       false
-forward_attachments              MUTT_ASKYES
-forward_attribution_intro        "----- Forwarded message from %f -----"
-forward_attribution_trailer      "----- End forwarded message -----"
-forward_decode                   true
-forward_decrypt                  true
-forward_edit                     MUTT_YES
-forward_format                   "[%a: %s]"
-forward_quote                    false
-forward_references               false
-gecos_mask                       "^[^,]*"
-header_color_partial             false
-help                             true
-hidden_host                      false
-hidden_tags                      "unread,draft,flagged,passed,replied,attachment,signed,encrypted"
-hide_limited                     false
-hide_missing                     true
-hide_thread_subject              true
-hide_top_limited                 false
-hide_top_missing                 true
-history                          10
-history_file                     "~/.mutthistory"
-history_remove_dups              false
-honor_disposition                false
-honor_followup_to                MUTT_YES
-idn_decode                       true
-idn_encode                       true
-ignore_linear_white_space        false
-ignore_list_reply_to             false
-implicit_autoview                false
-include                          MUTT_ASKYES
-include_encrypted                false
-include_onlyfirst                false
-indent_string                    "> "
-ispell                           ISPELL
-keep_flagged                     false
-mailcap_path                     "~/.mailcap:" PKGDATADIR "/mailcap:" SYSCONFDIR "/mailcap:/etc/mailcap:/usr/etc/mailcap:/usr/local/etc/mailcap"
-mailcap_sanitize                 true
-maildir_check_cur                false
-maildir_trash                    false
-mail_check                       5
-mail_check_recent                true
-mail_check_stats                 false
-mail_check_stats_interval        60
-markers                          true
-mark_macro_prefix                "'"
-mark_old                         true
-mask                             "!^\\.[^.]"
-mbox                             "~/mbox"
-mbox_type                        MUTT_MBOX
-menu_context                     0
-menu_move_off                    true
-menu_scroll                      false
-message_format                   "%s"
-meta_key                         false
-metoo                            false
-mh_purge                         false
-mh_seq_flagged                   "flagged"
-mh_seq_replied                   "replied"
-mh_seq_unseen                    "unseen"
-mime_forward                     MUTT_NO
-mime_forward_decode              false
-mime_forward_rest                MUTT_YES
-mime_type_query_command          0
-mime_type_query_first            false
-mixmaster                        MIXMASTER
-mix_entry_format                 "%4n %c %-16s %a"
-move                             MUTT_NO
-narrow_tree                      false
-net_inc                          10
-new_mail_command                 0
-pager                            "builtin"
-pager_context                    0
-pager_format                     "-%Z- %C/%m: %-20.20n %s%* -- (%P)"
-pager_index_lines                0
-pager_stop                       false
-pipe_decode                      false
-pipe_sep                         "\n"
-pipe_split                       false
-postpone                         MUTT_ASKYES
-postponed                        "~/postponed"
-postpone_encrypt                 false
-postpone_encrypt_as              0
-post_indent_string               0
-preferred_languages              0
-print                            MUTT_ASKNO
-print_command                    "lpr"
-print_decode                     true
-print_split                      false
-prompt_after                     true
-query_command                    0
-query_format                     "%4c %t %-25.25a %-25.25n %?e?(%e)?"
-quit                             MUTT_YES
-quote_regex                      "^([ \t]*[|>:}#])+"
-read_inc                         10
-read_only                        false
-recall                           MUTT_ASKYES
-record                           "~/sent"
-reflow_space_quotes              true
-reflow_text                      true
-reflow_wrap                      78
-reply_regex                      "^((re|aw|sv)(\\[[0-9]+\\])*:[ \t]*)*"
-reply_self                       false
-reply_to                         MUTT_ASKYES
-reply_with_xorig                 false
-resolve                          true
-resume_draft_files               false
-resume_edited_draft_files        true
-rfc2047_parameters               false
-save_address                     false
-save_empty                       true
-save_history                     0
-save_name                        false
-score                            true
-score_threshold_delete           -1
-score_threshold_flag             9999
-score_threshold_read             -1
-search_context                   0
-send_charset                     "us-ascii:iso-8859-1:utf-8"
-shell                            "/bin/sh"
-show_multipart_alternative       0
-sidebar_component_depth          0
-sidebar_delim_chars              "/."
-sidebar_divider_char             0
-sidebar_folder_indent            false
-sidebar_format                   "%B%* %n"
-sidebar_indent_string            " "
-sidebar_new_mail_only            false
-sidebar_next_new_wrap            false
-sidebar_non_empty_mailbox_only   false
-sidebar_on_right                 false
-sidebar_short_path               false
-sidebar_sort_method              SORT_ORDER
-sidebar_visible                  false
-sidebar_width                    30
-simple_search                    "~f %s | ~s %s"
-skip_quoted_offset               0
-sleep_time                       1
-smart_wrap                       true
-smileys                          "(>From )|(:[-^]?[][)(><}{|/DP])"
-sort                             SORT_DATE
-sort_alias                       SORT_ALIAS
-sort_aux                         SORT_DATE
-sort_browser                     SORT_ALPHA
-sort_re                          true
-spam_separator                   ","
-status_on_top                    false
-strict_threads                   false
-suspend                          true
-text_flowed                      false
-thorough_search                  true
-thread_received                  false
-tilde                            false
-timeout                          600
-time_inc                         0
-tmpdir                           "/tmp"
-ts_enabled                       false
-ts_icon_format                   "M%?n?AIL&ail?"
-ts_status_format                 "NeoMutt with %?m?%m messages&no messages?%?n? [%n NEW]?"
-uncollapse_jump                  false
-uncollapse_new                   true
-user_agent                       true
-use_8bitmime                     false
-use_domain                       true
-use_envelope_from                false
-use_from                         true
-use_ipv6                         true
-visual                           "vi"
-wait_key                         true
-weed                             true
-wrap                             0
-wrapmargin                       0
-wrap_headers                     78
-wrap_search                      true
-write_bcc                        true
-write_inc                        10
 

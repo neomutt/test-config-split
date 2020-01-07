@@ -23,6 +23,8 @@
 
 ## imap
 
+These settings apply to the IMAP backend.
+
 - [imap_authenticators](imap_authenticators.md)
 - [imap_check_subscribed](imap_check_subscribed.md)
 - [imap_condstore](imap_condstore.md)
@@ -46,9 +48,10 @@
 
 ## maildir
 
+These settings apply to the Maildir backend.
+
 - [check_new](check_new.md)
 - [maildir_check_cur](maildir_check_cur.md)
-- [maildir_header_cache_verify](maildir_header_cache_verify.md)
 - [maildir_trash](maildir_trash.md)
 - [mh_purge](mh_purge.md)
 - [mh_seq_flagged](mh_seq_flagged.md)
@@ -56,6 +59,8 @@
 - [mh_seq_unseen](mh_seq_unseen.md)
 
 ## nntp
+
+These settings apply to the NNTP backend.
 
 - [ask_follow_up](ask_follow_up.md)
 - [ask_x_comment_to](ask_x_comment_to.md)
@@ -82,6 +87,8 @@
 - [x_comment_to](x_comment_to.md)
 
 ## notmuch
+
+These settings apply to the Notmuch backend.
 
 - [nm_db_limit](nm_db_limit.md)
 - [nm_default_uri](nm_default_uri.md)
@@ -124,6 +131,8 @@
 - [pgp_use_gpg_agent](pgp_use_gpg_agent.md)
 
 ## pop
+
+These settings apply to the POP backend.
 
 - [pop_authenticators](pop_authenticators.md)
 - [pop_auth_try_all](pop_auth_try_all.md)
@@ -209,8 +218,6 @@
 - [mail_check_stats_interval](mail_check_stats_interval.md)
 - [mbox](mbox.md)
 - [mbox_type](mbox_type.md)
-- [message_cachedir](message_cachedir.md)
-- [message_cache_clean](message_cache_clean.md)
 - [message_format](message_format.md)
 - [postpone](postpone.md)
 - [postponed](postponed.md)

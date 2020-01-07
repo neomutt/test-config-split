@@ -2,6 +2,16 @@
 
 [NeoMutt](../../README.md) [Account](../README.md) [Mailbox](README.md)
 
+## gui
+
+- [crypt_chars](crypt_chars.md)
+- [flag_chars](flag_chars.md)
+- [from_chars](from_chars.md)
+- [index_format](index_format.md)
+- [status_chars](status_chars.md)
+- [status_format](status_format.md)
+- [to_chars](to_chars.md)
+
 ## misc
 
 - [attribution](attribution.md)
@@ -11,12 +21,10 @@
 - [collapse_all](collapse_all.md)
 - [collapse_flagged](collapse_flagged.md)
 - [collapse_unread](collapse_unread.md)
-- [crypt_chars](crypt_chars.md)
 - [date_format](date_format.md)
 - [delete_untag](delete_untag.md)
 - [empty_subject](empty_subject.md)
 - [envelope_from_address](envelope_from_address.md)
-- [flag_chars](flag_chars.md)
 - [flag_safe](flag_safe.md)
 - [followup_to](followup_to.md)
 - [force_name](force_name.md)
@@ -30,9 +38,7 @@
 - [forward_quote](forward_quote.md)
 - [forward_references](forward_references.md)
 - [from](from.md)
-- [from_chars](from_chars.md)
 - [indent_string](indent_string.md)
-- [index_format](index_format.md)
 - [mark_macro_prefix](mark_macro_prefix.md)
 - [mark_old](mark_old.md)
 - [metoo](metoo.md)
@@ -76,15 +82,12 @@
 - [smileys](smileys.md)
 - [sort](sort.md)
 - [sort_aux](sort_aux.md)
-- [status_chars](status_chars.md)
-- [status_format](status_format.md)
 - [strict_threads](strict_threads.md)
 - [text_flowed](text_flowed.md)
 - [thorough_search](thorough_search.md)
 - [thread_received](thread_received.md)
 - [tilde](tilde.md)
 - [toggle_quoted_show_levels](toggle_quoted_show_levels.md)
-- [to_chars](to_chars.md)
 - [uncollapse_jump](uncollapse_jump.md)
 - [uncollapse_new](uncollapse_new.md)
 - [use_from](use_from.md)
