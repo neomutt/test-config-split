@@ -1,6 +1,0 @@
-C_NewsCacheDir DT_STRING|DT_PATH
-Default: "~/.neomutt"
-
-This variable pointing to directory where NeoMutt will save cached news
-articles and headers in. If unset, articles and headers will not be
-saved at all and will be reloaded from the server each time.

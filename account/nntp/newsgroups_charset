@@ -1,4 +1,0 @@
-C_NewsgroupsCharset DT_STRING
-Default: "utf-8"
-
-Character set of newsgroups descriptions.

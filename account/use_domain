@@ -1,6 +1,0 @@
-C_UseDomain DT_BOOL
-Default: yes
-
-When set, NeoMutt will qualify all local addresses (ones without the
-"@host" portion) with the value of $hostname.  If unset, no
-addresses will be qualified.

@@ -1,7 +1,0 @@
-C_FccClear DT_BOOL
-Default: no
-
-When this variable is set, FCCs will be stored unencrypted and
-unsigned, even when the actual message is encrypted and/or
-signed.
-(PGP only)

@@ -1,6 +1,0 @@
-C_MarkMacroPrefix DT_STRING
-Default: "'"
-
-Prefix for macros created using mark-message.  A new macro
-automatically generated with <mark-message>a will be composed
-from this prefix and the letter a.

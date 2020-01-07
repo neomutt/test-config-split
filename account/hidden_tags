@@ -1,5 +1,0 @@
-C_HiddenTags DT_SLIST|SLIST_SEP_COMMA
-Default: "unread,draft,flagged,passed,replied,attachment,signed,encrypted"
-
-This variable specifies private notmuch/imap tags which should not be printed
-on screen.

@@ -1,6 +1,0 @@
-C_SmimeCaLocation DT_STRING|DT_PATH
-Default: ""
-
-This variable contains the name of either a directory, or a file which
-contains trusted certificates for use with OpenSSL.
-(S/MIME only)

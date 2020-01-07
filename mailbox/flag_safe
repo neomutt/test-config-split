@@ -1,4 +1,0 @@
-C_FlagSafe DT_BOOL
-Default: no
-
-If set, flagged messages can't be deleted.

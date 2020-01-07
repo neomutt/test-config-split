@@ -1,6 +1,0 @@
-C_PgpTimeout DT_LONG|DT_NOT_NEGATIVE
-Default: 300
-
-The number of seconds after which a cached passphrase will expire if
-not used.
-(PGP only)

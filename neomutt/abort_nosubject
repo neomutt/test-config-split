@@ -1,7 +1,0 @@
-C_AbortNosubject DT_QUAD
-Default: ask-yes
-
-If set to yes, when composing messages and no subject is given
-at the subject prompt, composition will be aborted.  If set to
-no, composing messages with no subject given at the subject
-prompt will never be aborted.

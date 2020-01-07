@@ -1,5 +1,0 @@
-C_SizeShowMb DT_BOOL
-Default: yes
-
-If set, message sizes will display megabytes for values greater than
-or equal to 1 megabyte.  See formatstrings-size.

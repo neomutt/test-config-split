@@ -1,6 +1,0 @@
-C_SslMinDhPrimeBits DT_NUMBER|DT_NOT_NEGATIVE
-Default: 0
-
-This variable specifies the minimum acceptable prime size (in bits)
-for use in any Diffie-Hellman key exchange. A value of 0 will use
-the default from the GNUTLS library. (GnuTLS only)

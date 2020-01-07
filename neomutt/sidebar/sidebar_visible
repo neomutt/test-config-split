@@ -1,7 +1,0 @@
-C_SidebarVisible DT_BOOL
-Default: no
-
-This specifies whether or not to show sidebar. The sidebar shows a list of
-all your mailboxes.
-
-See also: $sidebar_format, $sidebar_width

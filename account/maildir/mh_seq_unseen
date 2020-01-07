@@ -1,4 +1,0 @@
-C_MhSeqUnseen DT_STRING
-Default: "unseen"
-
-The name of the MH sequence used for unseen messages.

@@ -1,4 +1,0 @@
-C_NmQueryWindowCurrentSearch DT_STRING
-Default: ""
-
-This variable contains the currently setup notmuch search for window based vfolder.

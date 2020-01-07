@@ -1,7 +1,0 @@
-C_Mbox DT_STRING|DT_PATH|DT_MAILBOX
-Default: "~/mbox"
-
-This specifies the folder into which read mail in your $spoolfile
-folder will be appended.
-
-Also see the $move variable.

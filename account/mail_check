@@ -1,5 +1,0 @@
-C_MailCheck DT_NUMBER|DT_NOT_NEGATIVE
-Default: 5
-
-This variable configures how often (in seconds) NeoMutt should look for
-new mail. Also see the $timeout variable.

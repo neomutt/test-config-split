@@ -1,5 +1,0 @@
-C_TsEnabled DT_BOOL
-Default: no
-
-Controls whether NeoMutt tries to set the terminal status line and icon name.
-Most terminal emulators emulate the status line in the window title.

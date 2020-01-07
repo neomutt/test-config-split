@@ -1,6 +1,0 @@
-C_SidebarDividerChar DT_STRING
-Default: ""
-
-This specifies the characters to be drawn between the sidebar (when
-visible) and the other NeoMutt panels. ASCII and Unicode line-drawing
-characters are supported.

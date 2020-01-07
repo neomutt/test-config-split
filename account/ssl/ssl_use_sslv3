@@ -1,6 +1,0 @@
-C_SslUseSslv3 DT_BOOL
-Default: no
-
-If set , NeoMutt will use SSLv3 when communicating with servers that
-request it. N.B. As of 2015, SSLv3 is considered insecure, and using
-it is inadvisable. See https://tools.ietf.org/html/rfc7525 .

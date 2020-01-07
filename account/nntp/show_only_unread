@@ -1,5 +1,0 @@
-C_ShowOnlyUnread DT_BOOL
-Default: no
-
-If set, only subscribed newsgroups that contain unread articles
-will be displayed in browser.

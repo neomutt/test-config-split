@@ -1,5 +1,0 @@
-C_SizeShowBytes DT_BOOL
-Default: no
-
-If set, message sizes will display bytes for values less than
-1 kilobyte.  See formatstrings-size.

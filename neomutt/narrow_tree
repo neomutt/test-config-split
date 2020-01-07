@@ -1,5 +1,0 @@
-C_NarrowTree DT_BOOL
-Default: no
-
-This variable, when set, makes the thread tree narrower, allowing
-deeper threads to fit on the screen.

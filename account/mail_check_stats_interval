@@ -1,5 +1,0 @@
-C_MailCheckStatsInterval DT_NUMBER|DT_NOT_NEGATIVE
-Default: 60
-
-When $mail_check_stats is set, this variable configures
-how often (in seconds) NeoMutt will update message counts.

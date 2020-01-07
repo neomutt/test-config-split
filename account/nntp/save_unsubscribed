@@ -1,5 +1,0 @@
-C_SaveUnsubscribed DT_BOOL
-Default: no
-
-When set, info about unsubscribed newsgroups will be saved into
-"newsrc" file and into cache.

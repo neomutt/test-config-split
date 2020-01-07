@@ -1,7 +1,0 @@
-C_CryptVerifySig DT_QUAD
-Default: yes
-
-If "yes", always attempt to verify PGP or S/MIME signatures.
-If "ask-*", ask whether or not to verify the signature.
-If "no", never attempt to verify cryptographic signatures.
-(Crypto only)

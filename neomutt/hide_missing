@@ -1,5 +1,0 @@
-C_HideMissing DT_BOOL
-Default: yes
-
-When set, NeoMutt will not show the presence of missing messages in the
-thread tree.

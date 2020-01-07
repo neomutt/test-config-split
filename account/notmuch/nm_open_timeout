@@ -1,4 +1,0 @@
-C_NmOpenTimeout DT_NUMBER|DT_NOT_NEGATIVE
-Default: 5
-
-This variable specifies the timeout for database open in seconds.

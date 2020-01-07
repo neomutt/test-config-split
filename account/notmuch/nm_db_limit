@@ -1,4 +1,0 @@
-C_NmDbLimit DT_NUMBER|DT_NOT_NEGATIVE
-Default: 0
-
-This variable specifies the default limit used in notmuch queries.

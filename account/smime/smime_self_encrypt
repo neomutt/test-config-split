@@ -1,6 +1,0 @@
-C_SmimeSelfEncrypt DT_BOOL
-Default: yes
-
-When set, S/MIME encrypted messages will also be encrypted
-using the certificate in $smime_default_key.
-(S/MIME only)

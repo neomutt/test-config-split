@@ -1,5 +1,0 @@
-C_NmQueryWindowTimebase DT_STRING
-Default: "week"
-
-This variable sets the time base of a windowed notmuch query.
-Accepted values are 'minute', 'hour', 'day', 'week', 'month', 'year'

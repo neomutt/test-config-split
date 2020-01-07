@@ -1,5 +1,0 @@
-C_SaveHistory DT_NUMBER|DT_NOT_NEGATIVE
-Default: 0
-
-This variable controls the size of the history (per category) saved in the
-$history_file file.

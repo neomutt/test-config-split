@@ -1,5 +1,0 @@
-C_NmRecordTags DT_STRING
-Default: ""
-
-This variable specifies the default tags applied to messages stored to the NeoMutt record.
-When set to 0 this variable disable the window feature.

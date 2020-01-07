@@ -1,4 +1,0 @@
-C_NntpPass DT_STRING|DT_SENSITIVE
-Default: ""
-
-Your password for NNTP account.

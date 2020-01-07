@@ -1,6 +1,0 @@
-C_CryptReplyencrypt DT_BOOL
-Default: yes
-
-If set, automatically PGP or OpenSSL encrypt replies to messages which are
-encrypted.
-(Crypto only)

@@ -1,6 +1,0 @@
-C_SidebarFolderIndent DT_BOOL
-Default: no
-
-Set this to indent mailboxes in the sidebar.
-
-See also: $sidebar_short_path, $sidebar_indent_string, $sidebar_delim_chars.

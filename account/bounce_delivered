@@ -1,5 +1,0 @@
-C_BounceDelivered DT_BOOL
-Default: yes
-
-When this variable is set, NeoMutt will include Delivered-To headers when
-bouncing messages.  Postfix users may wish to unset this variable.

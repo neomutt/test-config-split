@@ -1,4 +1,0 @@
-C_CollapseAll DT_BOOL
-Default: no
-
-When set, NeoMutt will collapse all threads when entering a folder.

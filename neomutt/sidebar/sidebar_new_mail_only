@@ -1,7 +1,0 @@
-C_SidebarNewMailOnly DT_BOOL
-Default: no
-
-When set, the sidebar will only display mailboxes containing new, or
-flagged, mail.
-
-See also: $sidebar_whitelist, $sidebar_non_empty_mailbox_only.

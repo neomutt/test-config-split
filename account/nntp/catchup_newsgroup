@@ -1,5 +1,0 @@
-C_CatchupNewsgroup DT_QUAD
-Default: ask-yes
-
-If this variable is set, NeoMutt will mark all articles in newsgroup
-as read when you quit the newsgroup (catchup newsgroup).

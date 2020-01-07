@@ -1,5 +1,0 @@
-C_PostIndentString DT_STRING
-Default: ""
-
-Similar to the $attribution variable, NeoMutt will append this
-string after the inclusion of a message which is being replied to.

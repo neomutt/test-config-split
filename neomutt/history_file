@@ -1,6 +1,0 @@
-C_HistoryFile DT_STRING|DT_PATH
-Default: "~/.mutthistory"
-
-The file in which NeoMutt will save its history.
-
-Also see $save_history.

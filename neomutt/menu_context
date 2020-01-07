@@ -1,5 +1,0 @@
-C_MenuContext DT_NUMBER|DT_NOT_NEGATIVE
-Default: 0
-
-This variable controls the number of lines of context that are given
-when scrolling through menus. (Similar to $pager_context.)

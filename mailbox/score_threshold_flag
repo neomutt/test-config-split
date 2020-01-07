@@ -1,5 +1,0 @@
-C_ScoreThresholdFlag DT_NUMBER
-Default: 9999
-
-Messages which have been assigned a score greater than or equal to this
-variable's value are automatically marked "flagged".

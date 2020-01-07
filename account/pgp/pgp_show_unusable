@@ -1,7 +1,0 @@
-C_PgpShowUnusable DT_BOOL
-Default: yes
-
-If set, NeoMutt will display non-usable keys on the PGP key selection
-menu.  This includes keys which have been revoked, have expired, or
-have been marked as "disabled" by the user.
-(PGP only)

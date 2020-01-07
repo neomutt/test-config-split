@@ -1,6 +1,0 @@
-C_UseIpv6 DT_BOOL
-Default: yes
-
-When set, NeoMutt will look for IPv6 addresses of hosts it tries to
-contact.  If this option is unset, NeoMutt will restrict itself to IPv4 addresses.
-Normally, the default should work.

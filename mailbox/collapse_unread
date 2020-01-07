@@ -1,5 +1,0 @@
-C_CollapseUnread DT_BOOL
-Default: yes
-
-When unset, NeoMutt will not collapse a thread if it contains any
-unread messages.

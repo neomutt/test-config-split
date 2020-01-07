@@ -1,4 +1,0 @@
-C_ContentType DT_STRING
-Default: "text/plain"
-
-Sets the default Content-Type for the body of newly composed messages.

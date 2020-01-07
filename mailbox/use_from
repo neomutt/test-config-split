@@ -1,7 +1,0 @@
-C_UseFrom DT_BOOL
-Default: yes
-
-When set, NeoMutt will generate the "From:" header field when
-sending messages.  If unset, no "From:" header field will be
-generated unless the user explicitly sets one using the "my_hdr"
-command.

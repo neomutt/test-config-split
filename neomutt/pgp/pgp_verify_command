@@ -1,8 +1,0 @@
-C_PgpVerifyCommand DT_STRING|DT_COMMAND
-Default: ""
-
-This command is used to verify PGP signatures.
-
-This is a format string, see the $pgp_decode_command command for
-possible printf(3)-like sequences.
-(PGP only)

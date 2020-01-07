@@ -1,7 +1,0 @@
-C_ScoreThresholdDelete DT_NUMBER
-Default: -1
-
-Messages which have been assigned a score equal to or lower than the value
-of this variable are automatically marked for deletion by NeoMutt.  Since
-NeoMutt scores are always greater than or equal to zero, the default setting
-of this variable will never mark a message for deletion.

@@ -1,5 +1,0 @@
-C_UncollapseJump DT_BOOL
-Default: no
-
-When set, NeoMutt will jump to the next unread message, if any,
-when the current thread is uncollapsed.

@@ -1,5 +1,0 @@
-C_SslClientCert DT_STRING|DT_PATH
-Default: ""
-
-The file containing a client certificate and its associated private
-key.

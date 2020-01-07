@@ -1,5 +1,0 @@
-C_SizeUnitsOnLeft DT_BOOL
-Default: no
-
-If set, message sizes units will be displayed to the left of the number.
-See formatstrings-size.

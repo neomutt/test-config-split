@@ -1,7 +1,0 @@
-C_PipeDecode DT_BOOL
-Default: no
-
-Used in connection with the <pipe-message> command.  When unset,
-NeoMutt will pipe the messages without any preprocessing. When set, NeoMutt
-will weed headers and will attempt to decode the messages
-first.

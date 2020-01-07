@@ -1,5 +1,0 @@
-C_ThreadReceived DT_BOOL
-Default: no
-
-When set, NeoMutt uses the date received rather than the date sent
-to thread messages by subject.

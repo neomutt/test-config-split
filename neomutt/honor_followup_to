@@ -1,5 +1,0 @@
-C_HonorFollowupTo DT_QUAD
-Default: yes
-
-This variable controls whether or not a Mail-Followup-To header is
-honored when group-replying to a message.

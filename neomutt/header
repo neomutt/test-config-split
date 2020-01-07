@@ -1,6 +1,0 @@
-C_Header DT_BOOL
-Default: no
-
-When set, this variable causes NeoMutt to include the header
-of the message you are replying to into the edit buffer.
-The $weed setting applies.

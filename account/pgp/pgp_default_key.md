@@ -1,0 +1,14 @@
+# pgp_default_key
+
+- **Default**: ""
+- **Flags**: DT_STRING
+- **Variable**: C_PgpDefaultKey
+
+This is the default key-pair to use for PGP operations.  It will be
+used for encryption (see $postpone_encrypt and $pgp_self_encrypt).
+
+It will also be used for signing unless $pgp_sign_as is set.
+
+The (now deprecated) pgp_self_encrypt_as is an alias for this
+variable, and should no longer be used.
+(PGP only)

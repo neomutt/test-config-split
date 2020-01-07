@@ -1,5 +1,0 @@
-C_Confirmappend DT_BOOL
-Default: yes
-
-When set, NeoMutt will prompt for confirmation when appending messages to
-an existing mailbox.

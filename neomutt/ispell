@@ -1,4 +1,0 @@
-C_Ispell DT_STRING|DT_COMMAND
-Default: "ispell"
-
-How to invoke ispell (GNU's spell-checking software).

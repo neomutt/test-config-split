@@ -1,6 +1,0 @@
-C_AutocryptDir DT_STRING|DT_PATH
-Default: "~/.mutt/autocrypt"
-
-This variable sets where autocrypt files are stored, including the GPG
-keyring and sqlite database.  See ``autocryptdoc'' for more details.
-(Autocrypt only)

@@ -1,5 +1,0 @@
-C_AsciiChars DT_BOOL
-Default: no
-
-If set, NeoMutt will use plain ASCII characters when displaying thread
-and attachment trees, instead of the default ACS characters.

@@ -1,4 +1,0 @@
-C_NmQueryType DT_STRING
-Default: "messages"
-
-This variable specifies the default query type (threads or messages) used in notmuch queries.

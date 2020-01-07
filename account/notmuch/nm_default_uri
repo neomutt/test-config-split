@@ -1,5 +1,0 @@
-C_NmDefaultUri DT_STRING
-Default: ""
-
-This variable specifies the default Notmuch database in format
-notmuch://<absolute path>.

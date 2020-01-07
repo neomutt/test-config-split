@@ -1,7 +1,0 @@
-C_SslVerifyDates DT_BOOL
-Default: yes
-
-If set (the default), NeoMutt will not automatically accept a server
-certificate that is either not yet valid or already expired. You should
-only unset this for particular known hosts, using the
-<account-hook> function.

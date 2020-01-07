@@ -1,9 +1,0 @@
-C_PgpSignCommand DT_STRING|DT_COMMAND
-Default: ""
-
-This command is used to create the detached PGP signature for a
-multipart/signed PGP/MIME body part.
-
-This is a format string, see the $pgp_decode_command command for
-possible printf(3)-like sequences.
-(PGP only)

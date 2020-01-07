@@ -1,5 +1,0 @@
-C_Tilde DT_BOOL
-Default: no
-
-When set, the internal-pager will pad blank lines to the bottom of the
-screen with a tilde ("~").

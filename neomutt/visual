@@ -1,7 +1,0 @@
-C_Visual DT_STRING|DT_COMMAND
-Default: "vi"
-
-Specifies the visual editor to invoke when the "~v" command is
-given in the built-in editor.
-
-$visual is overridden by the environment variable $VISUAL or $EDITOR.

@@ -1,7 +1,0 @@
-C_SslUseSslv2 DT_BOOL
-Default: no
-
-If set , NeoMutt will use SSLv2 when communicating with servers that
-request it. N.B. As of 2011, SSLv2 is considered insecure, and using
-is inadvisable. See https://tools.ietf.org/html/rfc6176 .
-(OpenSSL only)

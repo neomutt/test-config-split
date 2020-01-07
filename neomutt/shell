@@ -1,5 +1,0 @@
-C_Shell DT_STRING|DT_COMMAND
-Default: "/bin/sh"
-
-Command to use when spawning a subshell.
-If not specified, then the user's login shell from /etc/passwd is used.
