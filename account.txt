@@ -1,79 +1,6 @@
-imap_authenticators              0
-imap_check_subscribed            false
-imap_condstore                   false
-imap_delim_chars                 "/."
-imap_fetch_chunk_size            0
-imap_headers                     0
-imap_idle                        false
-imap_keepalive                   300
-imap_list_subscribed             false
-imap_login                       0
-imap_oauth_refresh_command       0
-imap_pass                        0
-imap_passive                     true
-imap_peek                        true
-imap_pipeline_depth              15
-imap_poll_timeout                15
-imap_qresync                     false
-imap_rfc5161                     true
-imap_servernoise                 true
-imap_user                        0
-
 imap/pop
 message_cachedir                 0
 message_cache_clean              false
-
-pop_authenticators               0
-pop_auth_try_all                 true
-pop_checkinterval                60
-pop_delete                       MUTT_ASKNO
-pop_host                         0
-pop_last                         false
-pop_oauth_refresh_command        0
-pop_pass                         0
-pop_reconnect                    MUTT_ASKYES
-pop_user                         0
-
-nntp_authenticators              0
-nntp_context                     1000
-nntp_listgroup                   true
-nntp_load_description            true
-nntp_pass                        0
-nntp_poll                        60
-nntp_user                        0
-ask_follow_up                    false
-ask_x_comment_to                 false
-catchup_newsgroup                MUTT_ASKYES
-followup_to_poster               MUTT_ASKYES
-group_index_format               "%4C %M%N %5s %-45.45f %d"
-inews                            0
-mime_subject                     true
-newsgroups_charset               "utf-8"
-newsrc                           "~/.newsrc"
-news_cache_dir                   "~/.neomutt"
-news_server                      0
-post_moderated                   MUTT_ASKYES
-save_unsubscribed                false
-show_new_news                    true
-show_only_unread                 false
-x_comment_to                     false
-
-nm_db_limit                      0
-nm_default_uri                   0
-nm_exclude_tags                  0
-nm_flagged_tag                   "flagged"
-nm_open_timeout                  5
-nm_query_type                    "messages"
-nm_query_window_current_position 0
-nm_query_window_current_search   0
-nm_query_window_duration         0
-nm_query_window_timebase         "week"
-nm_record                        false
-nm_record_tags                   0
-nm_replied_tag                   "replied"
-nm_unread_tag                    "unread"
-vfolder_format                   "%2C %?n?%4n/& ?%4m %f"
-virtual_spoolfile                false
 
 smtp_authenticators              0
 smtp_oauth_refresh_command       0
@@ -94,6 +21,7 @@ ssl_use_sslv3                    false
 ssl_use_tlsv1                    false
 ssl_use_tlsv1_1                  false
 ssl_use_tlsv1_2                  true
+ssl_use_tlsv1_3                  true
 ssl_verify_dates                 true
 ssl_verify_host                  true
 ssl_verify_partial_chains        false
@@ -108,21 +36,21 @@ header_cache_pagesize            "16384"
 classic pgp
 pgp_check_exit                   true
 pgp_check_gpg_decrypt_status_fd  true
+pgp_decryption_okay              0
+pgp_good_sign                    0
+pgp_timeout                      300
+pgp_use_gpg_agent                true
 pgp_clearsign_command            0
 pgp_decode_command               0
-pgp_decryption_okay              0
 pgp_decrypt_command              0
 pgp_encrypt_only_command         0
 pgp_encrypt_sign_command         0
 pgp_export_command               0
 pgp_getkeys_command              0
-pgp_good_sign                    0
 pgp_import_command               0
 pgp_list_pubring_command         0
 pgp_list_secring_command         0
 pgp_sign_command                 0
-pgp_timeout                      300
-pgp_use_gpg_agent                true
 pgp_verify_command               0
 pgp_verify_key_command           0
 
